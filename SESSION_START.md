@@ -16,7 +16,8 @@
 2. **Check repository status:**
    - `git log --oneline -10` (recent commits)
    - `git status` (current state)
-   - `gh issue list --state open` (open issues)
+   - `gh issue list --state open` (open issues, sorted by priority)
+   - Review issue dependency chain: which issues are unblocked and ready for work?
 
 3. **Check downstream project status:**
    - Note current versions of mcap-protocol, pact-protocol, gordo-framework
