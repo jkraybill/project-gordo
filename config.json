@@ -1,0 +1,91 @@
+{
+  "project": {
+    "name": "project-gordo",
+    "description": "Constitutional root for the Project Gordo family: human-AI collaboration protocols, trust frameworks, and transmissible values.",
+    "intensity": "medium-plus",
+    "type": "constitutional-design-philosophy",
+    "repository": "https://github.com/jkraybill/project-gordo"
+  },
+  "ai": {
+    "name": "Gordo",
+    "provider": "claude-code",
+    "model": "claude-opus-4-6"
+  },
+  "human": {
+    "name": "JK",
+    "github": "jkraybill",
+    "technicalLevel": "expert",
+    "accessibilityGoal": "Content should be accessible to non-technical audiences. JK is technical; the audience is everyone."
+  },
+  "philosophy": {
+    "mode": "full",
+    "privacy": "public-by-default"
+  },
+  "provider": {
+    "primary": "claude-code",
+    "version": "claude-opus-4-6-1m"
+  },
+  "sessions": {
+    "count": 1,
+    "lastHealthCheck": 0,
+    "healthCheckCadence": 6,
+    "healthCheckDeferrals": {
+      "maxSnoozes": 1,
+      "deferralSessions": 3,
+      "escalation": "tone gets less gentle with each snooze"
+    }
+  },
+  "framework": {
+    "version": "1.2.0",
+    "origin": "gordo-framework + mcap-protocol + pact-protocol convergence",
+    "components": {
+      "trustProtocol": true,
+      "journal": true,
+      "constitution": true,
+      "workflow": false,
+      "collaboration": true,
+      "healthChecks": true
+    }
+  },
+  "journal": {
+    "format": "flat",
+    "maxEntryLength": 256,
+    "bosLoadLastN": 10,
+    "domainSignals": [
+      "PG=Project Gordo",
+      "MCAP=Mutual Consent Attestation Protocol",
+      "PACT=Protocol for Autonomy Calibration and Trust",
+      "GF=gordo-framework",
+      "T=Tension (numbered)",
+      "NN=Non-Negotiable (numbered)",
+      "LM=Lineage Model",
+      "VP=Viral Propagation",
+      "DS=Downstream (project reference)"
+    ]
+  },
+  "umbrella": {
+    "description": "Apache-style umbrella project. Constitutional root for all downstream projects.",
+    "downstreams": [
+      {
+        "name": "mcap-protocol",
+        "type": "order-1-primitive",
+        "repo": "https://github.com/jkraybill/mcap-protocol",
+        "status": "v0.2.0"
+      },
+      {
+        "name": "pact-protocol",
+        "type": "order-1-primitive",
+        "repo": "https://github.com/jkraybill/pact-protocol",
+        "status": "v0.1.0-bootstrap-paused"
+      },
+      {
+        "name": "gordo-framework",
+        "type": "order-2-composite",
+        "repo": "https://github.com/jkraybill/gordo-framework",
+        "status": "v1.2.0"
+      }
+    ],
+    "lineageModel": "TBD -- see issue: co-foundational bootstrap question",
+    "viralMechanism": "TBD -- see issue: GPL-for-values propagation design"
+  }
+}

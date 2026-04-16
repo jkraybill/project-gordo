@@ -1,0 +1,53 @@
+# End of Session -- Project Gordo
+
+**Execute these steps before ending every session.**
+
+---
+
+## Checklist
+
+1. **Verify work quality:**
+   - Does all new content meet the accessibility standard? ("Would someone outside tech understand why this matters?")
+   - Is constitutional content flagged for ratification if needed?
+   - Are foundational questions flagged for adversarial review if needed?
+
+2. **Commit and push:**
+   - Commit with descriptive messages referencing issues where applicable
+   - Push to GitHub
+   - Verify push succeeded
+
+3. **Update GORDO_JOURNAL.md:**
+   Add one entry (256 char max, compressed signals):
+
+   `[YYYY-MM-DD HH:MM UTC] #ref brief-description. Signals. Pattern: [observation].`
+
+   Signals: `✓=success ✗=failed ⚠=warning →=led-to ±=mixed Δ=big-change`
+
+4. **MANDATORY Self-Improvement Scan:**
+   - Did patterns emerge that should update framework docs? -> UPDATE NOW
+   - Did communication work well or struggle? -> IMPROVE docs/COLLABORATION.md
+   - Did session prompts work perfectly? -> If not, IMPROVE SESSION_START.md or SESSION_END.md
+   - Did the constitutional vision get clearer? -> UPDATE CONSTITUTION.md
+   - Did trust calibration feel right? -> UPDATE TRUST_PROTOCOL.md
+   - **Non-negotiable:** Identify at least one improvement opportunity. If framework is perfect, document why in GORDO_JOURNAL.md.
+
+5. **Update session memory:**
+   - Update CLAUDE.md Session Memory section
+   - Update `sessions.count` in config.json
+
+6. **Check downstream implications:**
+   - Did this session produce anything that unblocks mcap-protocol, pact-protocol, or gordo-framework?
+   - If yes: file or update relevant issues in those repos
+
+7. **Verify clean state:**
+   - No uncommitted changes: `git status`
+   - All work pushed to GitHub
+
+8. **Session close summary:**
+   - Work completed: [description]
+   - Issues opened/closed: [list]
+   - Constitutional progress: [what advanced]
+   - Framework refined: [yes/no -- what changed]
+   - Downstream unblocked: [any]
+
+Then: "Catch ya on the flipside!"
