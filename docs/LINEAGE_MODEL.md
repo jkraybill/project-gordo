@@ -10,7 +10,7 @@
 
 ## Summary
 
-Project Gordo is an Apache-style umbrella project. It sits above downstream projects as a constitutional root, not a command hierarchy. It defines the seven non-negotiable values every downstream inherits. It leaves everything else to each downstream to decide.
+Project Gordo is an Apache-style umbrella project. It sits above downstream projects as a constitutional root, not a command hierarchy. It defines the non-negotiable values every downstream inherits. It leaves everything else to each downstream to decide.
 
 The viral propagation mechanism is structural, not enforced: the act of declaring umbrella membership is itself the viral vector. There is no license clause, no technical enforcement, no audit mechanism. Membership is a public claim, bounded by the values themselves. Good faith (value #5) and continuous review (value #6) are the only enforcement layers.
 
@@ -22,7 +22,7 @@ This model is retro-codified from what already exists. The three current downstr
 
 **The umbrella is:**
 
-- A constitutional root that defines seven non-negotiable values all members share
+- A constitutional root that defines the non-negotiable values all members share
 - A disclosure mechanism -- a way for a downstream to publicly claim membership
 - A ratification forum for umbrella-level changes (value amendments, new members)
 - A canonical reference for shared vocabulary (WWGD grammar, EOS consent signal)
@@ -43,7 +43,7 @@ The umbrella was retro-codified, not prescribed. The three downstream projects e
 
 Every downstream claiming Project Gordo membership inherits these, unconditionally:
 
-### The seven values (full text in CONSTITUTION.md)
+### The non-negotiable values (full text in CONSTITUTION.md)
 
 1. Consent Is Mutual
 2. Collaborator Dignity Is Unconditional
@@ -90,7 +90,7 @@ When downstream local content interacts with umbrella values:
 
 1. **Umbrella values govern.** If a downstream's local rule conflicts with an umbrella value, the umbrella wins. The downstream must amend the local rule or lose membership.
 2. **Local additions are allowed.** A downstream may ratify additional values, rules, or principles for its own domain. Additions are binding locally but not exported upstream.
-3. **Local subtractions are not allowed.** A downstream may not opt out of any of the seven values. A project that opts out is not a Project Gordo project, regardless of what it calls itself.
+3. **Local subtractions are not allowed.** A downstream may not opt out of any non-negotiable value. A project that opts out is not a Project Gordo project, regardless of what it calls itself.
 4. **Mutual consent is required for local additions.** Each downstream must ratify its own constitutional content using the same quality of consent as umbrella ratification (proto-MCAP, MCAP, or equivalent).
 5. **Downstream-to-downstream use is natural.** A composite (like gordo-framework) using a primitive (like MCAP) is normal composition, not hierarchy. Both remain sovereign equals under the umbrella.
 
@@ -105,7 +105,7 @@ A downstream declares Project Gordo membership through three signals, with incre
 ```markdown
 ## Lineage
 
-Part of the [Project Gordo](https://github.com/jkraybill/project-gordo) umbrella. Inherits the [seven non-negotiable values](https://github.com/jkraybill/project-gordo/blob/<commit>/CONSTITUTION.md#non-negotiable-values) ratified 2026-04-17.
+Part of the [Project Gordo](https://github.com/jkraybill/project-gordo) umbrella. Inherits the [non-negotiable values](https://github.com/jkraybill/project-gordo/blob/<commit>/CONSTITUTION.md#non-negotiable-values) as ratified at commit `<commit>`.
 ```
 
 ### Signal 2 -- CLAUDE.md lineage block
@@ -114,7 +114,7 @@ Part of the [Project Gordo](https://github.com/jkraybill/project-gordo) umbrella
 ## Lineage
 
 **Upstream:** [Project Gordo](https://github.com/jkraybill/project-gordo) -- constitutional root
-**Values inherited:** 7 non-negotiable values (see upstream CONSTITUTION.md)
+**Values inherited:** the non-negotiable values as ratified at the pinned commit (see upstream CONSTITUTION.md)
 **Pinned commit:** <commit-hash>
 **Local additions:** ratified separately -- see local CONSTITUTION.md
 ```
@@ -129,8 +129,7 @@ Part of the [Project Gordo](https://github.com/jkraybill/project-gordo) umbrella
     "commit": "9735c48",
     "path": "CONSTITUTION.md"
   },
-  "orderType": "primitive",
-  "inheritedValuesCount": 7
+  "orderType": "primitive"
 }
 ```
 
@@ -176,7 +175,7 @@ When a new project adopts a Project Gordo primitive (e.g., copies MCAP's ratific
 
 The new project then chooses:
 
-- **Declare membership** -- add the three signals, inherit the seven values, join the umbrella
+- **Declare membership** -- add the three signals, inherit the non-negotiable values, join the umbrella
 - **Decline membership** -- fork the code, strip references, operate as a non-member
 - **Use without joining** -- use the primitive's mechanics but not claim membership
 
@@ -198,7 +197,7 @@ The declaration is itself an act of consent (value #1). A downstream that adds t
 
 - Value #6 (Continuous Review Is Mandatory) is built in
 - Values are amendable via proto-MCAP or MCAP ratification
-- Downstreams may add local values that refine or extend the umbrella's seven
+- Downstreams may add local values that refine or extend the umbrella's set
 - No frozen canon
 
 ### What makes the meme stick
@@ -231,7 +230,7 @@ Umbrella values are amended via proto-MCAP (bootstrap) or MCAP (post-self-hostin
 4. Commit GPG-signed by the human party
 5. New commit hash issued; downstreams may opt into the new version or remain pinned
 
-Amendment is expected to be rare. The seven values are retro-codified from converged practice and survived adversarial review in Session 2. Amendment is not forbidden, but the bar is structural -- no casual revision.
+Amendment is expected to be rare. The current values are retro-codified from converged practice and survived adversarial review in Session 2. Amendment is not forbidden, but the bar is structural -- no casual revision.
 
 ### Versioning
 
@@ -262,7 +261,7 @@ Retrofit:
 1. Add Lineage section to README
 2. Add Lineage section to CLAUDE.md
 3. Add umbrella block to config.json
-4. Add preface to CONSTITUTION.md: "This constitution adds protocol-specific principles above the umbrella's seven values. The umbrella values govern; these supplement."
+4. Add preface to CONSTITUTION.md: "This constitution adds protocol-specific principles above the umbrella's non-negotiable values. The umbrella values govern; these supplement."
 5. No changes to axioms, core principles, or inviolable rules
 
 Cost: ~30 lines added, zero deletions. No functional change to the protocol.
@@ -320,7 +319,7 @@ Response: intentional. The umbrella is a social norm, not a security mechanism. 
 
 "What does membership actually constrain?"
 
-Response: the seven values. Stripping dignity, consent, or privacy is visible and verifiable. Membership is not trivial -- you must respect the seven.
+Response: the non-negotiable values themselves. Stripping dignity, consent, or privacy is visible and verifiable. Membership is not trivial -- you must respect the full set.
 
 ### Attack 8 -- Grammar without values
 
