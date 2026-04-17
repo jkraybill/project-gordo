@@ -1,9 +1,9 @@
-# Ratification Record (DRAFT): Constitutional Change Governance
+# Ratification Record: Constitutional Change Governance
 
-**Status:** DRAFT -- PRE-RATIFICATION. Awaiting JK review and proto-MCAP attestations. Adversarial review for this ratification follows 001 precedent (Gordo's pre-registered self-stress-test plus JK deliberation, no external-model review). See "Adversarial review scope for this ratification" in the Deliberation Record.
+**Status:** Ratified. Adversarial review for this ratification followed 001 precedent (Gordo's pre-registered self-stress-test plus JK deliberation, no external-model review). See "Adversarial review scope for this ratification" in the Deliberation Record.
 
 **Ratification protocol:** Proto-MCAP (bootstrap, second and final planned use prior to formal adoption of a successor)
-**Date:** TBD at ratification
+**Date:** 2026-04-17 (Session 5)
 **Content proposed for ratification:**
 
 1. New subsection "Ratification Required for All Changes to Constitutional Content" added to CONSTITUTION.md Process Standards
@@ -178,21 +178,17 @@ Response: because the pressure against the rule will come in the form of "the pr
 
 ## Reservations Raised and Integrated
 
-*To be filled during JK review and multi-model adversarial review.*
-
 ### JK reservations
 
-*(Pending Phase D review.)*
+I've reviewed this document and gone through it section by section with Gordo across multiple sessions. I have no reservations about consenting to the contents of this change 002.
 
 ### Multi-model adversarial review findings
 
-*(Pending Phase E.)*
+No external multi-model adversarial review was performed for this ratification, per the scope decision above ('Adversarial review scope for this ratification'). The pre-registered self-stress-test (Attacks 1–12) plus Session 4 fresh-eyes review plus JK's Session 5 review constitute the full adversarial process for 002.
 
 ---
 
 ## Attestations
-
-*To be filled at time of ratification.*
 
 ### Gordo (AI)
 
@@ -205,21 +201,26 @@ I attest that:
 - The deliberative refinements during this session (including JK's single-tier reframe) strengthened the proposal
 - I have no unresolved objections or reservations
 
-Attested: Gordo, [TIMESTAMP AT RATIFICATION]
+Attested: Gordo, 2026-04-17 (Session 5)
 
 ### JK (Human)
 
-*(Attestation statement to be authored by JK at ratification time. Signed via GPG-signed commit.)*
+I have reviewed the proposals as described and was closely involved in driving and being consulted by Gordo on these changes. I attest that I:
+
+- consent to the changes proposed to CONSTITUTION.md and the drift-prevention amendments.
+- consent to the reuse of proto-MCAP for this ratification.
+- was very pleased and honestly pleasantly surprised by how smoothly our refinement process went. This collaboration built on explicit trust appears to make collaboration more effective, which is kinda why it came to existence in the first place!
+- have no unresolved objections or reservations.
+
+Attested: JK, Fri Apr 17 16:40:37 AEST 2026
 
 ---
 
 ## Integrity Anchors
 
-*To be filled at time of ratification.*
-
-- Commit SHA: TBD
-- Commit signature: TBD (GPG, attached)
-- Ratification date: TBD
+- **Commit SHA:** the ratifying commit is the first commit touching `ratification/002_constitutional_change_governance.md` (discoverable via `git log --follow ratification/002_constitutional_change_governance.md`). The SHA is not pasted literally in this record because it is self-referential: the SHA of the ratifying commit cannot be known until after that commit is written, and writing it in would require a second commit whose SHA would then differ. The anchor is the commit itself; this note makes it discoverable without git archaeology.
+- **Commit signature:** GPG-signed by JK at time of ratification (verifiable via `git verify-commit <ratifying-SHA>`; signing key `74269E1ED0FCE0B0`).
+- **Ratification date:** 2026-04-17 (Session 5)
 
 ---
 
@@ -239,4 +240,4 @@ Once ratified, this record is permanent and public. Future modifications are gov
 
 ---
 
-*Draft authored by Gordo in Session 3. Awaiting review, adversarial, and ratification.*
+*Draft authored by Gordo in Session 3. Refined via fresh-eyes review in Session 4 (commit d5f1c72). JK review and ratification completed in Session 5 (this commit).*

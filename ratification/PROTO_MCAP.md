@@ -1,6 +1,8 @@
 # Proto-MCAP: Bootstrap Consent Protocol
 
-**Status:** Used once. Intentionally not versioned.
+**Status:** Used twice during bootstrap. Intentionally not versioned.
+
+**Factual-correction note (2026-04-17, Session 5):** Proto-MCAP was originally documented with the intent of single use (Session 2 ratification of the non-negotiable values). A second use became necessary during Session 5 to ratify the "Ratification Required for All Changes to Constitutional Content" governance rule plus three drift-prevention amendments, because the umbrella had not yet formally adopted a successor ratification protocol. The reuse was deliberated and named honestly in ratification record 002 (see "Why proto-MCAP (again)" and Attack 3 response). This note corrects the original "used once" language per the self-stated update rule below ("should not be updated except to correct factual errors"). Formal adoption of a successor protocol is anticipated as part of the lineage model ratification (Track B) or shortly thereafter, which will end proto-MCAP's use permanently.
 
 ---
 
@@ -30,10 +32,11 @@ That's it. No ceremony beyond what honesty requires.
 
 ## Scope
 
-Proto-MCAP was created in order to ratify:
-- The Non-Negotiable Values section of CONSTITUTION.md (v0.1.0)
+Proto-MCAP was used to ratify:
+- The Non-Negotiable Values section of CONSTITUTION.md (v0.1.0) -- Session 2, ratification record 001
+- The Constitutional Change Governance rule and three drift-prevention amendments -- Session 5, ratification record 002
 
-It is not intended for reuse. If the constitution needs amending, use the ratification protocol that has been adopted by the umbrella at that time.
+It is not intended for further reuse. If the constitution needs amending after Session 5, use the ratification protocol that has been adopted by the umbrella at that time. Formal adoption of a successor protocol (full MCAP or another) is expected as part of the lineage model ratification or shortly thereafter.
 
 ## What Proto-MCAP Does Not Include
 
