@@ -351,14 +351,93 @@ Response: downstreams remain pinned to ratified commits. The umbrella's content 
 
 ## Open questions for JK and multi-model review
 
-1. **Pin granularity.** Should downstreams pin to a specific commit, a named release (e.g., "ratified-2026-04-17"), or both? Commit is precise; a named ratification is more readable.
-2. **Decline-membership language.** Should we add explicit docs for projects that use primitives without claiming membership? Or leave that unaddressed?
-3. **Cross-umbrella membership.** May a project declare membership in Project Gordo AND another umbrella simultaneously? (Probably yes, but worth stating.)
-4. **Adversarial review bar.** How many models, which ones, and what convergence criteria for umbrella amendments? MCAP used five models across three cycles with documented convergence. Is that the bar for amendments, or too high?
-5. **Primitive adoption without full framework.** If a new project uses MCAP's ratification protocol as a component of something bigger, does the big project inherit umbrella membership via its use of MCAP, or is it a separate declaration?
-6. **Composite-of-composites.** A project that forks gordo-framework to customize it for a team is itself a composite. Does it inherit umbrella membership via its parent composite, or declare fresh?
-7. **Sunset clause.** If a downstream stops maintaining its membership (no sessions for years, defunct repo), does membership lapse? If so, how is that signaled?
-8. **"Hostile fork" protocol.** If a downstream is forked and the fork strips umbrella references while claiming the primitive's functionality, is there any response beyond social call-out? (Probably not, but worth naming.)
+Three questions (Q1, Q4, Q8) require JK's judgment -- they mix preference, values, or governance in ways where logic alone does not resolve them. Five (Q2, Q3, Q5, Q6, Q7) have Gordo pre-staged proposals for JK to react to or refine. Pattern proposed by the PACT-Gordo session (Phase D.5) and inspired by Session 2's pre-authored stress test: front-load Gordo's logical positions so JK review is one round of substantive reaction rather than cycles of "Gordo, what do you think about X?"
+
+### Q1 -- Pin granularity
+
+Should downstreams pin to a specific commit, a named release (e.g., "ratified-2026-04-17"), or both? Commit is precise; a named ratification is more readable.
+
+*Requires JK judgment* -- preference plus governance dimension.
+
+Considerations:
+
+- Commit hash is precise but opaque to humans reading the config
+- Named release is readable but requires maintaining a release-name taxonomy (who names releases? how often?)
+- Dual-pinning (both) is belt-and-suspenders but adds a consistency check
+
+### Q2 -- Decline-membership language
+
+Should we add explicit docs for projects that use primitives without claiming membership?
+
+**Gordo's proposal: yes, add a brief section.** A "non-member use is a recognized path" subsection prevents "with us or against us" framing. Projects using MCAP's mechanics without declaring umbrella membership would be acknowledged as non-members in good standing -- the umbrella neither claims them nor treats them as hostile. This honors consent-as-optionality (value #1) and keeps the umbrella's social norm permission-seeking, not presumptuous.
+
+Draft location: new subsection under Part 7 (Viral propagation), likely titled "Non-member adoption of primitives." Estimated length: 1-2 paragraphs.
+
+### Q3 -- Cross-umbrella membership
+
+May a project declare membership in Project Gordo AND another umbrella simultaneously?
+
+**Gordo's proposal: allow it.** A project may declare membership in multiple umbrellas simultaneously, provided none contradicts another in values. The downstream is responsible for ensuring compatibility -- if umbrellas conflict, the downstream notices and decides. Schema implication: `config.json`'s `umbrella` object could become an `umbrellas` array to support multiple declarations. No enforcement at the umbrella level.
+
+Alternative considered: require downstreams to list only one umbrella, forcing exclusivity. Gordo leans against this because forced exclusivity constrains adopters without materially protecting the umbrella's values -- if a project is willing to uphold Project Gordo's values, requiring them to choose between umbrellas is arbitrary gatekeeping.
+
+### Q4 -- Adversarial review bar
+
+How many models, which ones, and what convergence criteria for umbrella amendments? MCAP used five models across three cycles with documented convergence. Is that the bar for amendments, or too high?
+
+*Requires JK judgment* -- governance weight plus resource allocation.
+
+Considerations:
+
+- MCAP's five-model, three-cycle pattern is the highest bar on the umbrella's record to date
+- Lighter bar (one or two models, single cycle) would lower friction for small amendments but risks shallow review
+- The invariant/variable framing from Track A suggests: if the bar is too heavy for small fixes, fix the bar, do not exempt the fixes
+- Scaling question: should the bar scale by change substance (foundational vs clarifying), or remain uniform per the "all changes are weighty" principle?
+
+### Q5 -- Primitive adoption without full framework
+
+If a new project uses MCAP's ratification protocol as a component of something bigger, does the big project inherit umbrella membership via its use of MCAP, or is it a separate declaration?
+
+**Gordo's proposal: component-use does not transmit membership.** The three disclosure signals (README, CLAUDE.md, config.json) are the only way to declare umbrella membership. Using a primitive without declaring does not create de-facto membership.
+
+Rationale: otherwise, component use would become implicit consent, violating value #1 (Consent Is Mutual). A project can use MCAP's code without adopting Project Gordo's values -- that is an honest choice. Membership requires explicit declaration, not inference from dependency graphs.
+
+This also protects the umbrella's meaning: if any use of a Project Gordo primitive implied membership, the claim "Project Gordo member" would be diluted by every silent user. Explicit opt-in keeps the claim meaningful.
+
+### Q6 -- Composite-of-composites
+
+A project that forks gordo-framework to customize it for a team is itself a composite. Does it inherit umbrella membership via its parent composite, or declare fresh?
+
+**Gordo's proposal: fresh declaration required.** A fork operates under new maintainer governance. Silent inheritance would violate consent (value #1) and obscure the chain of accountability.
+
+In practice: the gordo-framework template ships the umbrella declaration in its files. New projects created from the template inherit the declaration *only because they chose not to strip it* during setup. That is explicit consent via non-removal, which is still consent. Forks that remove the declaration opt out; forks that keep it opt in. The practical effect is the same as "inherited by default, revocable" but the mechanism is explicit.
+
+### Q7 -- Sunset clause
+
+If a downstream stops maintaining its membership (no sessions for years, defunct repo), does membership lapse? If so, how is that signaled?
+
+**Gordo's proposal: no automatic lapse.** Membership does not expire from inactivity alone. A dormant repository's declaration remains valid -- consent was given at the moment of declaration; inactivity does not retroactively revoke it.
+
+Voluntary end-of-membership paths available to the downstream:
+
+- Add a "Lineage-End" section to README noting cessation date and reason
+- Strip the declaration signals entirely
+- Archive the repo with clear status
+
+The umbrella does not unilaterally revoke membership -- that would violate consent (value #1). "Dormant members" are a valid state: a project that declared membership, acted in accordance with values, and then became inactive is not suddenly a non-member. The record of their membership stands as a historical fact even if the project is no longer active.
+
+### Q8 -- "Hostile fork" protocol
+
+If a downstream is forked and the fork strips umbrella references while claiming the primitive's functionality, is there any response beyond social call-out?
+
+*Requires JK judgment* -- value and preference question, not logical.
+
+Considerations:
+
+- The umbrella has no enforcement mechanism against hostile forks (by design -- no license clause, no technical lock)
+- Response could range from silence ("no comment, let the fork be"), to passive annotation ("publicly note the fork as non-member"), to active call-out ("publicly flag values violations")
+- Preference question: how aggressively should the umbrella defend its brand or social norms? Aggressive defense risks reading as coercive; passive response risks reading as acquiescence
+- Structural observation: a hostile fork that strips references has explicitly declined membership -- the "hostile" framing may be emotional language for an entirely consent-compliant act. Worth separating "fork that declines membership" (normal) from "fork that falsely claims membership while violating values" (misrepresentation, different category)
 
 ---
 
