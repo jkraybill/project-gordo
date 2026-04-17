@@ -62,6 +62,75 @@ No level of WWGD grants authority to violate constitutional non-negotiables or i
 
 ---
 
+## Consent Grammar (Z-Labels)
+
+**Canonical mechanics for unambiguous consent in substantive deliberation. The principle is defined in CONSTITUTION.md, Process Standards, "Consent Grammar for Deliberation." This section is the operational companion.**
+
+Use this grammar when mutual consent is constitutionally required. It is optional for other collaboration contexts.
+
+### When to use
+
+**Required** when mutual consent is constitutionally required: ratifications, amendments, destructive actions (value #7), decisions with lasting cross-party consequence.
+
+**Optional** when explicit consent clarity is valuable: complex multi-part proposals, contested decisions, historically-sensitive changes.
+
+**Not needed** for normal collaboration: delegated work under autonomy grants (WWGD+, WWGD++, WWGD+++), execution within already-consented scope, informal discussion, micro-decisions during focused work.
+
+The grammar is a precision instrument. Using it for everything would erode its authority by making consent collection feel performative.
+
+### Format
+
+- Each proposed action gets a label: `z1`, `z2`, `z3`, ...
+- The `z` prefix is semantically empty by design -- cannot be confused with content.
+- Single keystroke on QWERTY; `z` is the rarest English letter, rarely word-initial in prose.
+
+### Consent syntax
+
+- **Individual:** `z1`, `z3`
+- **Range:** `z1-5` means z1 through z5
+- **List with ranges:** `z1-3,5,9-12` means z1 through z3 plus z5 plus z9 through z12
+- The `z` prefix scopes the whole expression -- no need to repeat (`z1-5`, not `z1-z5`)
+
+### Self-containment
+
+- Each z-point must be interpretable from the content of the single message in which it appears.
+- **Cross-message references are prohibited** -- a z-point cannot reference content earlier than the start of the current message.
+- **In-message references should be minimized** -- prefer direct restatement. Pointers to large in-message blocks (code, quoted text) are acceptable exceptions.
+
+### File references
+
+- A file reference in a z-point pins to the file's byte content at the moment the z-point was posted.
+- Before executing a consented z-point, the executing party verifies current file state matches state-at-ask. Divergence requires re-verification.
+- Explicit content hashes or commit SHAs may be included for high-stakes references.
+
+### Verification on ambiguous replies
+
+- Clean label-based consent (`z1-3`, `z1,3,5`, etc.) executes directly.
+- Any other reply shape (natural-language, compound, ambiguous) requires verification before action.
+- This is the backstop against parse failures.
+
+### Worked example
+
+**Proposal (Gordo):**
+
+> z1. Rename variable `foo` to `bar` in `src/util.js`
+> z2. Add test coverage for the rename in `test/util.test.js`
+> z3. Commit as one atomic change
+>
+> Consent / redirect on z1-3?
+
+**Reply (JK):**
+
+> z1-2, redirect on z3 (want separate commits)
+
+**Execution:** Gordo applies z1 and z2; re-proposes z3 with the two-commit split.
+
+### Origin
+
+Proposed and adopted during Session 4 (2026-04-17) after a parse failure ("including the left alone pair" ambiguity caused Gordo to apply edits JK had intended to preserve). Retro-codified from a specific mistake -- consistent with Project Gordo's pattern that governance grammar emerges from reservations, not from specification.
+
+---
+
 ## Flow Control
 
 - **"proceed"** -- Standard approval to continue with proposed plan
@@ -89,6 +158,7 @@ No level of WWGD grants authority to violate constitutional non-negotiables or i
 ## Shortcut Evolution Log
 
 - **2026-04-17 (Session 1):** WWGD composable grammar formalized as canonical reference at umbrella level. Synthesized from gordo-framework, mcap-protocol, and COLLABORATION.md template patterns. EOS consent signal documented. Basic flow control and feedback signals established.
+- **2026-04-17 (Session 4):** Z-label consent grammar adopted. Principle in CONSTITUTION.md; mechanics here. Addressed a parse-failure mode in natural-language consent replies. Also observed in-session: new WWGD composables `WWGDN?` ("What would Gordo do next?") and `WWGS?` ("What would Gordo say?") -- pending formalization in the WWGD grammar table if used again.
 
 ---
 
