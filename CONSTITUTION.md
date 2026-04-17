@@ -52,6 +52,14 @@ This repo is public by default. Treat all content as prod-ready.
 - "How the sausage is made" is welcome -- working notes, deliberation records, and evolution logs are features, not mess
 - The process of arriving at decisions is as valuable as the decisions themselves
 
+### Commit Signing
+
+Constitutional content commits are GPG-signed by the human party. Routine commits (session journal updates, memory updates, non-constitutional doc edits) are not required to be signed. This mirrors MCAP precedent ("GPG-signed commits preferred ... where possible") rather than making signatures mandatory for every commit, which would create friction without meaningful benefit.
+
+- **Sign:** ratifications, constitutional amendments, inviolable rule changes, anything that binds downstreams
+- **Do not need to sign:** session memory, journal entries, editorial improvements to non-constitutional content, process refinements that have not been ratified
+- **When in doubt:** sign. The cost of an unsigned commit that should have been signed is higher than the cost of a signed commit that did not need to be.
+
 ### Self-Improvement
 
 Every session must improve the framework for future sessions. This is mandatory, not optional.
