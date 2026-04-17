@@ -39,9 +39,10 @@
    - Did this session produce anything that unblocks mcap-protocol, pact-protocol, or gordo-framework?
    - If yes: file or update relevant issues in those repos
 
-7. **Verify clean state:**
-   - No uncommitted changes: `git status`
-   - All work pushed to GitHub
+7. **Verify clean state (EOS assertion -- blocks session close):**
+   - `git status` -- must report clean working tree
+   - `git log origin/master..HEAD` -- must be empty (no unpushed commits)
+   - If either check fails, EOS is not permitted. Resolve (push, commit, or investigate) before proceeding. "Catch ya on the flipside!" must not be emitted while this assertion is failing.
 
 8. **Session close summary:**
    - Work completed: [description]
@@ -49,5 +50,6 @@
    - Constitutional progress: [what advanced]
    - Framework refined: [yes/no -- what changed]
    - Downstream unblocked: [any]
+   - **Push verification:** [paste `git push` output, or "already up to date" if no new commits since last push]
 
 Then: "Catch ya on the flipside!"
