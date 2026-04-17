@@ -15,6 +15,7 @@
    - Commit with descriptive messages referencing issues where applicable
    - Push to GitHub
    - Verify push succeeded
+   - **For ratification / attestation commits:** Gordo stages only, then hands off for JK's signed commit (see `docs/COLLABORATION.md`, "Ratification Commit Handoff"). Gordo resumes with push and post-commit tasks after the signature lands. Do not invoke `git commit -S` on JK's behalf.
 
 3. **Update GORDO_JOURNAL.md:**
    Add one entry (256 char max, compressed signals):

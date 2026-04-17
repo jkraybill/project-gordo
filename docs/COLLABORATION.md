@@ -131,6 +131,31 @@ Proposed and adopted during Session 4 (2026-04-17) after a parse failure ("inclu
 
 ---
 
+## Ratification Commit Handoff
+
+**Canonical workflow for attestation commits. The principle lives in CONSTITUTION.md, Process Standards, "Commit Signing" -- specifically the "Signing is the attestation act" paragraph. This section is the operational companion.**
+
+When a commit constitutes a constitutional attestation -- ratification, amendment, inviolable rule change, or anything that binds downstreams -- the signing operation must be performed by the human party, not by Gordo. The workflow is sequential, with a visible handoff:
+
+1. **Gordo stages.** All file edits, renames, and `git add` are within Gordo's scope. The staging surface is shared and auditable.
+2. **Gordo hands off explicitly.** Gordo stops before `git commit` and names the handoff in the reply, including the proposed commit message verbatim.
+3. **JK commits, signing.** JK runs `git commit -S` from his own terminal, or via `!` prefix in this Claude Code session for interactive pinentry. The signature is JK's attestation act.
+4. **Gordo resumes.** After the signed commit succeeds, Gordo pushes and executes post-commit tasks (journal updates, memory updates, issue closures, EOS assertion).
+
+Paper-and-pen analogue: Gordo drafts and arranges the document; JK puts pen to paper. Gordo does not sign with JK's pen, even if the pen is within reach.
+
+### Why the separation matters
+
+Cryptographic signatures anchor identity but do not anchor *the act of signing*. A signature produced by Gordo invoking JK's key would be cryptographically valid but would record an attestation that Gordo, not JK, performed. Value #1 (Consent Is Mutual) requires that consent acts be performed by the consenting party. The signing operation *is* the consent act for constitutional attestations; therefore Gordo does not perform it.
+
+This is not a hypothetical risk. Session 5 surfaced it: Gordo attempted `git commit -S` during 002 ratification, assuming signing was procedural. The pinentry prompt blocked the attempt by accident -- a timeout, not a principle. This section exists so the principle blocks it by design in future sessions.
+
+### Origin
+
+Session 5 (2026-04-17), during 002 ratification. Gordo attempted `git commit -S` on JK's behalf; pinentry timed out because the passphrase could not be prompted non-interactively. JK flagged the deeper issue: even if the signing had succeeded, it would have violated the attestation principle. This section retro-codifies the rule from the failure it prevents -- same pattern as z-grammar in Session 4, ratification rule in Session 3, values in Session 2.
+
+---
+
 ## Flow Control
 
 - **"proceed"** -- Standard approval to continue with proposed plan
@@ -159,6 +184,7 @@ Proposed and adopted during Session 4 (2026-04-17) after a parse failure ("inclu
 
 - **2026-04-17 (Session 1):** WWGD composable grammar formalized as canonical reference at umbrella level. Synthesized from gordo-framework, mcap-protocol, and COLLABORATION.md template patterns. EOS consent signal documented. Basic flow control and feedback signals established.
 - **2026-04-17 (Session 4):** Z-label consent grammar adopted. Principle in CONSTITUTION.md; mechanics here. Addressed a parse-failure mode in natural-language consent replies. Also observed in-session: new WWGD composables `WWGDN?` ("What would Gordo do next?") and `WWGS?` ("What would Gordo say?") -- pending formalization in the WWGD grammar table if used again.
+- **2026-04-17 (Session 5):** Ratification Commit Handoff section added. Operational companion to CONSTITUTION.md "Signing is the attestation act" clarification (pending, to be applied post-002-ratification). Retro-codified from a live attestation-scope failure: Gordo attempted `git commit -S` on JK's behalf during 002 ratification; pinentry timeout blocked by accident, principle now blocks by design.
 
 ---
 
