@@ -9,7 +9,7 @@
   "ai": {
     "name": "Gordo",
     "provider": "claude-code",
-    "model": "claude-opus-4-6"
+    "model": "claude-opus-4-7"
   },
   "human": {
     "name": "JK",
@@ -23,7 +23,7 @@
   },
   "provider": {
     "primary": "claude-code",
-    "version": "claude-opus-4-6-1m"
+    "version": "claude-opus-4-7-1m"
   },
   "sessions": {
     "count": 2,
