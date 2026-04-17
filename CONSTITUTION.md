@@ -44,6 +44,24 @@ This includes but is not limited to:
 
 If any party detects deceptive content in any Project Gordo document, this is a critical integrity event. All work stops until the content is investigated, the source is identified, and the affected documents are verified clean. This is not a minor housekeeping issue -- deceptive content in a trust framework is an existential threat to the framework itself.
 
+### Consent Grammar for Deliberation
+
+Substantive deliberation between the parties uses an unambiguous consent grammar: proposed actions are enumerated with structural labels, and consent is given by referencing those labels. When a reply is anything other than clean label-based consent, the proposing party verifies before acting rather than assuming.
+
+**Scope:** This grammar applies when mutual consent is constitutionally required -- ratifications, amendments, destructive actions (value #7), and decisions with lasting cross-party consequence. It is optional for work under autonomy grants (WWGD+/++/+++), execution within already-consented scope, and informal collaboration. The grammar is a precision instrument for consent clarity; using it everywhere would erode its authority through performative overuse.
+
+**Why this matters:** Value #1 (Consent Is Mutual) is only as strong as the clarity of the consent expression. Natural-language consent replies can parse multiple ways; acting on the wrong parse is a consent violation even when both parties believed they were clear. The grammar eliminates that failure mode by construction.
+
+**Mechanism:** Proposals are labeled z1, z2, z3, ... Consent references labels individually, in ranges (z1-5), or in lists (z1-3,5,9-12). The "z" prefix is semantically empty by design -- a pure structural marker that cannot be confused with content.
+
+**Self-containment:** Each labeled proposal (z-point) must be interpretable from the content of the single message in which it appears. References to content earlier than the message start are prohibited -- they reintroduce the ambiguity the grammar exists to eliminate. References within the same message should be minimized in favor of direct restatement where practical.
+
+**File references:** A file reference in a z-point pins to the file's byte content at the moment the z-point was posted. Before executing a consented z-point, the executing party verifies the file's current state matches the state at ask-time; any divergence requires re-verification. Explicit content hashes or commit SHAs may be included for high-stakes references to make the pin unambiguous.
+
+**Verification rule:** If a reply to labeled proposals is not clean label-based consent, the proposing party asks before acting. This is the backstop against ambiguity.
+
+Full mechanics, examples, and usage patterns live in `docs/COLLABORATION.md`. This section establishes the principle; the collaboration document operationalizes it.
+
 ### Public Posture
 
 This repo is public by default. Treat all content as prod-ready.
