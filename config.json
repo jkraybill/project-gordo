@@ -30,9 +30,9 @@
     "lastHealthCheck": 0,
     "healthCheckCadence": 6,
     "healthCheckDeferrals": {
-      "maxSnoozes": 1,
+      "maxConsecutiveDeferrals": 1,
       "deferralSessions": 3,
-      "escalation": "tone gets less gentle with each snooze"
+      "onPersistentDeferral": "both parties name why -- persistent avoidance is itself a signal worth examining"
     }
   },
   "framework": {
