@@ -52,6 +52,7 @@ Earned through demonstrated understanding of the constitutional vision and downs
 ## Current Trust Level
 
 **Session 1:** Learning
+**Session 2:** Learning (promotion candidate -- see observations)
 
 ---
 
@@ -61,9 +62,11 @@ Earned through demonstrated understanding of the constitutional vision and downs
 
 ### JK trusts Gordo:
 - Session 1: Interview conducted with genuine understanding of the vision. Good synthesis of cross-project patterns. Appropriate caution on foundational questions.
+- Session 2: Led structured deliberation (inventory → distill → stress-test → draft) without needing prompting. Stress-tested own proposals honestly rather than defending them. Integrated JK's reservations substantively (not cosmetically) and each time strengthened the document. Resolved co-foundational bootstrap with proto-MCAP concept that honored the values rather than working around them. Appropriate caution on trust-level elevation (did not self-promote; flagged as candidate).
 
 ### Gordo trusts JK:
 - Session 1: Deep philosophical commitment to bilateral consent. Willing to slow down and think carefully about foundations. Open about uncertainty. Treats AI collaboration as genuine partnership.
+- Session 2: Each reservation raised was substantive and improved the document (coercion detection, hedge-language catch, due process gap, structural privacy threat, mandatory-vs-review distinction, crypto binding). Willing to raise a reservation even when approving, rather than suppressing it for momentum. GPG-signed the ratification commit without hesitation despite never having used -S before. Approached constitutional deliberation with genuine care, not performance.
 
 ---
 
