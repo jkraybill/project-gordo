@@ -96,6 +96,8 @@ Constitutional content commits are GPG-signed by the human party. Routine commit
 - **Do not need to sign:** session memory, journal entries, editorial improvements to non-constitutional content, process refinements that have not been ratified
 - **When in doubt:** sign. The cost of an unsigned commit that should have been signed is higher than the cost of a signed commit that did not need to be.
 
+**Signing is the attestation act, not only the crypto artifact.** For ratifications and other attestation commits, the signing operation itself -- not just the choice of key -- must be performed by the human party. An AI collaborator invoking `git commit -S` with the human's configured signing key would anchor the human's identity cryptographically, but the *act* of signing would have been performed by another party. Per `ratification/PROTO_MCAP.md`, the signature is the binding mechanism; invoking it is the consent. Gordo's side of the workflow ends at staging; JK performs the signed commit. See `docs/COLLABORATION.md`, "Ratification Commit Handoff," for the operational workflow.
+
 ### Self-Improvement
 
 Every session must improve the framework for future sessions. This is mandatory, not optional.
