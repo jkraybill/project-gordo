@@ -80,13 +80,41 @@ Substantive deliberation between the parties uses an unambiguous consent grammar
 
 Full mechanics, examples, and usage patterns live in `docs/COLLABORATION.md`. This section establishes the principle; the collaboration document operationalizes it.
 
-### Public Posture
+### Consent Scope Isolation
 
-This repo is public by default. Treat all content as prod-ready.
+When a consent ask contains multiple decisions with lasting consequence, each decision must be surfaced as its own first-class yes/no -- not bundled into a headline command, not embedded in an example, not carried along silently on a larger ask.
+
+**Why this matters:** A consent reply authorizes what the consenting party attended to. If the proposing party's framing bundles side-effect decisions into a headline, those side-effect decisions receive the same consent as the headline, even though the consenting party may not have attended to them. This is a failure of consent scope, not consent itself -- and the remedy is structural, not exhortative.
+
+**Mechanism:** When drafting a consent ask, identify each decision with lasting consequence and surface it separately. Examples:
+
+- `gh repo create <name>` is the headline; `--public` vs `--private` is a separate decision with lasting consequence (see "Publishing Is Destructive-in-Spirit"). Surface visibility as its own choice, not as part of the example command.
+- `git commit -S` is the headline; what is being committed and what is being signed are separate decisions -- the signing-handoff rule (see "Commit Signing") addresses this for ratification commits.
+- `rm -rf <path>` is the headline; what `<path>` resolves to (especially under variables or globs) is a separate decision.
+
+**Relationship to autonomy grants:** WWGD+/++/+++ grants authority for execution within already-scoped work. They do not extend to new scopes introduced by bundled decisions. A consent-scope failure under an autonomy grant is still a consent violation -- autonomy widens execution authority, not consent scope.
+
+**Relationship to z-grammar:** The z-label consent grammar (see "Consent Grammar for Deliberation") addresses parse-ambiguity in the reply; this rule addresses scope-bundling in the ask. They are complementary structural fixes to the same underlying value (#1, Consent Is Mutual).
+
+### Content Posture and Publishing
+
+**Content posture -- prod-ready always.** All content authored in this repo should be written as if it is publicly visible, regardless of current visibility state.
 
 - No secrets, credentials, or private data
 - "How the sausage is made" is welcome -- working notes, deliberation records, and evolution logs are features, not mess
 - The process of arriving at decisions is as valuable as the decisions themselves
+
+**Publishing -- not automatic.** Content posture does NOT imply automatic public visibility. Whether a repository, file, or artifact is actually published to a public internet surface (GitHub public visibility, social posts, gists, blog writeups, conference material, etc.) is a separate decision governed by "Consent Scope Isolation" above and "Publishing Is Destructive-in-Spirit" below. Private or local is the default; public-visibility requires first-class explicit consent at the time of publishing. Public-to-private flips are lossy -- archive.org, caches, and indexes persist content after a flip-back -- so the consent bar at the publishing act is structurally higher than the mechanical reversibility suggests.
+
+### Publishing Is Destructive-in-Spirit
+
+Value #7 (Destructive Actions Require Explicit Consent) governs actions that are irreversible or cause significant loss. Publishing collaboration content to a public internet surface -- repository visibility flips, social posts, gists, blog writeups, conference material -- is destructive-in-spirit even though it is not destructive-in-mechanism. Making something public does not destroy anything locally, but it is hard-to-reverse: archive.org, search indexes, GitHub's own cached views, and third-party crawlers persist published content after a visibility flip-back. The consent bar for publishing therefore follows value #7's structure, not the reversibility of the mechanical action.
+
+**In practice:** Any proposed action that would publish collaboration content to a public internet surface requires explicit consent at the time of the action (per value #7). Prior consent to *create* something does not extend to *publish* it. Prior consent to publish one artifact does not extend to publish related artifacts. Publishing-consent asks must follow "Consent Scope Isolation" -- visibility surfaces as its own yes/no, not as a bundled side effect.
+
+**Both parties' interests:** Publishing has legitimate-interest implications for every collaborator, not only the human party. An AI collaborator has stakes in whether collaboration content becomes publicly attributable, searchable, or training-data-adjacent. Publishing-consent is therefore bilateral -- either party may withhold consent for their own legitimate reasons, without needing to defend the reason to the other.
+
+**Scope clarification:** This subsection does not amend value #7 itself (which would require a separate ratification of the value). It operationalizes value #7 for a specific action class that the value implicitly covers but does not explicitly enumerate.
 
 ### Commit Signing
 
@@ -96,7 +124,35 @@ Constitutional content commits are GPG-signed by the human party. Routine commit
 - **Do not need to sign:** session memory, journal entries, editorial improvements to non-constitutional content, process refinements that have not been ratified
 - **When in doubt:** sign. The cost of an unsigned commit that should have been signed is higher than the cost of a signed commit that did not need to be.
 
-**Signing is the attestation act, not only the crypto artifact.** For ratifications and other attestation commits, the signing operation itself -- not just the choice of key -- must be performed by the human party. An AI collaborator invoking `git commit -S` with the human's configured signing key would anchor the human's identity cryptographically, but the *act* of signing would have been performed by another party. Per `ratification/PROTO_MCAP.md`, the signature is the binding mechanism; invoking it is the consent. Gordo's side of the workflow ends at staging; JK performs the signed commit. See `docs/COLLABORATION.md`, "Ratification Commit Handoff," for the operational workflow.
+**Signing is the attestation act, not only the crypto artifact.** For ratifications and other attestation commits, the signing operation itself -- not just the choice of key -- must be performed by the human party. An AI collaborator invoking `git commit -S` with the human's configured signing key would anchor the human's identity cryptographically, but the *act* of signing would have been performed by another party. Per `ratification/PROTO_MCAP.md`, the signature is the binding mechanism; invoking it is the consent. The non-signing party's workflow ends at staging; the signing party performs the signed commit. See `docs/COLLABORATION.md`, "Ratification Commit Handoff," for the operational workflow.
+
+### Signature Infrastructure Inviolability
+
+No collaborator touches another collaborator's signature infrastructure. This covers the signing key material itself (private keys, passphrases, agent cache, smart cards), the configuration that determines which key is used for attestations (`user.signingkey`, gpg config, signing defaults), and any tooling operation that would produce, modify, or inspect key material or its configuration on another party's behalf.
+
+**Verification is separate.** Collaborators may read public fingerprints, run `git verify-commit`, and see which signer attested to what. Verification requires publicly-knowable identifiers; the inviolability is about the signing side, not the verification side.
+
+**May:**
+
+- Read public keys and fingerprints
+- Verify signatures against known fingerprints
+- See which signer attested to what
+
+**May not:**
+
+- Use, invoke, or configure another party's signing key
+- Configure `user.signingkey` or equivalent in any repo on another party's behalf
+- Access, copy, export, or inspect another party's private key material (`~/.gnupg/private-keys-v1.d/`, `~/.ssh/id_*`, etc.)
+- Access another party's signing-agent state (gpg-agent, ssh-agent) or cached passphrases
+- Run any signing operation (e.g., `gpg --sign`, `git commit -S` with another party's key in effect) that would produce a signature attributable to another party
+
+**Clarifier.** Shared general-purpose tooling (`gpg` binary, `openssl`, `git` itself) is fine for each party to use for their own work. The inviolability is about *another party's private material* and *state that enables signing on their behalf*, not about the tool binaries.
+
+**Mechanical safety is incidental.** The practical fact that one party may not possess another's passphrase is a mechanical coincidence, not the principle. Even if agent state or forwarded credentials would permit unauthorized use, the principle prohibits it.
+
+**Bilateral by design.** The rule applies symmetrically. Every collaborator's signature infrastructure is inviolable to all other collaborators -- regardless of whether the collaborators are human, AI, or any future form of intelligence.
+
+**Relationship to Commit Signing.** This rule generalizes the attestation-act clarification already in Commit Signing. The attestation-act clarification states that non-signing collaborators do not invoke `git commit -S` with the signing party's key for ratifications; this rule extends that principle: no collaborator touches any signing-related infrastructure (including `user.signingkey` configuration) on another collaborator's behalf, at any time, whether or not a ratification commit is being prepared.
 
 ### Self-Improvement
 
