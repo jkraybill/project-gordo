@@ -23,6 +23,12 @@ This is a constitutional/philosophical project. The quality gate is **conceptual
 - **Framework docs:** Can be updated by Gordo at Autonomous trust level
 - **Session records:** Updated every session, no ratification needed
 
+### External Review
+
+The use of external feedback mechanisms — structured input from individuals, panels, or other parties not part of the deliberating set — is strongly encouraged, but not required.
+
+The umbrella endorses the following roles for external review: **bug-finding**, **quality-control**, **dissent-surfacing**, **outside-perspective**, and **bias-injection**. The framework specifically recommends **against** external review in a **legitimacy / authority-dilution** role — external review provides *data*, not *authority*; deliberating parties retain decision authority over outputs of any external review. Other roles may emerge as downstream contexts evolve; this list is the umbrella's current endorsement, not an exhaustive taxonomy.
+
 ### Ratification Required for All Changes to Constitutional Content
 
 Any modification to ratified constitutional content in Project Gordo requires explicit mutual consent via the current ratification protocol (proto-MCAP during bootstrap; full MCAP or a successor adopted through ratification once the umbrella has formally adopted one). This applies to changes that preserve meaning (drift corrections, typo fixes, formatting adjustments, link updates) as well as changes that alter meaning (new values, amended principles, rewritten rules). Adopting a successor ratification protocol is itself a constitutional change subject to this rule -- the successor is adopted through ratification under the current protocol, not by declaration or de-facto use.
