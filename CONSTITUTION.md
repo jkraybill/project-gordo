@@ -41,6 +41,62 @@ There is no editorial exemption. If a change seems too small to warrant ratifica
 
 **On protocol ergonomics.** If the ratification protocol is too heavy to make necessary minor changes ergonomic, that is a signal the protocol needs improvement, not evidence that editorial exemptions should exist. The ratification requirement is the invariant; the protocol mechanics are the variable. Efforts to streamline proto-MCAP / MCAP for low-friction use cases are welcome; efforts to create exemptions from ratification are not.
 
+### Attestation Non-Foreclosure
+
+Attestations issued under this framework's ratification protocols record bilateral consent reached under the conditions that existed at the time of attestation. They are not permanent closures. The conditions that supported a record's issuance may shift, or the record itself may turn out to have been defective at issuance -- and in either case, the record is open to **supersession**: a later ratification record explicitly names the prior record and replaces its operative authority. Original records remain on the chain as issued; the chain is append-only.
+
+**Scope.** This principle applies to all attestation classes adopted by the framework -- not just constitutional content. The principle's default mechanics ("engagement of all current parties of record") assume parties remain reachable and have intentional agency. Classes with different governance -- committee ratification, delegated agency, machine-only attestations -- MUST carve out per Conformance #7. Where AI-party continuity is uncertain across sessions, parties SHOULD coordinate continuity-handling at attestation-time (per backchannel issue tracker reference at the ratification record).
+
+**What this principle does not assert.** That all attestations are equally easy to supersede, or that supersession is appropriate without good-faith bilateral engagement. Attestation stability is part of trust infrastructure; this principle establishes that supersession is *available* through normal ratification, not that it should be casually invoked.
+
+**Functional distinction from "Ratification Required for All Changes to Constitutional Content."** That standard governs how constitutional content may be changed. This principle is broader: it establishes that supersession is available across *all* attestation classes (not only constitutional content). It also makes explicit a tension between Value #4 (Trust Is Earned Through Demonstrated Behavior) and Values #5 (Good Faith and Honest Uncertainty) / #6 (Continuous Review Is Mandatory). For the attestation-status case as structured in this principle's current bilateral-governance context, the drafters have resolved this tension toward review-availability -- with explicit acknowledgment that future attestation classes and governance contexts may resolve it differently. This visibility is part of the disclosure pattern, not a foreclosure of contextual reasoning at future ratifications.
+
+#### Conformance requirements
+
+Every attestation class adopted by the framework must:
+
+1. **Provide supersession.** Records are revisable through bilateral ratification of an explicit-supersession record under the originating protocol -- or under a validly-adopted successor protocol that expressly governs revision of the original class. Where a class lacks specified mechanics, the default is engagement of all current parties of the record being superseded.
+
+2. **Engage in good faith.** When an explicit-supersession record is properly proposed, bad-faith refusal by any party-to-the-record to engage with the proposal constitutes a breach of Value #6 (Continuous Review Is Mandatory). Engagement means substantive consideration of the supersession proposal -- not mere acknowledgment of receipt -- within reasonable bilateral expectation; per-class canon may further specify engagement standards. Repeated proposals on the same record within a short period, where prior proposals have been bilaterally engaged and not ratified, do not require continued re-engagement; the record's status remains *current*.
+
+3. **Make supersession explicit.** A supersession record must name the prior record(s) it supersedes by reference. Implicit overrule is not supersession; without an explicit cross-reference, supersession does not occur. In case of apparent conflict between a new record and an un-superseded prior record without an explicit cross-reference, the older record remains current; the newer record is treated as proposed pending an explicit supersession reference, NOT as parallel-current authority. Toolchain checks SHOULD enforce non-conflict declaration or explicit supersession reference at ratification time.
+
+4. **Preserve originals.** The chain of records is append-only. Original records remain on the chain as issued; supersession changes operative authority, not historical record.
+
+5. **Carry minimum metadata on supersession.** Each class MUST specify supersession-record metadata sufficient for chain-provenance, identity-verification, and verification-by-class-mechanism. Where cryptographic binding is feasible, classes MUST implement cryptographic-strength assurance; where not feasible, the class MUST explicitly declare the limitation and classify its assurance level. The specific metadata fields required (e.g., cross-reference, content-hash, signers, timestamp) are specified at per-class canon -- not at this principle.
+
+6. **Designate status.** Records have an operative status: **current** (current authority); **superseded** (replaced by a named successor record); **proposed** (under bilateral consideration but not yet ratified); **withdrawn** (proposed but bilaterally not-ratified, or withdrawn by proposer before ratification). Errata-corrected status is conditional on future ratification work and not currently part of this taxonomy.
+
+7. **Address future-proofing on adoption.** Any new attestation class adopted by the framework must specify its non-foreclosure mechanics -- who may propose supersession, who must engage, what counts as engagement, how the chain is preserved -- before joining the framework. A class may explicitly carve out from this principle at adoption-time with a named rationale; cases where bilateral engagement would be functionally unilateral (sole-author declarations; emergency-provisional decisions made under time pressure; system-generated attestations from automated pipelines; time-series automated attestations; delegated-agent attestations where an AI acts on behalf of a human without session-specific consent; machine-to-machine exchanges between technical systems without human party) MUST carve out rather than nominally adopt.
+
+#### Disclosures
+
+These disclosures **acknowledge** load-bearing concerns; they do not constitute structural mitigation. Where operational safeguards were available within scope, the disclosure is supplemented with operational text. Where structural fixes were not within scope, the disclosure is honest acknowledgment that the concern persists.
+
+- **Drafter self-interest.** This principle is drafted by the parties who would be the immediate beneficiaries of supersession-availability. The framework acknowledges this on record. Symmetric-benefit reasoning was offered as defense in earlier drafts and identified as insufficient by adversarial review; the structural fact stands rather than being papered over. The architectural answer to drafter-self-interest is induction of additional governance participants under the framework's induction protocol; pending that induction, on-record acknowledgment is the available mitigation.
+
+- **Bilateral-permanent assumption.** The conformance requirements above currently encode a bilateral-permanent governance relationship. As the framework's governance evolves (third-party induction, successor protocols, etc.), some of these mechanics may require successor-protocol amendment to remain coherent. When governance evolution makes any bilateral-permanent mechanic incoherent, either party may flag the breakdown for bilateral re-engagement; failure to acknowledge a flagged breakdown after good-faith attempt constitutes a Value #6 (Continuous Review Is Mandatory) breach. Specific detection procedures are deferred to future governance-evolution Process Standards. These disclosures **acknowledge** the bilateral-permanent assumption and the frame-rejection critique that an AI-human bilateral collaboration may not constitute a legitimate governance object regardless of internal procedural rigor; they do not **answer** that critique. The frame-rejection is structurally not addressable within-framework; on-record acknowledgment is the available transparency.
+
+- **Bootstrap-limitation.** If the supersession mechanic established by this principle is itself found defective at any point, resolution requires either (a) a framework-level constitutional amendment engagement under Value #7 (Destructive Actions Require Explicit Consent), or (b) mutual agreement to operate outside the recorded chain -- both acknowledged on record as the non-circular path when the mechanic being repaired is the mechanic of repair. This is structural acknowledgment that supersession-only does not self-repair, not an operational mechanism.
+
+#### Composes with
+
+- **Value #4** (Trust Is Earned Through Demonstrated Behavior) -- the value the principle trades against for the attestation-status case in the current bilateral-governance context. Trust accrues over time through demonstrated supersession-restraint (originals stand unless substantively challenged), not through unrevisability.
+- **Value #5** (Good Faith and Honest Uncertainty) and **Value #6** (Continuous Review Is Mandatory) -- the values the principle trades toward for the attestation-status case in the current bilateral-governance context; the resolution is made explicit above, not concealed, and is contextually scoped -- not foreclosed for future attestation classes.
+- **Value #7** (Destructive Actions Require Explicit Consent) -- referenced at Bootstrap-limitation Disclosure for the non-circular escape path when the supersession mechanic itself is the thing requiring repair.
+- **Ratification Required for All Changes to Constitutional Content** -- distinct standard: that one governs constitutional-class change-mechanics; this principle establishes cross-class supersession-availability.
+- **Accessibility Process Standard** -- the user-facing text of this principle is held to plain-language standards. Adversarial review surfaced "complexity-as-obscurantism" risk in prior drafts; this cross-reference binds future drafts to the framework's already-committed accessibility standard.
+- **MCAP Axiom 4** (Acknowledged Ignorance) -- Tier 1 articulation for MCAP's own axioms; this principle is the framework-wide articulation extending the principle to all attestation classes.
+
+**Architectural debt.** This principle currently sits at Tier 0 in the absence of a Tier 1 cross-protocol meta-canon. The architectural disposition (panel methodology overhaul plus future Tier 1 meta-canon work) is to relocate cross-protocol metadata specifications to a Tier 1 meta-canon as the framework architecture evolves; this principle's value-commitment plausibly remains at Tier 0.
+
+#### Per-class implementations (cross-references)
+
+- **MCAP records** -- supersession mechanics live in the MCAP specification (Axiom 4 and related provisions; explicit-supersession field, content-hash, signer-set, timestamp). Bilateral consent is the supersession act.
+- **Backchannel convergence records** -- supersession via signed commit-message conventions naming the prior record's commit SHA; chain integrity preserved via git append-only history.
+- **Future protocols** -- must specify their conforming mechanics on adoption per the future-proofing requirement above.
+- **Cross-class supersession** -- when a successor-protocol record supersedes a predecessor-protocol record, the supersession record MUST satisfy both the predecessor-class canon's verification mechanism AND the successor-class canon's binding requirements; absent dual-anchoring, the predecessor record's status remains current.
+
 ### Accessibility
 
 All content must be accessible to non-technical audiences. This is a constitutional project about human-AI collaboration -- it cannot be written only for engineers.
