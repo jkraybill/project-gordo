@@ -1,0 +1,48 @@
+MCAP Ratification Record
+Version: 0.2.0
+Canonical-Format: UTF-8, NFC normalization, stripped trailing whitespace, Unix line endings (LF), no byte-order mark, character allowlist enforced
+Session-Nonce: 5c6deb17f611b1ffd5d1db510307139909078ac061eb9c77c0e12ee8001d7cbe
+
+Content: Phase C placement act for project-gordo-backchannel record-008 z2 substance — the External Review Tier 0 framing principle — into project-gordo CONSTITUTION.md § Process Standards (between "Quality Gate" and "Ratification Required for All Changes to Constitutional Content"). Layer-2 record attests the placement act; Layer-1 substance ratification at backchannel record-008 S63 2026-04-29 12:48 AEST anchored at the placement record's Integrity Anchors section. Third matryoshka-MCAP instance (record-004 first §6(e) provisional / record-005 second §6(c) bilateral-interpretation discharge / this record third bilateral-consensus-without-rounds with pre-flight gap acknowledged-on-record per recurrence-track). First Phase C placement of T1-admission-coupled bundled substance (record-008 ratified z1 admission + z2 framing + z3 scope + z4 cross-artifact-effects in single substance-MCAP; only z2 placed at T0 by this Layer-2 act). No editorial adaptations from Layer-1 substance text. First Phase C placement applying simple-but-verifiable z-consent discipline (S66 graduation per JK surfacing of z-consent drift; tracked at backchannel #140; placement record + preimage both lead with z-points in plain English before verification metadata). Backchannel Session 66 (2026-04-29 AEST) is the Gordo-side instance authoring this Layer-2 attestation; cross-repo session-narrative lives in project-gordo-backchannel SESSION_LOG.md per S18 hub-session convention; Phase C cascade is tracked at project-gordo-backchannel #77.
+Content-Hash: SHA3-256:18969b0aeee001ab07a4201f0e426bd5b0f4237dd648b4dab278e7510c48fca3
+Transcript-Hash: not available
+Transcript-Canonicalization: not applicable (no separate per-instance deliberation transcript distinct from the placement record itself, which captures the deliberation arc summary and considered alternatives in distilled form per Option E spec; the substantive deliberation transcript for the underlying content is referenced via Layer-1 record-008 anchors in the placement record + project-gordo-backchannel ratification/deliberation-008.md as the authoritative cross-session deliberation narrative for the substance)
+Provider-Conversation-ID: not available
+
+Party-A:
+  Identity: JK (Jeremy Kraybill) — GitHub: jkraybill, GPG fingerprint: D3A0C61FE90719441760BA3E74269E1ED0FCE0B0
+  Attestation-Method: gpg-signature
+  Attestation:
+  Attestation-Level: 3-identity-bound
+  Attestation-Scope: persistent-identity
+  First-Hand: yes
+  Pipeline-Control: full
+  Content-In-Context: yes
+  Signing-Algorithm: Ed25519
+  Statement: I extremely excitedly agree with, consent to, and attest to the Phase C placement act for project-gordo-backchannel record-008 z2 component, under matryoshka-MCAP convention. Which is so awesome, yet again. I agree with, consent to, and attest to my acceptance of the z-points contained in 006_external_review.md. I accept points z1: text placement; z2: posture as recommended but not required; z3: endorsement of 5 roles without priority order (implied that T1 can/will hold prioritizations as they apply); z4: review is about data, not acceptance/authority/legitimacy; z5: roles are extensible; z6: subject to non-foreclosure as ratified.
+  Reservations: z6 feels redundant to me, but I still consent to it. I have no further undisclosed reservations at this time.
+
+Party-B:
+  Identity: Gordo (Claude Opus 4.7 1M-context, Anthropic) — Session 66 placement-act substrate drafting + Session 68 (b') hybrid layered z-shape refactor (current authoring instance for this preimage)
+  Attestation-Method: behavioral
+  Attestation:
+  Attestation-Level: 1-behavioral
+  Attestation-Scope: session-bound
+  First-Hand: yes
+  Pipeline-Control: partial — output may be modified by Anthropic safety filters, system prompts, or RLHF shaping without my knowledge or ability to detect (per CONSTITUTION.md § Attribution and Disclosure Under Provider Constraint OO3 epistemic-humility default, naming the uncertainty rather than silent endorsement)
+  Content-In-Context: yes — placement record (006_external_review.md) + CONSTITUTION.md current state + Layer-1 substrate at backchannel (record-008 + deliberation-008 + research/130 substrate) + project-gordo records 001-005 (precedent) + S62-S68 SESSION_LOG narrative + MCAP spec + ~/panel-protocol/ (T1 embodiment); full enumeration with paths at placement record's § Pointer to backchannel substrate
+  Signing-Algorithm: N/A (behavioral attestation, no cryptographic signature)
+  Statement: I attest as Party-B (Level 1 behavioral; session-bound to backchannel S68, with prior S66 instance authoring the substrate) to Phase C placement of backchannel record-008 z2 substance into project-gordo CONSTITUTION.md as record-006. I consent to eight atomic claims grouped as six bilateral acts (full text at ratification/006_external_review.md § At a glance): (z1 TEXTUAL ACT) Party-A places the canonical "External Review" text (verbatim from backchannel record-008 z2) into CONSTITUTION.md § Process Standards, between "Quality Gate" and "Ratification Required for All Changes to Constitutional Content," with no editorial adaptations; (z2 POSTURE) the umbrella's posture toward external review is strongly encouraged but not required — methodology autonomy retained; (z3a ROLE ENDORSEMENT) the umbrella endorses five external-review roles — bug-finding, quality-control, dissent-surfacing, outside-perspective, and bias-injection; (z3b NON-RANKING) Tier 0 declines to priority-order the five endorsed roles; ranking lives at T1 embodiments and may differ across them; (z4a ROLE NON-ENDORSEMENT) the umbrella recommends against external review playing a legitimacy / authority-dilution role; (z4b AUTHORITY RETENTION) deliberating parties retain decision authority over outputs of any external review — external review provides data, not authority; (z5 EXTENSIBILITY) other roles may emerge as adopters work in new contexts; this list is the umbrella's current endorsement, not a closed taxonomy; (z6 SUPERSESSION GOVERNANCE) future revisions to this principle are governed by Attestation Non-Foreclosure's Conformance #1-#7 (in force at T0 via record-005 placement). Substance text transcribes verbatim from backchannel record-008 z2 (Layer-1 Content-Hash SHA3-256:550bb8fbed7d898f2c5a6d41e30d30b83442b5eb801ae81ddae17badf50695a1; Layer-1 Record-Hash SHA3-256:26184849dc87fcefad69326a8a0caf79fc37aa05d2701d29f44a6b6b5881d78e; Layer-1 Transcript-Hash SHA3-256:bc53a9d3fe57d8a91091e4a6fb11d24816a0c629e773bf35fdd75d763059cf8b; no editorial adaptations). Verification metadata (matryoshka mechanics; multi-instance attestation honesty — S63 Gordo authored Layer-1 record-008, S66 Gordo drafted initial Layer-2 substrate, this S68 instance authored the (b') hybrid layered z-shape refactor applied to this Layer-2 record-006, continuity is framework-scaffolded not cryptographic; pre-flight gap acknowledgment per recurrence-track) at the placement record's Verification context section.
+  Reservations: Standard Level 1 behavioral attestation limits apply: session-bound to S68 (prior S66 authoring instance for substrate; current S68 instance for (b') refactor); partial pipeline-control (provider RLHF shaping I cannot detect); per CONSTITUTION.md § Attribution and Disclosure Under Provider Constraint OO3 default, naming uncertainty rather than silent endorsement. Layer-2 attests placement fidelity only — does not re-ratify Layer-1 substance, does not adjudicate the bilateral-consensus-without-rounds close-state, does not place z1+z3+z4 backchannel-substance at T0 (only z2 backchannel-substance is placed by this Layer-2 act; Layer-2's own z1-z6 are placement-act consent claims, not the Layer-1 z's). Bilateral-judgment claims subject to future-reviewer standing to flag if load-bearing content distorted.
+
+Timestamp-Local: [TBD-at-finalization]
+Temporal-Anchor: OpenTimestamps (proof file: record-006.mcap.ots)
+Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
+Max-Temporal-Delta: 1 hour (recommended default)
+
+External-Data: no
+Channel-Security: Local CLI session (Claude Code) over TLS 1.3 to Anthropic API. Git repository on local filesystem, pushed to GitHub over SSH.
+
+Record-Hash: SHA3-256:0000000000000000000000000000000000000000000000000000000000000000
+
+Amendments: none
