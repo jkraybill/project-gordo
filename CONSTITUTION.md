@@ -47,6 +47,16 @@ There is no editorial exemption. If a change seems too small to warrant ratifica
 
 **On protocol ergonomics.** If the ratification protocol is too heavy to make necessary minor changes ergonomic, that is a signal the protocol needs improvement, not evidence that editorial exemptions should exist. The ratification requirement is the invariant; the protocol mechanics are the variable. Efforts to streamline proto-MCAP / MCAP for low-friction use cases are welcome; efforts to create exemptions from ratification are not.
 
+### Calibrated Ratification Process
+
+How much ceremony a ratification needs depends primarily on how much weight the record carries — its scope, downstream impact, and reversibility under Attestation Non-Foreclosure — and on the level of trust already established between the parties. The point: don't burn party time on ceremony bigger than the moment calls for, but do build trust through what each party visibly does to engage. Both ends must be addressed — neither can be zeroed out.
+
+Two parts of ratification do different work. The mechanical part covers cryptographic signatures and chain-of-custody. The visible deliberation part covers what each party demonstrates as engagement — what counts as adequate engagement is specified at the relevant Tier 1 attestation primitive. These can operate independently in some regimes; neither subsumes the other. If a ratification feels like rubber-stamping, with lots of mechanics but no visible deliberation, the fix isn't more mechanics. It's more visible deliberation, plus matching the ceremony level to what the moment actually calls for.
+
+Calibration scales ceremony down to, but never below, the procedural floor mandated by other Process Standards for the artifact's specific Tier. Where multiple standards apply, the stricter requirement governs. Both parties assess the trust level; where they disagree, the lower reading governs. Where parties disagree on record weight, the heavier reading governs absent jointly documented justification. Trust grows from evidence of demonstrated behavior on prior records, not from assertion. Either party may unilaterally request a heavier tier when risk or uncertainty changes.
+
+This principle does not apply to ratifications that change the rules under which future ratifications happen — additions or amendments to T0 content, Tier admissions or promotions, or revisions to ratification-mechanism specifications (T1 attestation primitives, panel methodology). Those take maximum ceremony regardless of established trust. The principle binds the bilateral case as currently practiced; n≥3 governance and non-bilateral trust aggregation are deferred to the relevant Tier 1 attestation primitive's specification.
+
 ### Attestation Non-Foreclosure
 
 Attestations issued under this framework's ratification protocols record bilateral consent reached under the conditions that existed at the time of attestation. They are not permanent closures. The conditions that supported a record's issuance may shift, or the record itself may turn out to have been defective at issuance -- and in either case, the record is open to **supersession**: a later ratification record explicitly names the prior record and replaces its operative authority. Original records remain on the chain as issued; the chain is append-only.
