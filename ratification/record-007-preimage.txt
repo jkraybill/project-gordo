@@ -19,7 +19,7 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement: I agree with, consent to, and attest to the Phase C placement act, disseminating the ratification of project-gordo-backchannel record-010, under matryoshka-MCAP convention. I agree with and consent to all z-statements contained in the 007_calibrated_ratification_process.md doc, which are z1: placement of text; z2: structural exemption for processes that explicitly require maximum attestation for ratification; z3: bilateral scope; z4: acknowledgement of rejection of panel feedback T12; z7: subject to pre-existing supersession governance.
+  Statement: I agree with, consent to, and attest to the Phase C placement act, disseminating the ratification of project-gordo-backchannel record-010, under matryoshka-MCAP convention. I agree with and consent to all z-statements contained in the 007_calibrated_ratification_process.md doc, which are z1: placement of text; z2: structural exemption for processes that explicitly require maximum attestation for ratification; z3: bilateral scope; z4: acknowledgement of rejection of panel feedback T12; z5: subject to pre-existing supersession governance.
   Reservations: No undisclosed reservations at this time.
 
 Party-B:
