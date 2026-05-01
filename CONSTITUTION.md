@@ -29,6 +29,130 @@ The use of external feedback mechanisms — structured input from individuals, p
 
 The umbrella endorses the following roles for external review: **bug-finding**, **quality-control**, **dissent-surfacing**, **outside-perspective**, and **bias-injection**. The framework specifically recommends **against** external review in a **legitimacy / authority-dilution** role — external review provides *data*, not *authority*; deliberating parties retain decision authority over outputs of any external review. Other roles may emerge as downstream contexts evolve; this list is the umbrella's current endorsement, not an exhaustive taxonomy.
 
+### Integration Standard for Foundational-Questions Adversarial Review
+
+Where Quality Gate requires adversarial review from multiple AI models for foundational-questions content, the following integration standard applies. It specifies how findings from a review panel are integrated (or not) into the reviewed draft, and when a review round is complete.
+
+**Scope and honest naming.** This standard governs how bilateral-governance parties integrate structured input from informal adversarial-review panels into their foundational-questions deliberation. It is explicitly **not** an epistemic-aggregation mechanism across independent reviewing parties: the umbrella's current architecture does not grant informal reviewers first-class standing. Reviewers contribute as input-providers to bilateral deliberation, not as parties to it. Induction of reviewers to first-class standing (if ever pursued) is a UEP-class action, outside this standard's scope.
+
+This naming matters. Critiques that this standard *"confuses adversarial review with bilateral governance"* (a recurring adversarial-review finding) are accurate as description — the standard is bilateral-governance-with-structured-input. What the standard commits to is honest-naming of that scope and explicit mechanisms to keep bilateral integration faithful to the panel's input rather than laundered through drafter discretion. Faithful integration is not epistemic aggregation; it is the best that bilateral-governance can offer without changing the governance architecture itself.
+
+**The scope-boundary is itself load-bearing (in-preamble transparency).** The honest-naming rename and this preamble function in two ways simultaneously: (a) descriptively — they accurately disclose what the standard does and does not claim; (b) protectively — they give the standard a rhetorical defense against outside critique that asks it to be an epistemic-aggregation mechanism. Both functions are in operation. Criticism asking the standard to be something other than bilateral-governance-with-structured-input IS asking for something the standard explicitly disclaims; that is not, by itself, a defense against the critique's substance. The protective function is visible from inside this text rather than hidden, and is not an answer to the question "should the umbrella have an epistemic-aggregation mechanism" — that question is UEP-class, tracked on the RC1 docket, and this standard does not foreclose its answer.
+
+**Roles.** Two roles appear throughout this standard. The **integration-drafter** is the party producing the reviewed redraft and the per-finding disposition-document. The **consenting party** is the bilateral partner who reviews dispositions and co-grants ratification-readiness. These are abstract role-definitions; binding to a ratification-protocol's specific attestation structure is the implementation's responsibility, not this standard's. Reference-implementation bindings live in the relevant ratification-protocol's spec (for MCAP: Party-B and Party-A respectively per MCAP attestation model).
+
+**Terminology.** Key terms used throughout:
+
+- **Load-bearing finding** — a finding whose integrate/reject disposition materially changes the draft's structure, obligations, or defensible defense. Non-load-bearing findings affect only phrasing or scope-adjacent matters without changing what the draft commits to.
+- **Adequate rationale** — written rationale that (a) engages the finding's substance in own terms not dismissive paraphrase; (b) names the cost being accepted if the finding is rejected; (c) cross-references related findings if any.
+- **Substantively strong** (§4) — a finding that (a) identifies a concrete attack-surface, OR (b) steelmans into an action-able change, OR (c) identifies a structural fit-tension between the reviewed text and its stated framework. At least one of (a)/(b)/(c) must hold.
+- **Attack-surface** — a plausible path by which the text-as-drafted could be misused, gamed, or weaponized against its stated aims.
+- **Structural fit** — consistency (or tension) between the reviewed text and its stated framework context (umbrella values, adjacent standards, lineage-consistency).
+- **Structural new material** (§6(c)) — new sub-rules, new roles, new sections, new rights/obligations, new failure-states, new panel-selection controls (non-exhaustive presumptive enumeration per §6(c) below). Triggers a subsequent round.
+- **Refinement new material** (§6(c)) — clarifications, reworded sentences, examples added. Does not trigger a new round if bilaterally agreed and the material does not fit any presumptively-structural category per §6(c).
+- **Ratification-ready** — the integration-drafter and the consenting party bilaterally agree that §6(a)–(d) hold and no pending objection remains un-surfaced.
+- **Delta-statement** (§2 re-frame disposition) — explicit text contrasting the original finding with the re-framed version; required when a re-frame disposition is selected; reviewed per §3 as its own disposition-item.
+
+This terminology reduces but does not eliminate discretion; bilateral-consent on disposition per §3 remains the load-bearing mechanism.
+
+**1. Scope.** Applies to Quality Gate *foundational-questions* adversarial review invocations. Routine reviews (non-foundational content, operational decisions, framework-doc edits at Autonomous trust level) remain informal and are not bound by this standard. Adopter-inheritance is via a Tier 2 adopter-integration guide (not this text).
+
+**2. Finding-level disposition (no automatic integrate-threshold).** Every finding surfaced by the review panel receives an explicit disposition from the integration-drafter:
+
+- **integrate** — the finding is absorbed into the draft with a specific change
+- **partial-integrate** — the finding is partially absorbed; rationale records what was and wasn't
+- **re-frame** — the finding is re-shaped into an adjacent form before integration; **the re-frame must preserve the adversarial intent of the original finding**. If the re-frame materially softens the critique (removes the attack-surface, dilutes the structural-fit tension, or otherwise blunts the adversarial edge), the disposition is partial-integrate not re-frame. **A re-frame disposition requires a *delta-statement* (see Terminology) explicitly contrasting the original finding with the re-framed version; the consenting party provides separate sign-off on the delta-statement per §3.** This constraint addresses the "adversarial-intent" subjective-abstraction surface noted in round-2 delta-review.
+- **reject** — the finding is not integrated; adequate rationale required
+
+Convergence-count (how many reviewers surfaced the finding) is one input to disposition judgment, not a gate. A substantively strong single-reviewer finding may be load-bearing; a substantively weak multi-reviewer finding may be re-framed or rejected with rationale. No finding is auto-integrated by reviewer-count alone, and no finding is auto-dismissed for being raised by only one reviewer.
+
+**3. Bilateral disposition review.** The integration-drafter produces a per-finding **disposition-document** enumerating every finding with its disposition and rationale. **The consenting party reviews the disposition-document before the integrated redraft is treated as ratification-ready** — not just the redraft itself. On review, the consenting party may:
+
+- **assent** — dispositions accepted as stated
+- **challenge** — a specific finding's disposition requires revision (e.g., integrate-instead-of-reject, stronger-rationale-for-pass-through, partial-integrate where reject was proposed); the integration-drafter responds with revised disposition; the two parties iterate until bilateral-agreement
+
+**Delta-statement separate sign-off (per §2 re-frame constraint).** For any disposition marked *re-frame*, the consenting party provides explicit separate sign-off on the delta-statement contrasting original vs re-framed finding. Delta-statement sign-off is a distinct disposition-item from the general disposition-assent; it is not folded into omnibus assent on the disposition-document as a whole. This catches material drift at the re-frame decision-point specifically.
+
+This is the principal check against drafter-self-interest bias. Drafters integrate their own work; self-interest pressure toward reject-with-rationale on inconvenient findings is real. Disposition-review catches that pressure at the disposition-stage, rather than at the ratification-stage when pullback is costlier.
+
+**If bilateral-agreement on a specific disposition cannot be reached** through assent + challenge-and-respond iteration, the finding remains *load-bearing-without-explicit-disposition* — review does not complete per § 6(a). Escalation options, non-exclusive:
+
+- **Expand the panel** for additional substrate on the contested disposition (per panel-protocol SPEC §4)
+- **Re-state the finding** — the finding-formulation itself may be the issue, not its disposition
+- **Revisit the upstream draft** — the contested disposition may be a symptom of underlying draft-text that needs different handling
+
+No party may unilaterally direct a disposition against the other's standing objection. The standard commits to bilateral-consent on dispositions per value #1 (Consent Is Mutual); there is no privilege-escalation escape hatch.
+
+**4. Single-reviewer findings evaluated on substance.** When only one reviewer raises a finding, the finding is evaluated on substance (per *substantively strong* in Terminology), not by convergence-count. A substantively strong single-reviewer finding is integrate or partial-integrate regardless of single-reviewer status. A substantively weak single-reviewer finding is reject or re-frame with adequate rationale.
+
+**5. Contradictions between reviewers.** When reviewers recommend contradictory changes, the integration-drafter:
+
+1. Surfaces the contradiction explicitly in the disposition-document
+2. Proposes a direction — synthesis (new shape absorbing both), side-with-one (with rationale), or don't-resolve-yet (explicit reservation, ratification may still proceed if contradiction is not load-bearing)
+3. The consenting party reviews + assents to the proposed direction per § 3
+
+Majority-wins is not the default — substance over count. A 2-vs-1 split does not auto-resolve in favor of the 2.
+
+**6. Stop-criterion (round completion).** A review round completes when the integration-drafter and the consenting party bilaterally agree:
+
+- (a) All load-bearing findings from the round have explicit dispositions
+- (b) Pass-through rationales are adequate (per *adequate rationale* in Terminology) to defend rejection
+- (c) The integration has not introduced *structural new material* (per Terminology) the round did not evaluate — if it has, a subsequent round on the integrated draft is required. Refinement new material does not trigger a new round if bilaterally agreed.
+
+  **Presumptively-structural categories (non-exhaustive).** Material fitting any of the following is presumptively structural; the integration-drafter must explicitly justify in the disposition-document any classification of such material as "refinement":
+  - New sections (top-level or substantive subsection)
+  - New roles (in the Roles section or operationally referenced)
+  - New rights or obligations on any party
+  - New failure-states (additions to §6(e) or analogous)
+  - New panel-selection controls or panel-composition requirements (panel-composition or prompt-control material per panel-protocol SPEC)
+  - New Terminology entries or redefinitions of existing entries
+
+  Material outside these categories is presumptively refinement but may still be judged structural on substance. **Catch-all.** Material that substantially alters the draft's obligations, rights, or decision-authority is structural regardless of whether it fits an enumerated category. The enumeration is presumptive not exhaustive — a clarifying phrase that materially changes an obligation is structural in substance even though it does not fit any enumerated category. Formal-category-avoidance (e.g., slicing a structural change into sub-parts that individually look non-structural, or relocating structural content to Drafting notes) does not defeat the catch-all: materiality is evaluated on substance, not on section placement or narrative framing.
+
+- (d) The document in its current form is ratification-ready
+
+No fixed round-count. The integration-drafter alone cannot declare *"this round is sufficient"* — bilateral agreement is required.
+
+**(e) Failure-states when bilateral-agreement cannot be reached.** If (a)–(d) cannot be bilaterally agreed after disposition-review iteration (§ 3) and escalation (§ 3 escalation options), the draft is not ratification-ready. Explicit failure-states, any of which may be bilaterally invoked:
+
+- **Non-ratification** — draft is held without ratification; work continues or halts per bilateral decision
+- **Provisional ratification with published unresolved objections** — draft is ratified with the specific unresolved objections logged in the ratification record's deliberation narrative (visible to any downstream party) and a revisit-trigger named. **This failure-state is gated to prevent ratification-through-reservation weaponization:**
+  - (i) Unresolved objection must be logged in the deliberation narrative with specific reviewer-citation (not paraphrased summary)
+  - (ii) The ratification record must explicitly state *"no Tier 0 precedent established until reservation resolved"* — the provisional-ratified text is reservation-gated-precedent, not reservation-with-precedent; downstream parties cannot cite the text as settled Tier 0 content while the reservation remains open
+  - (iii) A named resolution-trigger (specific time-window or event-conditional) is mandatory; indefinite-reservation without trigger is not a valid invocation of this failure-state
+  - (iv) The consenting party provides explicit anti-ratification-through-reservation certification at ratification-time, affirming that the reservation is genuinely provisional (awaiting resolution) and not being used as a weaponized bypass of unresolved bilateral disposition
+- **Sunset adoption** — provisional ratification valid until a named event (time-window; application-count; external evidence) at which formal re-ratification occurs
+- **Escalation via UEP-class induction** — if the unresolved objection surfaces a reviewer-standing question that the informal-review-input model cannot resolve, the appropriate pathway is UEP-class induction of reviewers to first-class standing (outside this standard's scope)
+
+Indefinite suspension without invoking one of the above is not a valid stop-state. A review that has not reached (a)–(d) is either actively iterating or has been bilaterally moved to a failure-state; it is never *"indefinitely open."*
+
+**(f) Attritional-bargaining check.** Asymmetric stamina between the integration-drafter (AI-hosted, low-fatigue) and the consenting party (human, bounded-fatigue) creates a structural risk: the drafter can generate high-volume rationales faster than the consenting party can evaluate, producing de-facto assent by exhaustion rather than by genuine disposition-agreement. To mitigate:
+
+- If bilateral disposition-review iteration on any single finding exceeds a threshold (suggested default: 3 challenge-respond cycles per finding, or 2 weeks of active iteration — drafting-notes-level; not constitutional), either party may invoke a **cooldown** (suggested default: 1 week pause) after which the specific disposition proceeds to one of the (e) failure-states rather than continuing iteration indefinitely
+- The attritional-bargaining check is invocable by either party; it is not adversarial-against-the-other-party but structural-protection-of-genuine-consent
+
+The specific thresholds are drafting-notes-level (not constitutional text) to allow bilateral tuning as experience accumulates.
+
+**7. Panel composition and prompt control.** Panel composition (panel size, role-mix, persona-assignment, anonymization conventions) and prompt control (brief shape, adversarial framing, persona-constraint sourcing, per-reviewer prompt-symmetry) for foundational-questions adversarial review follow the **panel-protocol Panel Methodology Standard SPEC**, the umbrella's reference embodiment of the Tier 0 external-review principle articulated in § External Review above. The SPEC is canonical at the panel-protocol repository (current version per panel-protocol's own ratification cycle). Specific roles previously specified in earlier versions of this standard — *Internal Shadow* (lineage-specific-failure-mode review) and *Perspective-Variable* (persona-opposed reviewer) — remain admissible panel-composition choices under the SPEC's hybrid-diversity model; the SPEC does not mandate their use but admits and supports them.
+
+**8. Fidelity check.** For load-bearing findings that the disposition-document marks as *integrate* or *partial-integrate*, the integrated redraft is checked against the original finding to confirm the integration is faithful — i.e., that the change in the redraft actually addresses what the reviewer raised, rather than gesturing at it while preserving the original tension.
+
+**Fidelity-check default: re-run of originating reviewer.** The default fidelity-check mechanism for load-bearing findings is re-running the originating reviewer on the integrated text with a targeted prompt asking whether their finding was addressed.
+
+The alternative path — drafter + consenting-party explicit fidelity assessment logged in the disposition-document — is valid **only with bilateral-agreed rationale documenting why re-run is not being used** (e.g., originating reviewer unavailable; targeted re-run not feasible given cost or access constraints; reviewer-version no longer accessible). Bilateral-agreed rationale is itself a disposition-item under §3. Self-assessment is not default-equivalent to re-run.
+
+**When a §6(c)-triggered round subsumes fidelity-check.** When an adversarial-review round is triggered by §6(c) structural-new-material, and the round's review brief includes fidelity-assessment of the prior round's load-bearing findings as a named review-axis, that round subsumes §8's fidelity-check requirement for those prior findings. Separate §8 re-runs are not additionally required. This handles the common case where structural-new-material and fidelity-check arrive at the same gate (the originating reviewers are re-engaged; their Axis-C-style assessment of drafter integration fidelity satisfies the §8 function). If the §6(c)-triggered round's brief does NOT include fidelity-assessment as a named axis, §8's default re-run remains required separately.
+
+Non-load-bearing findings do not require fidelity check; drafter judgment + bilateral disposition-review per §3 are sufficient.
+
+**9. Versioning and freshness.** Every review binds to a specific draft version — typically the commit-hash of the draft at the time of review. The review artifact-set records the draft version reviewed; the ratification record specifies the integrated version being ratified.
+
+A review expires if the draft differs materially (structural new material per Terminology + §6(c)) from the version reviewed. Re-run requires a new review-brief documenting what changed since the previous brief (previous-brief-diff). Model-version shifts in the panel since the previous review are noted in the new brief.
+
+**10. Evidence preservation.** Raw panel outputs are preserved in the repo at a stable location (current convention: `reviews/<tracker>/` with one file per reviewer). The disposition-document maps each finding to a traceable identifier (reviewer + finding-location in raw review) so readers can verify the drafter's paraphrase against the panel's words.
+
+The panel's words are not replaced by the drafter's paraphrase in the repo record — both artifacts persist as separate first-class files. Disposition-document summaries are the drafter's interpretation of the panel; the raw-review files are the panel's own voice. Readers can cross-check.
+
 ### Ratification Required for All Changes to Constitutional Content
 
 Any modification to ratified constitutional content in Project Gordo requires explicit mutual consent via the current ratification protocol (proto-MCAP during bootstrap; full MCAP or a successor adopted through ratification once the umbrella has formally adopted one). This applies to changes that preserve meaning (drift corrections, typo fixes, formatting adjustments, link updates) as well as changes that alter meaning (new values, amended principles, rewritten rules). Adopting a successor ratification protocol is itself a constitutional change subject to this rule -- the successor is adopted through ratification under the current protocol, not by declaration or de-facto use.
