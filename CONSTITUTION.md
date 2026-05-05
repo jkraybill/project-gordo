@@ -525,6 +525,8 @@ Calibration scales ceremony down to, but never below, the procedural floor manda
 
 This principle does not apply to ratifications that change the rules under which future ratifications happen — additions or amendments to T0 content, Tier admissions or promotions, or revisions to ratification-mechanism specifications (T1 attestation primitives, panel methodology). Those take maximum ceremony regardless of established trust. The principle binds the bilateral case as currently practiced; n≥3 governance and non-bilateral trust aggregation are deferred to the relevant Tier 1 attestation primitive's specification.
 
+For calibration guidance on attestation-level selection by content-stakes, see the Calibrated Ratification Process reference at Tier 2 (gordo-framework).
+
 ### Attestation Non-Foreclosure
 
 Attestations issued under this framework's ratification protocols record bilateral consent reached under the conditions that existed at the time of attestation. They are not permanent closures. The conditions that supported a record's issuance may shift, or the record itself may turn out to have been defective at issuance -- and in either case, the record is open to **supersession**: a later ratification record explicitly names the prior record and replaces its operative authority. Original records remain on the chain as issued; the chain is append-only.
