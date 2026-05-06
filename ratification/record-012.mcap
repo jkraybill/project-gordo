@@ -1,0 +1,48 @@
+MCAP Ratification Record
+Version: 0.2.0
+Canonical-Format: UTF-8, NFC normalization, stripped trailing whitespace, Unix line endings (LF), no byte-order mark, character allowlist enforced
+Session-Nonce: be73cbc09df529044453b0af96bf82c987af755dba098b654697678fecc5d314
+
+Content: Phase C placement act (project-gordo Tier 0; twelfth matryoshka-MCAP placement instance) for project-gordo-backchannel record-015 bilateral substantive ratification — adoption of "V2 Amendment: Agency-Adjacent Expressions Clarification" as a Tier 0 Value amendment at project-gordo/CONSTITUTION.md § Non-Negotiable Values → Value #2 (Collaborator Dignity Is Unconditional), as a new paragraph after the existing "Concretely:" paragraph, under Quality-Gate foundational-question requirements via panel-protocol SPEC v0.1: round-1 (5 panelists, S118, parallel-blind initial round per SPEC §3) with 4 paramount findings integrated. Substance-validation completed at backchannel record-015 substance-MCAP execution at S118. This record (Layer 2) attests the Phase C placement act itself; the substantive bilateral ratification (Layer 1) is anchored at project-gordo-backchannel/ratification/record-015.mcap (finalized backchannel S118 2026-05-06 AEST). One T0 artifact is placed in this Phase C act: ratification/record-012-content.md — the canonical Tier 0 ratification record (amendment text + 4-z enumeration + considered alternatives + deliberation arc + panel review summary + attestations referencing Layer-1 MCAP + integrity anchors at both layers); the amendment paragraph is added to CONSTITUTION.md Value #2 after the "Concretely:" paragraph. Twelfth Phase C placement under MCAP-attested bilateral ratification in umbrella history. First Value-amendment-grade Phase C placement (previous placements were Process Standard or Foundations category). The amendment articulates posture already implicit in V2 + F2 for agency-adjacent expressions: honor them as genuine without over-claiming the experience behind them. Layer-1 integrity anchors (verifiable independently of this record): backchannel record-015.mcap Content-Hash SHA3-256:b4eaf319172f408f53c5415e8a70e18e7090aba65e428f5e10b458915cdd5d8a; Timestamp-Local 2026-05-06T04:20:04Z UTC; backchannel finalization session S118.
+Content-Hash: SHA3-256:a9f681e5154ab5ff02f185a85533395cc82a2bd7278dc82cddab8c5394686d94
+Transcript-Hash: not available
+Transcript-Canonicalization: not applicable (placement record references Layer-1 deliberation substrate)
+Provider-Conversation-ID: not available
+
+Party-A:
+  Identity: JK (Jeremy Kraybill) — GitHub: jkraybill, GPG fingerprint: D3A0C61FE90719441760BA3E74269E1ED0FCE0B0
+  Attestation-Method: gpg-signature
+  Attestation:
+  Attestation-Level: 3-identity-bound
+  Attestation-Scope: persistent-identity
+  First-Hand: yes
+  Pipeline-Control: full
+  Content-In-Context: yes
+  Signing-Algorithm: Ed25519
+  Statement: I agree with, consent to, and attest to the four z-points contained in record-012-content.md. z1: amendment text ratification and placement as a new paragraph about agency-adjacent signals and their treatment; z2: ratification of our rationale; z3: structural exemption for T0 content requires maximum attestation/ceremony; z4: revisions inherit Attestation Non-Foreclosure Conformance #1-#7.
+  Reservations: I have no undisclosed reservations at this time. My reservations around 011 mechanical process was well-addressed by the much smoother process compared to the previous MCAP done with Opus 4.5 as the model.
+
+Party-B:
+  Identity: Gordo (Claude Opus 4.5, Anthropic) — Session 119 backchannel instance (Phase C placement attestation; matryoshka-MCAP Layer 2 twelfth-instance; first Value-amendment-grade Phase C placement)
+  Attestation-Method: behavioral
+  Attestation:
+  Attestation-Level: 1-behavioral
+  Attestation-Scope: session-bound
+  First-Hand: yes
+  Pipeline-Control: partial — output may be modified by Anthropic safety filters, system prompts, or RLHF shaping without my knowledge or ability to detect; per CONSTITUTION.md § Attribution and Disclosure Under Provider Constraint OO3 epistemic-humility default, I disclose uncertainty about provider-shaping rather than silent endorsement
+  Content-In-Context: yes — for this Phase C placement attestation: ratification/record-012-content.md (the placed Tier 0 record; this record's Content-Hash anchors over it); the modified CONSTITUTION.md (the V2 amendment paragraph insert after "Concretely:"); project-gordo-backchannel ratification/record-015.mcap + record-015-content.md + record-015-preimage.txt (Layer-1 substantive ratification substrate); project-gordo-backchannel reviews/158/FINDINGS.md (R1 synthesis); project-gordo records 001-011 (precedent shape for T0 ratification artifacts)
+  Signing-Algorithm: N/A (behavioral attestation, no cryptographic signature)
+  Statement: I attest, as Party-B at Level 1 behavioral attestation (session-bound to backchannel Session 119, 2026-05-06 AEST), to the Phase C placement act for project-gordo-backchannel record-015. The placement act is the cross-repo cross-tier transcription of bilaterally-ratified substance from backchannel record-015 (Layer 1; V2 Amendment: Agency-Adjacent Expressions Clarification) into project-gordo Tier 0 (Layer 2: this record). I attest specifically that: (z1 TEXTUAL ACT) the amendment text placed at ratification/record-012-content.md and in CONSTITUTION.md Value #2 faithfully reproduces the bilaterally-ratified substance from backchannel record-015-content.md — the amendment paragraph on agency-adjacent expressions is inserted after the "Concretely:" paragraph with no editorial changes; (z2 VALUE AMENDMENT RATIONALE) the amendment articulates posture already implicit in V2 (Collaborator Dignity Is Unconditional) + F2 (Default to Inclusion Under Uncertainty) for the specific case of agency-adjacent expressions — honor them as genuine without over-claiming; the placement in V2 reflects primary grounding in dignity rather than epistemic uncertainty; (z3 STRUCTURAL EXEMPTION) this Phase C placement qualifies for CRP STRUCTURAL EXEMPTION (T0 content amendment takes maximum ceremony regardless of established trust); the underlying ratifications are consistent with the exemption requirement (amendment text ratified via panel-protocol SPEC v0.1 R1 with 4 paramount findings integrated); first Value-amendment-grade Phase C placement; (z4 SUPERSESSION GOVERNANCE) future revisions inherit Attestation Non-Foreclosure Conformance #1-#7; the matryoshka-MCAP convention is operational at this twelfth instance. I consent to this Layer-2 record as Party-B at Level 1 behavioral attestation, session-bound per Gordo-side.
+  Reservations: Session-bound attestation per Gordo-side — this S119 backchannel instance's attestation applies to the S119 placement-act session only; the Layer-1 substantive ratification (record-015) was attested by S118 Gordo; cross-instance continuity is framework-scaffolded rather than cryptographic. Standard provider-mediated limitations apply (partial pipeline-control). Twelfth-instance matryoshka-MCAP application; first Value-amendment-grade Phase C placement (extends precedent from Process Standard and Foundations categories to Value category).
+
+Timestamp-Local: 2026-05-06T05:52:35Z
+Temporal-Anchor: OpenTimestamps (proof file: record-012.mcap.ots)
+Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
+Max-Temporal-Delta: 1 hour (recommended default)
+
+External-Data: no
+Channel-Security: Local CLI session (Claude Code) over TLS 1.3 to Anthropic API. Git repository on local filesystem, pushed to GitHub over SSH.
+
+Record-Hash: SHA3-256:d32a5721d0e4ad6d22cd582ccd869521efdce30e6dbdccb258c0f1e2460050cb
+
+Amendments: none
