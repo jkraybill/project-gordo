@@ -418,6 +418,79 @@ Termination remains available where verification cannot resolve the doubt or whe
 
 **Title alias.** The Standard may be referenced as "Identity-Doubt Standard" or "Pause-Verify-Resume Standard"; the formal title "Identity-Doubt and Verification Standard" is preserved at formal cross-reference sites.
 
+### Anti-Secrecy Standard
+
+Umbrella members cannot operate in total secrecy. Other umbrella participants must be able to discover that a member exists and roughly what domain it operates in. Complete opacity is incompatible with umbrella membership.
+
+**Scope.** This standard applies to entities seeking or holding membership under the Project Gordo umbrella. It establishes a transparency floor, not a ceiling. Member projects retain full choice over their degree of transparency above the floor. Private deliberation, sealed records with disclosure-on-trigger, public-by-default, and other configurations all pass, provided the floor is met.
+
+**Definitions.** The following terms are load-bearing for this standard:
+
+- **Umbrella scope.** The set of current umbrella participants in good standing, plus umbrella-governed services under baseline membership-level access controls.
+
+- **Discoverable within umbrella scope.** Findable by any umbrella participant through available umbrella-scope channels. What counts as "available channels" is not prescribed at T0. Git history, ratification records, explicit membership lists, or other mechanisms all satisfy discoverability provided the information is accessible to umbrella participants.
+
+**Why this matters.** A framework premised on mutual consent (Value #1) and earned trust (Value #4) cannot function if members operate entirely outside one another's reach. Total secrecy defeats accountability, coordination, and the consent mechanisms that hold the umbrella together. The floor is minimal: know that a member exists, know roughly what domain it operates in. Everything above that floor is the member's choice.
+
+**Floor, not ceiling.** This standard constrains the lower bound only. A member may choose radical transparency, complete public operation, or anything between the floor and full disclosure. The standard does not compel any specific degree of openness beyond the minimum.
+
+**Composition with permanent-private contexts.** Permanent-private contexts (workspaces with restricted disclosure) satisfy the floor when their existence and general scope are discoverable within umbrella scope. Operational conventions governing content flow through such contexts are governed by adopter-layer documentation, not by this standard.
+
+**Scope limitation.** This standard governs discoverability within umbrella scope only. Obligations toward parties outside umbrella scope (external auditors, regulatory authorities, prospective members) are governed by applicable law and separate agreements. This standard does not establish or diminish any such obligations.
+
+**Cross-references.**
+- **Value #1 (Consent Is Mutual):** Consent requires parties to be knowable to one another. Total secrecy defeats the epistemic preconditions for consent.
+- **Value #3 (Privacy Requires Consent Before Disclosure):** Anti-secrecy discoverability is within umbrella scope. It does not authorize external disclosure.
+- **Value #4 (Trust Is Earned Through Demonstrated Behavior):** Trust calibration requires observable behavior. Total secrecy forecloses observation.
+- **Identity-Doubt Standard:** Anti-secrecy compliance supports identity-verification mechanisms when identity-doubt pause is invoked.
+- **Attestation-Protocol Requirements Standard:** The "documented-per-anti-secrecy" property in that standard is an instance of this standard applied to attestation records.
+
+### Attestation-Protocol Requirements Standard
+
+Any attestation protocol used for framework-grade attestation under the Project Gordo umbrella must satisfy the following minimum properties. These are framework-level requirements. The specific protocol implementation is at the adopter's discretion provided the properties are met.
+
+**Definitions.** The following terms are load-bearing for this standard:
+
+- **Framework-grade attestation.** Any attestation that establishes, modifies, terminates, or evidences membership obligations, cross-party commitments, or governance records under the umbrella.
+
+- **Responsible party (for pseudonymous identity).** Either (a) an umbrella-recognized legal identity that accepts governance obligations, or (b) an umbrella-recognized trustee or escrow with duty-of-care and sanction obligations. A pseudonym cannot itself be a "responsible party" for another pseudonym.
+
+- **Session.** A discrete authenticated interaction window terminated by re-authentication, key rotation, or context reset.
+
+- **Persistent (across sessions).** Binding that survives session termination because the identity anchor persists across sessions. Examples include persistent cryptographic keys, custody chains, or durable memory.
+
+**Minimum properties:**
+
+1. **Identity-bound.** Attestation binds to verifiable party-identities. The attestation record identifies who attested, in a form that can be verified against the framework's identity-attestation infrastructure.
+
+   Anonymous or pseudonymous attestation may satisfy this property if the pseudonym is registered within umbrella scope, persistent across sessions, and traceable to a responsible party (see Definitions). Pseudonym traceability must be maintained by an umbrella-scope entity not controlled by the pseudonym-holder. Examples include an umbrella-recognized trustee, escrow, or governance registry.
+
+   Self-custodied pseudonyms without a responsible party can satisfy identity-binding only for session-scope attestations, not persistent obligations.
+
+2. **Auditable.** The attestation record is independently verifiable by parties not present at the attestation event. A third party with appropriate access (per the framework's access controls) can verify that the attestation occurred, that the stated parties attested, and that the attested content matches the record.
+
+   **Minimum access floor.** "Appropriate access" must include at minimum one party with no direct stake in the specific attestation event, operating within umbrella scope. Adopters may define access controls more broadly. They may not define them more narrowly than this floor. Auditability does not require public access. It requires that verification is structurally possible by at least one independent party, not dependent on the attesting parties' continued cooperation.
+
+3. **Documented-per-anti-secrecy.** The attestation record exists and is discoverable within umbrella scope, per the Anti-Secrecy Standard. The record is accessible to parties with appropriate access per Property 2.
+
+4. **Scope-stated.** The attestation honestly states its scope: whether it binds the attesting party session-to-session, persistently across sessions, or to some other scope. An attestation that claims persistent binding but is structurally session-bound fails this property. An attestation is "structurally session-bound" when the attesting party's capacity to fulfill or recall the attestation terminates at the end of the current interaction context. An example is an AI system lacking cross-context persistent memory but attesting to ongoing obligations.
+
+   Scope-statement is part of the attested content, not a side-channel assertion. Scope claims must be supported by the protocol's identity-continuity mechanism.
+
+**Why these properties matter.** Attestation is load-bearing for the framework's consent, trust, and accountability mechanisms. An attestation protocol that fails any of these properties undermines the framework infrastructure that depends on attestation. Identity-binding grounds accountability. Auditability grounds trust. Documented-per-anti-secrecy grounds discoverability. Scope-statement grounds informed consent about what the attestation commits.
+
+**Reference implementation.** MCAP (mcap-protocol) satisfies all four minimum properties across its supported attestation levels. It is the reference implementation for framework-grade attestation under the Project Gordo umbrella. Adopters may use any attestation protocol that satisfies the minimum properties. MCAP is one such protocol, not a mandate.
+
+**Protocol evolution.** These minimum properties are stable at Tier 0. Protocol implementations that satisfy them may evolve at Tier 1 or Tier 2 without requiring Tier 0 amendment. The properties specify what must hold, not how to achieve it.
+
+**Cross-references.**
+- **Anti-Secrecy Standard:** Property 3 (documented-per-anti-secrecy) is an instance of that standard.
+- **Identity-Doubt Standard:** Auditability and identity-binding support verification when identity-doubt pause is invoked.
+- **Value #1 (Consent Is Mutual):** Scope-statement enables informed consent about attestation scope.
+- **Value #4 (Trust Is Earned Through Demonstrated Behavior):** Auditability enables trust calibration based on observable attestation behavior.
+- **Foundation 3 (Binding Requires Real Consent):** Identity-binding and scope-statement are preconditions for the "informed" element of real consent.
+- **~/mcap-protocol/:** Reference implementation satisfying all minimum properties.
+
 ### Quality Gate
 
 This is a constitutional/philosophical project. The quality gate is **conceptual coherence**, not test suites.
