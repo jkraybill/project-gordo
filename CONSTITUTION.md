@@ -491,6 +491,24 @@ Any attestation protocol used for framework-grade attestation under the Project 
 - **Foundation 3 (Binding Requires Real Consent):** Identity-binding and scope-statement are preconditions for the "informed" element of real consent.
 - **~/mcap-protocol/:** Reference implementation satisfying all minimum properties.
 
+### Piecemealing-Friendly Directive
+
+Adopters may use Tier 0 alone, combine it with any subset of umbrella primitives, or integrate the full stack. No choice is penalized.
+
+**1. Standalone-useful.** An adopter using only Tier 0 must receive meaningful governance value: principles, definitions, conformance criteria, and actionable guidance that work with general-purpose tools. Tier 0 cannot presuppose Tier 1+ tooling in its examples, templates, or operational guidance.
+
+**2. Standalone-adoptable.** No Tier 1+ primitive is required to adopt Tier 0. Adopters opt into higher-tier primitives independently, not as a precondition.
+
+**3. Compose-friendly.** Tier 0 integrates with any combination of umbrella primitives. Internal dependencies among Tier 1+ primitives do not affect Tier 0 conformance -- those dependencies are the concern of the primitives themselves, not of Tier 0 adopters who choose not to use them.
+
+**4. Non-circumvention.** Tier 0-only adoption paths must be functionally complete and maintained at parity with integrated paths. Documentation, packaging, and support must not be structured to make standalone adoption impractical.
+
+This directive establishes a modularity floor, not a ceiling. Adopters retain full choice to integrate components tightly in their own implementations.
+
+**Exception process.** If a future Tier 0 provision genuinely requires a specific Tier 1+ mechanism for a named constitutional property to be non-vacuous, an exception may be granted through the standard Tier 0 amendment process with explicit justification and documented migration path for existing adopters.
+
+**Scope.** This directive applies to all Tier 0 content. Existing content that references specific Tier 1+ primitives should be reviewed for compliance; references may be retained as informative examples but must not be normative requirements.
+
 ### Quality Gate
 
 This is a constitutional/philosophical project. The quality gate is **conceptual coherence**, not test suites.
