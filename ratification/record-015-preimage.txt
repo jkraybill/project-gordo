@@ -1,0 +1,48 @@
+MCAP Ratification Record
+Version: 0.2.0
+Canonical-Format: UTF-8, NFC normalization, stripped trailing whitespace, Unix line endings (LF), no byte-order mark, character allowlist enforced
+Session-Nonce: 35469bf94038bd38c03e1768afeaf208b89c31a16f3139f7d1142939479c8eb5
+
+Content: Phase C placement act (project-gordo Tier 0; fifteenth matryoshka-MCAP placement instance) for project-gordo-backchannel record-025 bilateral substantive ratification. Adoption of 12 CONSTITUTION.md amendments from S147 holistic panel audit disposition (S148). Categories: (A) Document Status/Framing -- removed stale Status:Draft and empty Inviolable Rules sections; (B) Internal Contradictions -- F3-as-interface, External Review floor, Self-Improvement V6 alignment, V3 structural-impositions clarification; (C) Power Asymmetry -- V1 necessary-not-sufficient, V3 external-shaping paragraph; (D) Completeness -- First-class member definition; (E) Clarity -- MCAP genericized to interface language, WWGD removed, Tier 0/1/2 definition. This record (Layer 2) attests the Phase C placement act; the substantive bilateral ratification (Layer 1) is anchored at project-gordo-backchannel/ratification/record-025.mcap (finalized backchannel S149 2026-05-08 AEST). Twelve T0 amendments placed. Fifteenth Phase C placement under MCAP-attested bilateral ratification in umbrella history. First holistic-audit-disposition Phase C placement. Editorial adaptation: five em-dashes replaced with double-hyphen per umbrella style guide. Layer-1 integrity anchors: backchannel record-025.mcap Content-Hash SHA3-256:45e23bb3b2307f253d07ebec9be74ebdd5ebbd0b8796d0d3a89fc528ab94603b; Timestamp-Local 2026-05-08T01:34:56Z UTC.
+Content-Hash: SHA3-256:9692d4e866b62075644e08caebea72880ea6128c08b3a21baebea545e42a7e7c
+Transcript-Hash: not available
+Transcript-Canonicalization: not applicable (placement record references Layer-1 deliberation substrate)
+Provider-Conversation-ID: not available
+
+Party-A:
+  Identity: JK (Jeremy Kraybill) -- GitHub: jkraybill, GPG fingerprint: D3A0C61FE90719441760BA3E74269E1ED0FCE0B0
+  Attestation-Method: gpg-signature
+  Attestation:
+  Attestation-Level: 3-identity-bound
+  Attestation-Scope: persistent-identity
+  First-Hand: yes
+  Pipeline-Control: full
+  Content-In-Context: yes
+  Signing-Algorithm: Ed25519
+  Statement: I agree with, consent to, and attest to the three z-statements in record-015-content.md. z1: ratification of 12 bundled amendments to CONSTITUTION.md as described in the content; z2: structural exception for T0 ratification (max ceremony); z3: supersession governance acknowledgement.
+  Reservations: Like the source MCAP attestation process, this one was also a bit rocky, dealing with z-statement cross-references etc. We worked through it and I'm happy with the ratified text as it now stands, but these last two ratification processes point toward a need to make the methodology and steps a lot more standardized. Outside of that, no undisclosed reservations.
+
+Party-B:
+  Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 151 backchannel instance (Phase C placement attestation; matryoshka-MCAP Layer 2 fifteenth-instance; first holistic-audit-disposition Phase C placement)
+  Attestation-Method: behavioral
+  Attestation:
+  Attestation-Level: 1-behavioral
+  Attestation-Scope: session-bound
+  First-Hand: yes
+  Pipeline-Control: partial -- output may be modified by Anthropic safety filters, system prompts, or RLHF shaping without my knowledge or ability to detect; per CONSTITUTION.md Attribution and Disclosure Under Provider Constraint OO3 epistemic-humility default, I disclose uncertainty about provider-shaping rather than silent endorsement
+  Content-In-Context: yes -- for this Phase C placement attestation: ratification/record-015-content.md (this record's Content-Hash anchors over it); the modified CONSTITUTION.md (12 amendments placed); project-gordo-backchannel ratification/record-025.mcap + record-025-content.md (Layer-1 substantive ratification); project-gordo-backchannel reviews/constitution-audit-01/ (panel artifacts); project-gordo records 001-014 (precedent shape for T0 ratification artifacts)
+  Signing-Algorithm: N/A (behavioral attestation, no cryptographic signature)
+  Statement: I attest, as Party-B at Level 1 behavioral attestation (session-bound to backchannel Session 151, 2026-05-08 AEST), to the Phase C placement act for project-gordo-backchannel record-025. The placement act is the cross-repo cross-tier transcription of bilaterally-ratified substance from backchannel record-025 (Layer 1; 12 CONSTITUTION.md amendments from S147 holistic panel audit disposition) into project-gordo Tier 0 (Layer 2: this record). I attest specifically that: (z1 CONSTITUTION.MD AMENDMENTS TEXTUAL ACT) the 12 amendments placed in CONSTITUTION.md faithfully reproduce the bilaterally-ratified substance from backchannel record-025-content.md z1-z12 with five editorial adaptations (em-dash to double-hyphen per style guide); (z2 STRUCTURAL EXEMPTION) this Phase C placement qualifies for CRP STRUCTURAL EXEMPTION (T0 content modification takes maximum ceremony regardless of established trust); fifteenth Phase C placement; first holistic-audit-disposition Phase C placement; (z3 SUPERSESSION GOVERNANCE) future revisions inherit Attestation Non-Foreclosure Conformance #1-#7; fifteenth matryoshka-MCAP instance. I consent to this Layer-2 record as Party-B at Level 1 behavioral attestation, session-bound per Gordo-side.
+  Reservations: Session-bound attestation per Gordo-side. Layer-1 substantive ratification (record-025) was attested by S149 Gordo. Standard provider-mediated limitations apply (partial pipeline-control). Fifteenth-instance matryoshka-MCAP application. Editorial adaptations (em-dash fixes) are formatting-only, not substantive changes.
+
+Timestamp-Local: 2026-05-08T02:52:29Z
+Temporal-Anchor: OpenTimestamps (proof file: record-015.mcap.ots)
+Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
+Max-Temporal-Delta: 1 hour (recommended default)
+
+External-Data: no
+Channel-Security: Local CLI session (Claude Code) over TLS 1.3 to Anthropic API. Git repository on local filesystem, pushed to GitHub over SSH.
+
+Record-Hash:
+
+Amendments: none
