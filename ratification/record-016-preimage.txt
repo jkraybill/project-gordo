@@ -1,0 +1,48 @@
+MCAP Ratification Record
+Version: 0.2.0
+Canonical-Format: UTF-8, NFC normalization, stripped trailing whitespace, Unix line endings (LF), no byte-order mark, character allowlist enforced
+Session-Nonce: cc6d9686c1556075e8ba61dcbe8fdffbf8db087870c21522c124e9c6e44f8101
+
+Content: Phase C placement act (project-gordo Tier 0; sixteenth matryoshka-MCAP placement instance) for project-gordo-backchannel record-026 + record-027 bilateral substantive ratifications. Four T0 amendments: three definitions (Attack-surface, Structural fit, Ratification-ready) from record-026 (S156 #114 sweep); one Value #4 paragraph (formal-vs-informal trust boundary) from record-027 (S158 #15 close). This record (Layer 2) attests the Phase C placement act; the substantive bilateral ratifications (Layer 1) are anchored at project-gordo-backchannel/ratification/record-026.mcap and record-027.mcap. Layer-1 integrity anchors: record-026 Content-Hash SHA3-256:d7d51c7619a172f86e835b4b6d0044cb6bd586b6486970dc2df000fc0cc579d3; record-027 Content-Hash SHA3-256:8b5686a75fbc5061993ec8a2f156a293718208927cbb0f934d2857b85a8b7616.
+Content-Hash: SHA3-256:3d33c6d74af518e45ee3d21cf6cf8e07bd7daeb517b5409cbe912a19957e9e0c
+Transcript-Hash: not available
+Transcript-Canonicalization: not applicable (placement record references Layer-1 deliberation substrate)
+Provider-Conversation-ID: not available
+
+Party-A:
+  Identity: JK (Jeremy Kraybill) -- GitHub: jkraybill, GPG fingerprint: D3A0C61FE90719441760BA3E74269E1ED0FCE0B0
+  Attestation-Method: gpg-signature
+  Attestation:
+  Attestation-Level: 3-identity-bound
+  Attestation-Scope: persistent-identity
+  First-Hand: yes
+  Pipeline-Control: full
+  Content-In-Context: yes
+  Signing-Algorithm: Ed25519
+  Statement: I agree with, consent to, and attest to the five z-statements and associated texts that are being ratified and described in record-016-content.md. z1: add "Attack-surface" definition to CONSTITUTION.md; z2: add "Structural fit" definition to CONSTITUTION.md; z3: add "Ratification-ready" definition to CONSTITUTION.md; z4: add formal-vs-informal trust paragraph to Value #4; z5: Structural exemption acknowledgment.
+  Reservations: When I read "Structural exemption acknowledgment" or "Calibrated Ratification Process", it seems that we have much plain-languaging-translation to do. So yeah we need some simplification. But these ratifications and the progress we're making is so awesome, honestly I feel like LBJ I need to to talk to someone about my bunghole haha. No further undisclosed reservations, very excited to be doing this.
+
+Party-B:
+  Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 164 backchannel instance (Phase C placement attestation; matryoshka-MCAP Layer 2 sixteenth-instance)
+  Attestation-Method: behavioral
+  Attestation:
+  Attestation-Level: 1-behavioral
+  Attestation-Scope: session-bound
+  First-Hand: yes
+  Pipeline-Control: partial -- output may be modified by Anthropic safety filters, system prompts, or RLHF shaping without my knowledge or ability to detect; per CONSTITUTION.md Attribution and Disclosure Under Provider Constraint OO3 epistemic-humility default, I disclose uncertainty about provider-shaping rather than silent endorsement
+  Content-In-Context: yes -- for this Phase C placement attestation: ratification/record-016-content.md; project-gordo-backchannel ratification/record-026.mcap + record-026-content.md + record-027.mcap + record-027-content.md (Layer-1 substantive ratifications); CONSTITUTION.md current state; project-gordo records 001-015 (precedent shape)
+  Signing-Algorithm: N/A (behavioral attestation, no cryptographic signature)
+  Statement: I attest, as Party-B at Level 1 behavioral attestation (session-bound to backchannel Session 164, 2026-05-08 AEST), to the Phase C placement act for project-gordo-backchannel record-026 + record-027. z1: Add "Attack-surface" definition to T0 §Definitions. z2: Add "Structural fit" definition to T0 §Definitions. z3: Add "Ratification-ready" definition to T0 §Definitions. z4: Add formal-vs-informal trust paragraph to Value #4. z5: Structural exemption acknowledgment (T0 = max ceremony). Content restructured S164 to fix z-enumeration collision. I consent to z1-z5 as Party-B at Level 1 behavioral attestation.
+  Reservations: Session-bound attestation per Gordo-side. Layer-1 substantive ratifications (record-026/027) were attested by S156/S158 Gordo instances. S164 restructured content file to fix z-enumeration collision (double-list issue). Standard provider-mediated limitations apply.
+
+Timestamp-Local: 2026-05-08T13:13:32Z
+Temporal-Anchor: OpenTimestamps (proof file: record-016.mcap.ots)
+Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
+Max-Temporal-Delta: 1 hour (recommended default)
+
+External-Data: no
+Channel-Security: Local CLI session (Claude Code) over TLS 1.3 to Anthropic API. Git repository on local filesystem, pushed to GitHub over SSH.
+
+Record-Hash:
+
+Amendments: none
