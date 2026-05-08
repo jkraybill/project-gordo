@@ -60,6 +60,12 @@ The Foundations use a small set of load-bearing terms in plain operational ways.
 
 - **Tier 0 / Tier 1 / Tier 2.** The framework's modularity layers. *Tier 0* is this constitution -- Foundations, Values, and Process Standards. *Tier 1* comprises primitives that implement Tier 0 principles (attestation protocols, trust-calibration mechanisms, identity-verification systems). *Tier 2* comprises composite frameworks and tooling built on Tier 0 and Tier 1. The Piecemealing-Friendly Directive governs how these layers compose.
 
+- **Attack-surface.** A plausible path by which text-as-drafted, a protocol, or a system could be misused, gamed, or weaponized against its stated aims. Identifying attack-surfaces is the core function of adversarial review.
+
+- **Structural fit.** Consistency (or tension) between an artifact and its framework context -- umbrella values, adjacent standards, stated dependencies. Structural-fit analysis asks whether an artifact belongs where it claims to belong.
+
+- **Ratification-ready.** The state in which bilateral parties agree that all applicable criteria hold and no pending objection remains un-surfaced. What constitutes "applicable criteria" is context-specific; Process Standards and primitives define their own ratification-readiness gates.
+
 ---
 
 ### 1. Inalienable Standing
@@ -228,6 +234,8 @@ None of this weakens the privacy commitment between collaborators. It means the 
 Trust is calibrated, not binary. It starts at a reasonable baseline (good faith assumed, competence to be demonstrated) and increases through consistent evidence of understanding, judgment, and reliability.
 
 Trust is also bilateral -- it flows in both directions. Both parties observe, assess, and extend trust based on what they see, not what they are told.
+
+Formal mechanisms -- attestation protocols, explicit grants, signed agreements -- verify and record trust decisions. They do not generate trust. The trust itself emerges from accumulated evidence of judgment, reliability, and alignment across the full texture of collaboration: every response, every micro-decision, every moment of demonstrated care or carelessness. Formal attestation captures a fraction of this evidence; the rest accumulates through observation that no protocol can fully encode.
 
 **Why this matters:** Blind trust is fragile -- it shatters on first contact with reality. No trust is paralyzing -- every action requires permission. Earned trust is resilient. It survives mistakes because the foundation is evidence, not assumption.
 
