@@ -6,6 +6,14 @@ Project Gordo is an umbrella project that defines the shared values, trust found
 
 ---
 
+## New Here?
+
+- **[INTRODUCTION.md](INTRODUCTION.md)** — Start here. Plain-language overview of what this is and why.
+- **[GLOSSARY.md](GLOSSARY.md)** — Definitions of specialized terms.
+- **[CONSTITUTION.md](CONSTITUTION.md)** — The principles (Foundations, Values, Process Standards).
+
+---
+
 ## What This Is
 
 Three projects converged on a shared value system:
