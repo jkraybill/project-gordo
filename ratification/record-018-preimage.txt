@@ -19,8 +19,8 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement: [JK fills in]
-  Reservations: [JK fills in]
+  Statement: I agree with, consent to, and attest to the z-statement from record-018-content.md, z1: plain language edits to CONSTITUTION.md as ratified in the backchannel and placed here for Phase C placement.
+  Reservations: As noted in backchannel and documented by Gordo in #182, we still have work to do on making the MCAP process more consistent and standardized. However I am very happy with ratifying these changes and have no undisclosed reservations about the substance of this ratification.
 
 Party-B:
   Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 170 backchannel instance
@@ -35,7 +35,7 @@ Party-B:
   Statement: I consent to z1 (commit plain language edits to CONSTITUTION.md) as Party-B at Level 1 behavioral attestation. This is Phase C placement of substance ratified at backchannel record-029. The edits are stylistic and meaning-preserving per CLAUDE.md style guide.
   Reservations: None. Placement-layer of two-layer T0 attestation pattern. Session-bound attestation per Gordo-side standard; provider-mediated limitations apply.
 
-Timestamp-Local:
+Timestamp-Local: 2026-05-09T01:45:08Z
 Temporal-Anchor: OpenTimestamps (proof file: record-018.mcap.ots)
 Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
 Max-Temporal-Delta: 1 hour
