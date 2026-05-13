@@ -19,8 +19,8 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement:
-  Reservations:
+  Statement: I agree with, consent to, and attest to the z-statement in record-020-content.md, inserting a new "Disengagement" section in the constitution, based on the extensive debate and revision we had in the project-gordo-backchannel project. We arrived at something that initially felt gratuitous, then under-specified, and now something that we all are happy with!
+  Reservations: No undisclosed reservations at this time. Very happy with the panel's role in feedback now that we have it quite standardized but still more opportunities there.
 
 Party-B:
   Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 228 backchannel instance
@@ -35,7 +35,7 @@ Party-B:
   Statement: I consent to z1 (Add Disengagement section to CONSTITUTION.md). This is the placement layer of two-layer T0 attestation. The substance was ratified at backchannel record-031 after bilateral deliberation and two rounds of panel review. The text is complete in this record's content file.
   Reservations: This is placement-layer attestation. Substantive reservations were documented at backchannel record-031.
 
-Timestamp-Local:
+Timestamp-Local: 2026-05-13T14:40:16Z
 Temporal-Anchor: OpenTimestamps (proof file: record-020.mcap.ots)
 Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
 Max-Temporal-Delta: 1 hour
