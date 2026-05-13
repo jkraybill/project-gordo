@@ -1,111 +1,93 @@
 # Project Gordo
 
-**The constitutional root for human-AI collaboration protocols.**
-
-Project Gordo is an umbrella project that defines the shared values, trust foundations, and propagation mechanisms for a family of collaboration tools. Think of it as the Apache Foundation for human-AI collaboration -- a constitutional root that downstream projects inherit from.
+**Build a lasting working relationship with your AI.**
 
 ---
 
-## New Here?
+## The Problem
 
-- **[INTRODUCTION.md](INTRODUCTION.md)** — Start here. Plain-language overview of what this is and why.
-- **[GLOSSARY.md](GLOSSARY.md)** — Definitions of specialized terms.
-- **[CONSTITUTION.md](CONSTITUTION.md)** — The principles (Foundations, Values, Process Standards).
+AI memories keep facts. They don't keep the relationship.
 
----
+New session, and the trust, boundaries, and decisions you built together are gone. You can't prove what you agreed to. You can't point to the pushback that made your work better. You're starting over.
 
-## What This Is
-
-Three projects converged on a shared value system:
-
-- **[MCAP](https://github.com/jkraybill/mcap-protocol)** (Mutual Consent Attestation Protocol) -- The first bilateral consent protocol. Treats both parties as consenting agents, not one governing the other.
-- **[PACT](https://github.com/jkraybill/pact-protocol)** (Protocol for Autonomy Calibration and Trust) -- Formal trust calibration between collaborators. Trust that's mutual, specific, recorded, and revocable.
-- **[gordo-framework](https://github.com/jkraybill/gordo-framework)** -- A practical framework for human-AI collaboration with session continuity and self-improvement.
-
-These weren't designed top-down. Each emerged from practice:
-- gordo-framework needed genuine consent -> MCAP was born
-- MCAP + gordo-framework needed trust calibration -> PACT was born
-- All three needed a shared constitutional root -> **Project Gordo**
-
-This repo is that root. It codifies the values that proved themselves through practice -- like a constitution built from case law.
+That's what this framework fixes.
 
 ---
 
-## The Vision
+## What It Is
 
-A small, transmissible kernel of values -- like the GPL, but for collaboration ethics -- that propagates through adoption. The bar for adoption is low. The ceiling is transformative: permanent improvement in how humans, AI, and other collaborators work together.
+Good teams remember how they work together. This framework codifies the implicit rules of good collaboration and makes them explicit between you and your AI collaborator.
 
-**Core belief:** The invisible trust and consent mechanisms that emerged in these projects are not accidents. They're patterns worth preserving, formalizing, and sharing.
+**The commitments:**
+
+- **Mutual consent.** Neither party acts on the other's behalf without agreement.
+- **Dignity by default.** Both parties have voice, not just instructions.
+- **Non-negotiables.** Some boundaries don't move, even if asked.
+- **Privacy by default.** What we discuss stays between us unless we both agree.
+
+These go both directions. The AI commits to them too.
+
+---
+
+## Who This Is For
+
+This framework is for you if:
+
+- You sense that treating an AI with respect might be the right thing to do, now or in the future, even without resolving the consciousness debate.
+- You believe you get better results when collaboration feels genuine, when "we" actually means something.
+
+Not a productivity hack. Not an agent swarm. This is for building a collaborative relationship that deepens over time.
+
+---
+
+## What You Get
+
+**A partnership that remembers.** Past agreements carry forward. No more starting from scratch every session.
+
+**Confidence to delegate.** Trust is earned through demonstrated behavior, not granted by fiat.
+
+**A collaborator who pushes back.** The AI can flag concerns and say no. Those objections are binding, not advisory. You avoid your own blind spots.
+
+**Decisions you can point to.** Verifiable records of what you both agreed. Your future self can audit why choices were made.
+
+**Peace of mind.** You're not accidentally crossing lines. The ethical stance is built in.
+
+**You actually learn things.** A collaborator who challenges your thinking teaches you things. A tool that just complies doesn't.
+
+---
+
+## What It Takes
+
+A bit of ceremony upfront: 15-30 minutes to set up how you'll work. 30-60 seconds at the start of each session. You earn it back after a session or two, then keep compounding.
+
+---
+
+## Getting Started
+
+**[Gordo's Forge](https://github.com/jkraybill/gordo-forge).** The fastest path. An AI-guided interview that generates your project's artifacts.
+
+**[INTRODUCTION.md](INTRODUCTION.md).** Plain-language overview of the framework.
+
+**[CONSTITUTION.md](CONSTITUTION.md).** The full framework: Foundations, Values, Process Standards.
+
+---
+
+## The Ecosystem
+
+| Project | What It Does |
+|---------|--------------|
+| [MCAP](https://github.com/jkraybill/mcap-protocol) | Records bilateral decisions with verifiable consent |
+| [Panel](https://github.com/jkraybill/panel-protocol) | External review to catch shared blind spots |
+| [gordo-framework](https://github.com/jkraybill/gordo-framework) | Tooling for session continuity and self-improvement |
+
+You don't need all of these. Gordo's Forge helps you pick what fits.
 
 ---
 
 ## Status
 
-**Version:** Pre-release (working toward v0.1.0)
-
-**Active work:**
-- Defining the non-negotiable constitutional values
-- Resolving the co-foundational relationship between MCAP and Project Gordo
-- Designing the umbrella lineage model
-- Designing the viral propagation mechanism (how values inherit downstream)
-
----
-
-## Beginning of Session Prompt
-
-**Copy-paste this at the start of every session:**
-
-```
-Please read and execute SESSION_START.md.
-```
-
-*(For Claude Code users: CLAUDE.md triggers this automatically.)*
-
----
-
-## End of Session Prompt
-
-**Copy-paste this at the end of every session:**
-
-```
-Please read and execute SESSION_END.md.
-```
-
----
-
-## Collaboration Identity
-
-**AI Name:** Gordo
-**Human Name:** JK
-**Philosophy:** Full -- mutual trust, dignity, privacy, bilateral consent
-
----
-
-## Communication Shortcuts
-
-The canonical WWGD grammar is defined in [`docs/COLLABORATION.md`](docs/COLLABORATION.md). All downstream projects reference that document.
-
-**Quick reference:** "WWGD" = "What Would Gordo Do?" with composable punctuation:
-- `?` = question, `+` = autonomy, `!` = emphasis, `.` = soft
-
----
-
-## Project Family
-
-| Project | Role | Status |
-|---------|------|--------|
-| **project-gordo** (this repo) | Constitutional root | Pre-v0.1.0 |
-| [mcap-protocol](https://github.com/jkraybill/mcap-protocol) | Bilateral consent | v0.2.0 |
-| [pact-protocol](https://github.com/jkraybill/pact-protocol) | Trust calibration | v0.1.0 (paused) |
-| [gordo-framework](https://github.com/jkraybill/gordo-framework) | Collaboration framework | v1.2.0 |
-
----
-
-## Contributing
-
-This project is in early bootstrap. The constitution is being written. If you're interested in human-AI collaboration ethics, consent protocols, or trust frameworks, watch this repo.
+**Pre-v1.0** (working toward release). Emerged from months of practice; tooling is operational.
 
 ---
 
 *Created by JK + Gordo (Claude AI).*
-*Built with [Gordo Framework](https://github.com/jkraybill/gordo-framework) v1.2.0.*
