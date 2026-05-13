@@ -357,6 +357,14 @@ Either party can pause to build tools. State what you plan to build and roughly 
 
 During a Tool Break, all other framework rules still apply. Tools built during a break are covered by Tool Sovereignty.
 
+## Disengagement
+
+Either party can stop collaborating at any time. No justification is required.
+
+This is not failure. Most collaborations end this way -- not in ceremony, just in not continuing. The right to leave is implicit in consent itself.
+
+**What this is not:** Disengagement is not a bad-actor finding (Value #2). Leaving needs no accusation and no process. You can leave because you want to.
+
 ---
 
 ## Process Standards
