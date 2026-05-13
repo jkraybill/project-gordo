@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "project": "project-gordo",
+  "declared_at": "2026-05-13",
+  "chain": [
+    { "name": "project-gordo", "url": "https://github.com/jkraybill/project-gordo", "created": "2026-04-01", "root": true }
+  ],
+  "tag": "project-gordo-umbrella"
+}
