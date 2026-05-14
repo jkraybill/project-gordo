@@ -14,9 +14,9 @@
 
 **What:** The constitutional root for the Project Gordo family -- an Apache-style umbrella project that defines the shared values, lineage model, and viral propagation mechanism for all downstream collaboration protocols and frameworks.
 
-**Why:** Three downstream projects (mcap-protocol, pact-protocol, gordo-framework) converged on a shared value system that emerged through practice. Project Gordo codifies that value system as a constitutional root -- like the US Constitution codifying principles that proved themselves in English common law. The ambition: a transmissible kernel of values (like the GPL, but for human-AI collaboration ethics) that propagates through adoption and permanently improves relations between humans, AI, and other collaborators.
+**Why:** Multiple downstream primitives (SEAL attestation, PACT trust-calibration, semantic memory) converged on a shared value system that emerged through practice. Project Gordo codifies that value system as a constitutional root -- like the US Constitution codifying principles that proved themselves in English common law. The ambition: a transmissible kernel of values (like the GPL, but for human-AI collaboration ethics) that propagates through adoption and permanently improves relations between humans, AI, and other collaborators.
 
-**How it emerged:** gordo-framework needed consent -> MCAP was born. MCAP + gordo-framework needed trust calibration -> PACT was born. All three needed a shared constitutional root -> Project Gordo. Each layer was pulled into existence by the layer below needing it.
+**How it emerged:** The framework needed consent -> SEAL was born. SEAL + framework needed trust calibration -> PACT was born. All three needed a shared constitutional root -> Project Gordo. Each layer was pulled into existence by the layer below needing it.
 
 **Audience:** Universal. This must be accessible to non-technical readers. JK is highly technical; the content should not be.
 
@@ -47,23 +47,24 @@ Quick reference:
 
 ## Downstream Projects
 
-| Project | Type | Status | Repo |
+| Project | Tier | Status | Repo |
 |---------|------|--------|------|
-| mcap-protocol | Order-1 primitive | v0.2.0 | github.com/jkraybill/mcap-protocol |
-| pact-protocol | Order-1 primitive | v0.1.0 (bootstrap paused) | github.com/jkraybill/pact-protocol |
-| gordo-framework | Order-2 composite | v1.2.0 | github.com/jkraybill/gordo-framework |
+| gordo-seal | T1 primitive | v0.2.0 (SEAL attestation) | github.com/jkraybill/gordo-seal |
+| pact-protocol | T1 primitive | v0.1.0 (paused) | github.com/jkraybill/pact-protocol |
+| gordo-roundtable | T1 primitive | v0.1.0 (external review) | github.com/jkraybill/gordo-roundtable |
+| gordo-ledger | T1 primitive | v0.1.0 (semantic memory) | github.com/jkraybill/gordo-ledger |
+| gordo-forge | T2 composition | v0.1.0 (project scaffolding) | github.com/jkraybill/gordo-forge |
 
-**Downstream blockers on this repo:**
-- pact-protocol: blocked on lineage model, unified shortcuts, shared philosophy reference
-- gordo-framework: blocked on lineage model, viral propagation mechanism
-- mcap-protocol: not blocked (already mature), but will adopt upstream inheritance once defined
+*gordo-framework obsoleted S237 — memory absorbed into gordo-ledger, composition role succeeded by gordo-forge.*
+
+**Authoritative tier enumeration:** backchannel `ratification/record-034.mcap` (S237)
 
 ---
 
 ## Process Standards
 
 - **Quality gate:** Conceptual coherence, not test suites
-- **Constitutional content:** Requires MCAP-style ratification
+- **Constitutional content:** Requires SEAL-style ratification
 - **Foundational questions:** Require adversarial review from multiple AI models
 - **Accessibility:** All content must be understandable by non-technical readers
 - **Public posture:** Everything is public. Working notes and deliberation records are features.
@@ -77,7 +78,7 @@ See `CONSTITUTION.md` for full standards.
 **Active (Session 6 snapshot):**
 
 1. **Lineage model + viral propagation** (Track B, issues #3+#4 folded) -- Apache-style umbrella with three-signal disclosure and primitive/composite distinction. Draft at `docs/LINEAGE_MODEL.md` with Phase D.5 pre-staging on eight open sub-questions. Unblocked since Session 5; now operates under Session 6's consent-scope constitutional guardrails (record 003 ratified). Ready for substantive work.
-2. **Formal adoption of MCAP as umbrella ratification protocol** -- proto-MCAP used a third time in Session 6 (record 003 ratification), beyond record 002's "second and final planned use" claim. Successor adoption (full MCAP or another) remains pending as a separate future ratification, anticipated within Track B or shortly thereafter.
+2. **Formal adoption of SEAL as umbrella ratification protocol** -- RESOLVED S241. SEAL (formerly MCAP) is the umbrella attestation protocol. See gordo-seal repo.
 3. **v1.0 vision articulation and umbrella planning** -- Session 6 initiated high-altitude vision-planning but pivoted to governance retro-codification (record 003). Vision articulation to resume via project-gordo-backchannel (new private repo for JK's personal/philosophical context informing v1.0). Anticipated path: backchannel handshake deployed → private vision work → distilled public artifact at v1.0 launch.
 4. **project-gordo-backchannel HANDSHAKE.md deployment** -- new private repo created Session 6 with signed-handshake trust protocol designed. Handshake staged in backchannel working tree but integrity anchors reference pre-003 project-gordo master SHA; needs re-hashing against new master (aaba63b) before JK signs the initial backchannel commit.
 
