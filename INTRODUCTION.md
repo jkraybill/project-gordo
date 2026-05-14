@@ -54,9 +54,9 @@ How decisions get made, how changes get ratified, how disagreements get resolved
 
 ### Protocols (Tier 1)
 Tools that implement the principles:
-- **MCAP** — cryptographic consent records
-- **PACT** — trust calibration (in development)
-- **Panel Protocol** — external review methodology
+- **Seal** — cryptographic consent records
+- **Pact** — trust calibration (in development)
+- **Roundtable** — external review methodology
 
 ---
 

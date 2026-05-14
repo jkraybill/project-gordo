@@ -9,26 +9,26 @@ This glossary covers operational and process terms. Foundational terms (consent,
 ## Architecture
 
 **Tier 0 / Tier 1 / Tier 2**
-The framework's modularity layers. Tier 0 is the constitution (Foundations, Values, Process Standards). Tier 1 comprises primitives that implement Tier 0 principles (MCAP, PACT, panel-protocol). Tier 2 comprises composite frameworks and tooling built on Tier 0 and Tier 1 (gordo-framework). *Defined in CONSTITUTION.md.*
+The framework's modularity layers. Tier 0 is the constitution (Foundations, Values, Process Standards). Tier 1 comprises primitives that implement Tier 0 principles (Seal, Pact, Roundtable). Tier 2 comprises composite frameworks and tooling built on Tier 0 and Tier 1 (Forge, Ledger). *Defined in CONSTITUTION.md.*
 
 **Umbrella**
 The Project Gordo umbrella: the collection of projects that inherit the Tier 0 constitution. A project "under the umbrella" commits to the Foundations and Values.
 
 **Phase C**
-The third phase of constitutional content workflow. Phase A: draft and deliberate. Phase B: ratify via MCAP. Phase C: place the ratified content in Tier 0 (edit CONSTITUTION.md or COLLABORATION.md). Separates substance-ratification from location-placement.
+The third phase of constitutional content workflow. Phase A: draft and deliberate. Phase B: ratify via Seal. Phase C: place the ratified content in Tier 0 (edit CONSTITUTION.md or COLLABORATION.md). Separates substance-ratification from location-placement.
 
 ---
 
 ## Protocols
 
-**MCAP** (Multilateral Consent Attestation Protocol)
-A Tier 1 primitive for verifiable consent records. Produces cryptographically signed documents attesting that parties agreed to specific content. Used for constitutional changes, trust calibration, and bilateral decisions that need audit trails. Spec at mcap-protocol repo.
+**Seal** (Mutual Consent Attestation Protocol)
+A Tier 1 primitive for verifiable consent records. Produces cryptographically signed documents attesting that parties agreed to specific content. Used for constitutional changes, trust calibration, and bilateral decisions that need audit trails. Spec at gordo-seal repo.
 
 **CRP** (Calibrated Ratification Process)
 A Tier 0 Process Standard governing how constitutional changes are ratified. Calibrates procedural ceremony to stakes: routine changes get light process; constitutional changes get full bilateral attestation.
 
 **Ratification**
-The process of formally adopting content into the framework. For constitutional content, ratification requires bilateral consensus documented via MCAP.
+The process of formally adopting content into the framework. For constitutional content, ratification requires bilateral consensus documented via Seal.
 
 **Handshake**
 Trust-bootstrap verification at session start. Confirms that the collaboration is operating under the expected constitutional framework by checking anchor SHAs and prior session continuity.
@@ -44,7 +44,7 @@ The canonical format for enumerating consent points. When content requires bilat
 A single enumerated consent item in z-grammar format. Reserved for Tier 0 (constitutional) decisions. Example: "z1: We adopt Foundation X" / "z2: We defer Foundation Y to post-v1."
 
 **z-statement**
-The Party Statement section of an MCAP record that enumerates z-points. Each party drafts their own z-statement from scratch.
+The Party Statement section of a Seal record that enumerates z-points. Each party drafts their own z-statement from scratch.
 
 **bilateral**
 Involving both parties as equals in decision-making. "Bilateral consensus" means both parties explicitly agreed. Note: in human-AI collaboration, "bilateral" is currently aspirational — structural asymmetries exist (see #185).
@@ -70,7 +70,7 @@ Communication convention: plain language, low reference-tracking density, right-
 ## Process Terms
 
 **keyhole / keyhole process**
-The process for flowing content from private deliberation (backchannel) to public artifacts (downstream repos). Requires bilateral consent at distillation and at publication. Calibrated by content tier: T0 gets full MCAP; T1/T2 gets explicit in-session consent.
+The process for flowing content from private deliberation (backchannel) to public artifacts (downstream repos). Requires bilateral consent at distillation and at publication. Calibrated by content tier: T0 gets full Seal ceremony; T1/T2 gets explicit in-session consent.
 
 ---
 
