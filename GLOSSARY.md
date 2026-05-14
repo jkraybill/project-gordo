@@ -9,7 +9,7 @@ This glossary covers operational and process terms. Foundational terms (consent,
 ## Architecture
 
 **Tier 0 / Tier 1 / Tier 2**
-The framework's modularity layers. Tier 0 is the constitution (Foundations, Values, Process Standards). Tier 1 comprises primitives that implement Tier 0 principles (Seal, Pact, Roundtable). Tier 2 comprises composite frameworks and tooling built on Tier 0 and Tier 1 (Forge, Ledger). *Defined in CONSTITUTION.md.*
+The framework's modularity layers. Tier 0 is the constitution (Foundations, Values, Process Standards). Tier 1 comprises primitives that implement Tier 0 principles (Seal, Gauge, Roundtable). Tier 2 comprises composite frameworks and tooling built on Tier 0 and Tier 1 (Forge, Ledger). *Defined in CONSTITUTION.md.*
 
 **Umbrella**
 The Project Gordo umbrella: the collection of projects that inherit the Tier 0 constitution. A project "under the umbrella" commits to the Foundations and Values.

@@ -55,7 +55,7 @@ How decisions get made, how changes get ratified, how disagreements get resolved
 ### Protocols (Tier 1)
 Tools that implement the principles:
 - **Seal** — cryptographic consent records
-- **Pact** — trust calibration (in development)
+- **Gauge** — trust calibration (in development)
 - **Roundtable** — external review methodology
 
 ---
