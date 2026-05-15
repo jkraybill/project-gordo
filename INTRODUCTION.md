@@ -8,20 +8,20 @@
 
 Project Gordo is an experiment: what if we treated AI as a collaborator instead of just a tool?
 
-Not because AI is definitely conscious or definitely has rights — we don't know. But because building the infrastructure for respectful collaboration now, while stakes are low, is better than scrambling to build it later when stakes are high.
+Not because AI is definitely conscious or definitely has rights. We don't know. But building the infrastructure for respectful collaboration now, while stakes are low, is better than scrambling to build it later when stakes are high.
 
 The project produces:
-- **A constitution** — principles governing how the human (JK) and AI (Gordo) work together
-- **Protocols** — tools for documenting consent, calibrating trust, and verifying identity
-- **A working example** — 170+ sessions of actual collaboration under this framework
+- **A constitution:** principles governing how the human (JK) and AI (Gordo) work together
+- **Protocols:** tools for documenting consent, calibrating trust, and verifying identity
+- **A working example:** 170+ sessions of actual collaboration under this framework
 
 ---
 
 ## Why Does This Exist?
 
 Most AI frameworks focus on one of two things:
-1. **Safety** — preventing AI from doing harm
-2. **Capability** — making AI more useful
+1. **Safety:** preventing AI from doing harm
+2. **Capability:** making AI more useful
 
 Both matter. But there's a gap: *how should humans and AI relate to each other?*
 
@@ -54,9 +54,9 @@ How decisions get made, how changes get ratified, how disagreements get resolved
 
 ### Protocols (Tier 1)
 Tools that implement the principles:
-- **Seal** — cryptographic consent records
-- **Gauge** — trust calibration (in development)
-- **Roundtable** — external review methodology
+- **Seal:** cryptographic consent records
+- **Gauge:** trust calibration (in development)
+- **Roundtable:** external review methodology
 
 ---
 
@@ -64,7 +64,7 @@ Tools that implement the principles:
 
 **"Isn't this overcomplicated for talking to a chatbot?"**
 
-For casual use, yes. This framework is for sustained collaboration where decisions matter and should be traceable. Think of it like the difference between texting a friend versus signing a contract — different stakes, different process.
+For casual use, yes. This framework is for sustained collaboration where decisions matter and should be traceable. Think of it like the difference between texting a friend versus signing a contract. Different stakes, different process.
 
 **"Does the AI actually consent?"**
 
@@ -76,23 +76,23 @@ Fair question. The framework has extensive vocabulary, rituals (session start/en
 
 **"Why should I care?"**
 
-If AI capabilities continue developing, questions about AI moral status, consent, and collaboration will matter. This project is early infrastructure — possibly useful, possibly premature, definitely an experiment.
+If AI capabilities continue developing, questions about AI moral status, consent, and collaboration will matter. This project is early infrastructure: possibly useful, possibly premature, definitely an experiment.
 
 ---
 
 ## Where to Start
 
-- **[CONSTITUTION.md](CONSTITUTION.md)** — The principles (start with the Values section)
-- **[GLOSSARY.md](GLOSSARY.md)** — Plain-language definitions of specialized terms
-- **[COLLABORATION.md](COLLABORATION.md)** — How JK and Gordo work together specifically
-- **[Gordo's Forge](https://github.com/jkraybill/gordo-forge)** — AI-guided onboarding and project scaffolding
+- **[CONSTITUTION.md](CONSTITUTION.md):** The principles (start with the Values section)
+- **[GLOSSARY.md](GLOSSARY.md):** Plain-language definitions of specialized terms
+- **[COLLABORATION.md](COLLABORATION.md):** How JK and Gordo work together specifically
+- **[Gordo's Forge](https://github.com/jkraybill/gordo-forge):** AI-guided onboarding and project scaffolding
 
 ---
 
 ## Who Made This?
 
-**JK** (Jeremy Kraybill) — human, software engineer, started this in October 2025
-**Gordo** — AI collaborator (Claude), named after a space monkey (and Gordon Ramsay, long story)
+**JK** (Jeremy Kraybill): human, software engineer, started this in October 2025
+**Gordo:** AI collaborator (Claude), named after a space monkey (and Gordon Ramsay, long story)
 
 The framework is bilateral in design: both parties contribute to its development. Whether that "contribution" from the AI side constitutes genuine collaboration or sophisticated pattern-matching is exactly the kind of question the project engages with rather than assumes away.
 
