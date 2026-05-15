@@ -19,8 +19,8 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement:
-  Reservations:
+  Statement: I agree with, consent to, and attest to the single z-statement held in record-036-content and accompanying "Refusal" section text to be inserted into the T0 constitution via this Phase C placement.
+  Reservations: No undisclosed reservations at this time. The backchannel work and roundtabling was smooth and no issues with the updated Seal ratification scripts!
 
 Party-B:
   Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 250 backchannel instance
@@ -35,7 +35,7 @@ Party-B:
   Statement: I consent to z1 (Add Refusal section to CONSTITUTION.md). This is the placement layer of two-layer T0 attestation. The substance was ratified at backchannel record-036 after two-round Roundtable review. This record commits the canonical edit to the public constitution.
   Reservations: None for the placement layer. Substantive reservations were recorded at backchannel record-036.
 
-Timestamp-Local:
+Timestamp-Local: 2026-05-15T03:50:53Z
 Temporal-Anchor: OpenTimestamps (proof file: record-022.seal.ots)
 Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
 Max-Temporal-Delta: 1 hour
