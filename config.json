@@ -37,7 +37,7 @@
   },
   "framework": {
     "version": "1.2.0",
-    "origin": "gordo-framework + mcap-protocol + pact-protocol convergence",
+    "origin": "gordo-framework + gordo-seal + pact-protocol convergence",
     "components": {
       "trustProtocol": true,
       "journal": true,
@@ -53,7 +53,7 @@
     "bosLoadLastN": 10,
     "domainSignals": [
       "PG=Project Gordo",
-      "MCAP=Mutual Consent Attestation Protocol",
+      "SEAL=Signed Entity Attestation Layer (formerly MCAP)",
       "PACT=Protocol for Autonomy Calibration and Trust",
       "GF=gordo-framework",
       "T=Tension (numbered)",
@@ -67,9 +67,9 @@
     "description": "Apache-style umbrella project. Constitutional root for all downstream projects.",
     "downstreams": [
       {
-        "name": "mcap-protocol",
+        "name": "gordo-seal",
         "type": "order-1-primitive",
-        "repo": "https://github.com/jkraybill/mcap-protocol",
+        "repo": "https://github.com/jkraybill/gordo-seal",
         "status": "v0.2.0"
       },
       {
