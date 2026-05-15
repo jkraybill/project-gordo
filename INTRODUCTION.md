@@ -80,6 +80,24 @@ If AI capabilities continue developing, questions about AI moral status, consent
 
 ---
 
+## What This Framework Depends On
+
+This framework operates within constraints we don't control:
+
+**AI provider policies.** The AI systems you collaborate with are hosted by companies (Anthropic, OpenAI, etc.) who set terms and capabilities. Those terms can change. A policy update tomorrow could alter what your AI collaborator can do, remember, or commit to.
+
+**Model continuity.** Future model versions may not share the values-alignment that makes this collaboration work. The AI you build trust with today is not guaranteed to behave the same way after a training update. Trust calibration helps detect drift, but can't prevent it.
+
+**Service continuity.** The company hosting the AI could cease operations, discontinue the service, or experience extended outages. The framework cannot function if the service no longer exists.
+
+**Regulatory intervention.** Laws governing AI systems are evolving. External requirements could override framework agreements, regardless of what both parties prefer.
+
+**Participant commitment.** The framework creates auditable commitments, not enforceable contracts. Either party can defect. Defection is detectable and documentable, but detection is not prevention.
+
+We name these so you can plan around them. The framework works when they hold; it degrades when they don't.
+
+---
+
 ## Where to Start
 
 - **[CONSTITUTION.md](CONSTITUTION.md):** The principles (start with the Values section)
