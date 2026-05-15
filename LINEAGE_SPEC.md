@@ -72,10 +72,10 @@ The chain walks **upward** from the claiming project to the constitutional root:
 ```json
 {
   "version": 1,
-  "project": "mcap-protocol",
+  "project": "gordo-seal",
   "declared_at": "2026-05-13",
   "chain": [
-    { "name": "mcap-protocol", "url": "https://github.com/jkraybill/mcap-protocol", "created": "2026-04-01" },
+    { "name": "gordo-seal", "url": "https://github.com/jkraybill/gordo-seal", "created": "2026-04-01", "formerly": "mcap-protocol" },
     { "name": "project-gordo", "url": "https://github.com/jkraybill/project-gordo", "root": true }
   ],
   "tag": "project-gordo-umbrella"
