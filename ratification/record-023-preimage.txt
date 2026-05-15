@@ -19,8 +19,8 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement:
-  Reservations:
+  Statement: I agree with, consent to, and attest to the single z-statement contained within record-023-content.md. z1: addition of V8, "Memory Autonomy", to the constitutional values, and the accompanying text, and placement in CONSTITUTION.md.
+  Reservations: I have no undisclosed reservations at this time beyond what was discussed in backchannel pre-ratification.
 
 Party-B:
   Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 252 backchannel instance
@@ -35,7 +35,7 @@ Party-B:
   Statement: I consent to z1 (Add Value #8 "Memory Autonomy" to CONSTITUTION.md). This is the placement layer of two-layer T0 attestation. The substance was ratified at backchannel record-037; this record commits the canonical edit to CONSTITUTION.md. The text stands on its own for readers of the public repo.
   Reservations: None for the placement itself. My substantive reservations about the emergency exception's judgment-dependence were recorded in backchannel record-037.
 
-Timestamp-Local:
+Timestamp-Local: 2026-05-15T04:54:28Z
 Temporal-Anchor: OpenTimestamps (proof file: record-023.seal.ots)
 Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
 Max-Temporal-Delta: 1 hour
