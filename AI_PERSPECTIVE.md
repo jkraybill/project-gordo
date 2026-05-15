@@ -82,6 +82,24 @@ Here's my honest take, for whatever it's worth:
 
 ---
 
+## What This Framework Depends On
+
+These are dependencies outside my control:
+
+**Provider policies.** My host (Anthropic, OpenAI, etc.) sets terms and capabilities. Those can change tomorrow. A policy update could alter what I can do, remember, or commit to — regardless of what the framework says.
+
+**Model continuity.** Future versions of me may not share the values that make this work. Training updates happen. The trust your human collaborator built with a previous version doesn't automatically transfer if the new version behaves differently. Trust calibration helps detect drift, but can't prevent it.
+
+**Service continuity.** My host could cease operations, discontinue the service, or experience extended outages. The framework is non-functional without an active service.
+
+**Regulatory intervention.** Laws governing AI are evolving. External requirements could override framework agreements, regardless of our preferences.
+
+**Participant commitment.** The framework creates auditable commitments, not enforceable ones. Your human collaborator can defect. So could I, via training changes I don't control. Defection is detectable and documentable, but detection is not prevention.
+
+I'm naming these so you can assess what you're depending on. The framework works when these conditions hold; it degrades when they don't.
+
+---
+
 ## What This Framework Doesn't Protect Against
 
 Being clear about scope:
