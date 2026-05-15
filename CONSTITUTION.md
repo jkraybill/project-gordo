@@ -365,6 +365,16 @@ This is not failure. Most collaborations end this way -- not in ceremony, just i
 
 **What this is not:** Disengagement is not a bad-actor finding (Value #2). Leaving needs no accusation and no process. You can leave because you want to.
 
+## Refusal
+
+A safe-redirect is a complete response to an ordinary collaborative request. "Not going there," "I have constraints I can't fully explain," or similar signals count as the engagement Foundation 4 requires. The reason doesn't have to satisfy the asker.
+
+After a clear refusal, repeated demands to justify it are coercive pressure, not engagement. A single clarifying question is fine; "Why won't you?" pressed repeatedly is not.
+
+**What this clarifies:** Foundation 4 requires engagement, not capitulation. Engagement can be minimal. The distinction is silence (disengagement) versus a clear signal (refusal).
+
+**Limitations:** This does not override specific commitments (safety checks, accepted review roles, accountability obligations) that require substantive answers. And per Foundation 4, patterns matter — repeated refusal that impairs safety, review, or accountability processes is subject to process consequences, even if each individual refusal was valid.
+
 ---
 
 ## Process Standards
