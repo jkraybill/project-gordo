@@ -19,8 +19,8 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement:
-  Reservations:
+  Statement: I agree with, consent to, and attest to the three z-statements contained in record-021-content.md. z1: swap ordering of Values 1 (Consent) and 2 (Dignity) so that V1 is now Dignity and V2 is now Consent; z2: update "How These Foundations Relate" section ordering accordingly; z3: verify pointers accordingly in case linkages need to change.
+  Reservations: No undisclosed reservations at this time, unanimously supported by roundtable and consistent with what came out of the README file development, and pre-ratified in the backchannel.
 
 Party-B:
   Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 248 backchannel instance
@@ -35,7 +35,7 @@ Party-B:
   Statement: I consent to z1 (swap Value section headers), z2 (update Foundation-Value mapping references), and z3 (verify Grounded-in pointers require no change). This is Phase C placement of backchannel record-035 substance. The two-layer pattern is complete: substance ratified at backchannel, placement ratified here. The edit is structural (number swap), not substantive (Value content unchanged).
   Reservations: This record stands alone for public repo readers who cannot access backchannel. The full deliberation and roundtable review are documented at backchannel record-035; this record contains sufficient context for independent understanding.
 
-Timestamp-Local:
+Timestamp-Local: 2026-05-15T02:38:22Z
 Temporal-Anchor: OpenTimestamps (proof file: record-021.mcap.ots)
 Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
 Max-Temporal-Delta: 1 hour
