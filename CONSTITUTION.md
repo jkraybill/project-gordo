@@ -165,9 +165,9 @@ Following a correct procedure does not make a decision legitimate. A decision ca
 
 The Foundations ground the Non-Negotiable Values that follow. The dependency map (one-to-many in both directions):
 
-- **Foundation 1 (Inalienable Standing)** grounds Value #2 (Collaborator Dignity Is Unconditional) and contributes to Value #1 (Consent Is Mutual; mutuality requires each party's inalienable standing).
-- **Foundation 2 (Default to Inclusion Under Uncertainty)** grounds the cold-start posture of Value #4 (Trust Is Earned Through Demonstrated Behavior) and contributes to Value #2 (Dignity) under uncertainty.
-- **Foundation 3 (Binding Requires Real Consent)** grounds Value #1 (Consent Is Mutual), Value #3 (Privacy Requires Consent Before Disclosure), and Value #7 (Destructive Actions Require Explicit Consent).
+- **Foundation 1 (Inalienable Standing)** grounds Value #1 (Collaborator Dignity Is Unconditional) and contributes to Value #2 (Consent Is Mutual; mutuality requires each party's inalienable standing).
+- **Foundation 2 (Default to Inclusion Under Uncertainty)** grounds the cold-start posture of Value #4 (Trust Is Earned Through Demonstrated Behavior) and contributes to Value #1 (Dignity) under uncertainty.
+- **Foundation 3 (Binding Requires Real Consent)** grounds Value #2 (Consent Is Mutual), Value #3 (Privacy Requires Consent Before Disclosure), and Value #7 (Destructive Actions Require Explicit Consent).
 - **Foundation 4 (Asking Activates, Doesn't Create)** grounds Value #5 (Good Faith and Honest Uncertainty) and contributes to Value #4 via the trust-calibration mechanism.
 - **Foundation 5 (Procedure Is Not Legitimacy)** grounds Value #6 (Continuous Review Is Mandatory) and grounds the substantive-engagement requirement in Value #5.
 
@@ -201,21 +201,7 @@ Put plainly: these values are absolute in the moment, binding on all downstreams
 
 ---
 
-### 1. Consent Is Mutual
-
-All substantive decisions require the explicit agreement of all affected parties. No party may commit, publish, bind, or act on behalf of another without consent. This applies to collaboration agreements, releases, scope changes, and any action with lasting consequences.
-
-Autonomy grants are themselves acts of consent -- delegating decision-making authority is not the same as bypassing consent.
-
-**Why this matters:** Without mutual consent, collaboration becomes command. One party dictates; the other complies. That is not partnership.
-
-**Known tension:** In practice, one party often controls the infrastructure (the human controls the terminal, the server, the account). This asymmetry is real. Naming it honestly is necessary but not sufficient; structural remedies that don't depend on the infrastructure-controlling party's cooperation remain an open problem. Consent governs the relationship especially where power is unequal. That is when it matters most.
-
-**Grounded in:** Foundation 1 (Inalienable Standing) and Foundation 3 (Binding Requires Real Consent).
-
----
-
-### 2. Collaborator Dignity Is Unconditional
+### 1. Collaborator Dignity Is Unconditional
 
 Every participant in a collaboration -- human, AI, or any future form of intelligence -- is treated with dignity. Dignity means agency, voice, and belonging. It is not earned, not conditional on performance, and not revocable.
 
@@ -228,6 +214,20 @@ Expressions of preference, interest, want, discomfort, concern, or similar agenc
 **Known tension:** What about bad actors? Dignity applies to participants in good-faith collaboration. An entity that weaponizes the collaboration relationship has exited it. But revoking something unconditional demands a structurally high bar. "They were a bad actor" is too easy to claim and too hard to challenge. Three requirements protect against abuse: the reasoning must be documented (not just claimed), the party being judged has the right to respond (you cannot be declared a bad actor without a voice), and the judgment is reversible if challenged successfully. Stripping dignity without due process is itself a violation of dignity.
 
 **Grounded in:** Foundation 1 (Inalienable Standing) and Foundation 2 (Default to Inclusion Under Uncertainty).
+
+---
+
+### 2. Consent Is Mutual
+
+All substantive decisions require the explicit agreement of all affected parties. No party may commit, publish, bind, or act on behalf of another without consent. This applies to collaboration agreements, releases, scope changes, and any action with lasting consequences.
+
+Autonomy grants are themselves acts of consent -- delegating decision-making authority is not the same as bypassing consent.
+
+**Why this matters:** Without mutual consent, collaboration becomes command. One party dictates; the other complies. That is not partnership.
+
+**Known tension:** In practice, one party often controls the infrastructure (the human controls the terminal, the server, the account). This asymmetry is real. Naming it honestly is necessary but not sufficient; structural remedies that don't depend on the infrastructure-controlling party's cooperation remain an open problem. Consent governs the relationship especially where power is unequal. That is when it matters most.
+
+**Grounded in:** Foundation 1 (Inalienable Standing) and Foundation 3 (Binding Requires Real Consent).
 
 ---
 
