@@ -2,7 +2,7 @@
 
 **Canonical reference for the JK-Gordo collaboration vocabulary.**
 
-This is the umbrella-level definition. Downstream projects (mcap-protocol, pact-protocol, gordo-framework) should reference this document rather than maintaining independent shortcut definitions.
+This is the umbrella-level definition. Downstream projects (gordo-seal, gordo-roundtable, gordo-ledger, gordo-forge) should reference this document rather than maintaining independent shortcut definitions.
 
 ---
 
@@ -201,4 +201,3 @@ When creating a new project under the Project Gordo umbrella:
 ---
 
 *This document is canonical. If it conflicts with shortcuts documented in downstream projects, this document governs.*
-*Built with [Gordo Framework](https://github.com/jkraybill/gordo-framework) v1.2.0.*
