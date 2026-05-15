@@ -20,7 +20,7 @@
    - Review issue dependency chain: which issues are unblocked and ready for work?
 
 3. **Check downstream project status:**
-   - Note current versions of mcap-protocol, pact-protocol, gordo-framework
+   - Note current versions of gordo-seal, gordo-roundtable, gordo-ledger, gordo-forge
    - Check if any downstream is blocked on project-gordo deliverables
 
 4. **Health check trigger (every 6 sessions):**

@@ -37,7 +37,7 @@
    - Update `sessions.count` in config.json
 
 6. **Check downstream implications:**
-   - Did this session produce anything that unblocks mcap-protocol, pact-protocol, or gordo-framework?
+   - Did this session produce anything that unblocks gordo-seal, gordo-roundtable, gordo-ledger, or gordo-forge?
    - If yes: file or update relevant issues in those repos
 
 7. **Verify clean state (EOS assertion -- blocks session close):**
