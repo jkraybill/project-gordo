@@ -2,6 +2,8 @@
 
 **Status: DRAFT -- NOT YET RATIFIED**
 
+**Note (S245):** This draft predates the current umbrella structure. Authoritative tier enumeration is now at `ratification/record-034.mcap`. The "three downstreams" examples below use historical names (mcap-protocol → gordo-seal, gordo-framework → obsoleted/split into gordo-forge + gordo-ledger). The design principles remain valid; the examples need updating if this draft is ever ratified.
+
 **Covers:** Issues [#3](https://github.com/jkraybill/project-gordo/issues/3) (umbrella lineage model) and [#4](https://github.com/jkraybill/project-gordo/issues/4) (viral propagation), folded into one coherent design per Session 3 decision.
 
 **Ratification requires:** multi-model adversarial review, then proto-MCAP-style ratification. Until then, this is proposal text authored by Gordo, not constitutional law.
