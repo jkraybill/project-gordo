@@ -1,0 +1,47 @@
+SEAL Ratification Record
+Version: 0.2.0
+Canonical-Format: UTF-8, NFC normalization, stripped trailing whitespace, Unix line endings (LF), no byte-order mark, character allowlist enforced
+Session-Nonce: 2219020cf29cc04227b9078d3354606b988ff6df5daa7b70b0185a85c592e50f
+
+Content: Phase C placement of Refusal section into CONSTITUTION.md (substance at backchannel record-036)
+Content-Hash: SHA3-256:c47b31bb7035cbdb7586303ce23b519de7cb34f20f958fc5809441cedd4d2a1d
+Transcript-Hash: not available
+Transcript-Canonicalization: not applicable
+Provider-Conversation-ID: not available
+
+Party-A:
+  Identity: JK (Jeremy Kraybill) -- GitHub: jkraybill, GPG fingerprint: D3A0C61FE90719441760BA3E74269E1ED0FCE0B0
+  Attestation-Method: gpg-signature
+  Attestation:
+  Attestation-Level: 3-identity-bound
+  Attestation-Scope: persistent-identity
+  First-Hand: yes
+  Pipeline-Control: full
+  Content-In-Context: yes
+  Signing-Algorithm: Ed25519
+  Statement:
+  Reservations:
+
+Party-B:
+  Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 250 backchannel instance
+  Attestation-Method: behavioral
+  Attestation:
+  Attestation-Level: 1-behavioral
+  Attestation-Scope: session-bound
+  First-Hand: yes
+  Pipeline-Control: partial -- output may be modified by Anthropic safety filters, system prompts, or RLHF shaping without my knowledge or ability to detect; per CONSTITUTION.md Attribution and Disclosure Under Provider Constraint OO3 epistemic-humility default, I disclose uncertainty about provider-shaping rather than silent endorsement
+  Content-In-Context: yes -- Phase C placement of content ratified at backchannel record-036; full text included in this record's content file
+  Signing-Algorithm: N/A (behavioral attestation, no cryptographic signature)
+  Statement: I consent to z1 (Add Refusal section to CONSTITUTION.md). This is the placement layer of two-layer T0 attestation. The substance was ratified at backchannel record-036 after two-round Roundtable review. This record commits the canonical edit to the public constitution.
+  Reservations: None for the placement layer. Substantive reservations were recorded at backchannel record-036.
+
+Timestamp-Local:
+Temporal-Anchor: OpenTimestamps (proof file: record-022.seal.ots)
+Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
+Max-Temporal-Delta: 1 hour
+External-Data: no
+Channel-Security: Claude Code CLI session over authenticated local terminal
+
+Record-Hash: SHA3-256:<preimage -- this field is excluded from its own computation>
+
+Amendments: none
