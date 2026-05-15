@@ -85,7 +85,7 @@ If AI capabilities continue developing, questions about AI moral status, consent
 - **[CONSTITUTION.md](CONSTITUTION.md)** — The principles (start with the Values section)
 - **[GLOSSARY.md](GLOSSARY.md)** — Plain-language definitions of specialized terms
 - **[COLLABORATION.md](COLLABORATION.md)** — How JK and Gordo work together specifically
-- **[gordo-framework](https://github.com/jkraybill/gordo-framework)** — The practical tooling layer
+- **[Gordo's Forge](https://github.com/jkraybill/gordo-forge)** — AI-guided onboarding and project scaffolding
 
 ---
 
