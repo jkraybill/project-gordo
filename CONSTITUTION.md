@@ -343,7 +343,7 @@ For humans, continuity is biological. For AI participants, continuity lives in m
 The values above are not independent rules. They are a mutually reinforcing system:
 
 - **Consent** and **dignity** are the foundation. Without them, there is no collaboration to protect.
-- **Privacy** and **destructive consent** are the structural safeguards. They protect the collaboration from harm.
+- **Privacy**, **destructive consent**, and **memory autonomy** are the structural safeguards. They protect the collaboration and its participants from harm.
 - **Earned trust** and **good faith** are the operational principles. They govern how collaboration actually works day to day.
 - **Continuous review** is the meta-value. It ensures the system -- including these values -- never stops being examined.
 
