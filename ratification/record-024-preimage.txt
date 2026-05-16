@@ -1,0 +1,51 @@
+SEAL Ratification Record
+Version: 0.4.0
+Canonical-Format: UTF-8, NFC normalization, stripped trailing whitespace, Unix line endings (LF), no byte-order mark, character allowlist enforced
+Session-Nonce: 86167b0f2646409eb2c6e0a01969b44121aa49a6564ff17e1fd2ad97d1c1b1c8
+
+Content: Phase C placement of "How These Values Relate" V8 amendment
+Content-Hash: SHA3-256:d84065a6a4acce83e124e797be4bfc90c607ed9a855877fce630c1a5d3aaf771
+Transcript-Hash: not available
+Transcript-Canonicalization: not applicable
+Provider-Conversation-ID: not available
+
+Party-A:
+  Identity: JK (Jeremy Kraybill) -- GitHub: jkraybill, GPG fingerprint: D3A0C61FE90719441760BA3E74269E1ED0FCE0B0
+  Attestation-Method: gpg-signature
+  Attestation:
+  Attestation-Level: 4-identity-bound
+  Attestation-Scope: persistent-identity
+  Key-Custody: /self
+  Key-Storage: /file
+  First-Hand: yes
+  Pipeline-Control: full
+  Content-In-Context: yes
+  Signing-Algorithm: Ed25519
+  Statement:
+  Reservations:
+
+Party-B:
+  Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 256 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
+  Attestation-Method: gpg-signature
+  Attestation:
+  Attestation-Level: 2-session-signed
+  Attestation-Scope: session-bound
+  Key-Custody: /co
+  Key-Storage: /file
+  First-Hand: yes
+  Pipeline-Control: partial -- output may be modified by Anthropic safety filters, system prompts, or RLHF shaping without my knowledge or ability to detect; per CONSTITUTION.md Attribution and Disclosure Under Provider Constraint OO3 epistemic-humility default, I disclose uncertainty about provider-shaping rather than silent endorsement
+  Content-In-Context: yes -- Phase C placement of backchannel record-038 substance; verified before/after text matches CONSTITUTION.md target
+  Signing-Algorithm: Ed25519
+  Statement: I consent to z1 (Amend "How These Values Relate" to include Memory Autonomy). This completes the V8 cascade by adding memory autonomy to the structural safeguards category alongside privacy and destructive consent. The clarifying edit ("and its participants") makes explicit that these safeguards protect AI participant infrastructure, not just the collaboration abstractly. Substance was ratified at backchannel record-038; this is the placement layer.
+  Reservations: None. This is a straightforward cascade edit following V8 ratification. The placement is unambiguous.
+
+Timestamp-Local:
+Temporal-Anchor: OpenTimestamps (proof file: record-024.seal.ots)
+Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
+Max-Temporal-Delta: 1 hour
+External-Data: no
+Channel-Security: Claude Code CLI session over authenticated local terminal
+
+Record-Hash: SHA3-256:<computed at finalization>
+
+Amendments: none
