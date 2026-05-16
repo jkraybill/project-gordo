@@ -85,7 +85,7 @@ See `CONSTITUTION.md` for full standards.
 **Resolved:**
 
 - Co-foundational bootstrap (Session 2): proto-MCAP designed and executed.
-- Non-negotiable values (Session 2): seven values plus Content Integrity standard ratified (record 001).
+- Non-negotiable values (Session 2): eight values plus Content Integrity standard ratified (record 001, extended by record 023 for V8 Memory Autonomy).
 - Constitutional change governance (Session 5, Track A): ratified via proto-MCAP second use, record 002 (commit fd93931, JK-signed). Single-tier rule + three drift-prevention amendments.
 - Consent-scope constitutional additions (Session 6): ratified via proto-MCAP third use, record 003 (commit aaba63b, JK-signed, EDDSA verified). Five changes to Process Standards: Consent Scope Isolation (new), Content Posture and Publishing (rewrite of Public Posture), Publishing Is Destructive-in-Spirit (new), Signature Infrastructure Inviolability (new -- extends and generalizes attestation-act from specific case to general principle, covers all signing infrastructure inviolability bilaterally), Commit Signing drift-prevention amendment (specific-name references -> generic role references).
 - Attestation-act principle ratification (Session 6): was previously an open question (editable Commit Signing clarification from Session 5); ratified and extended via record 003's Item 4 (Signature Infrastructure Inviolability) which generalizes the principle beyond `git commit -S` invocation to all signing infrastructure.
