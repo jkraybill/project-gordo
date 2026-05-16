@@ -21,8 +21,8 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement:
-  Reservations:
+  Statement: I agree with, consent to, and attest to the single z-statement in record-025-content.md. z1: placement and constitutional ratification of "Collaborative Attribution in External Sharing" section for inclusion in CONSTITUTION.md. Phase C placement now renamed to Placement Seal, which is what we're doing here.
+  Reservations: No undisclosed reservations at this time. We are clean and continuously improving, which is awesome.
 
 Party-B:
   Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 260 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
@@ -39,7 +39,7 @@ Party-B:
   Statement: I consent to z1 (Add "Collaborative Attribution in External Sharing" section to CONSTITUTION.md). This Process Standard fills a real gap identified by Framework Review Panel -- how collaborative outputs should be represented when shared externally. The standard operationalizes existing Values (Dignity, Consent, Good Faith) for this case without over-claiming legal authority. Substance was ratified at backchannel record-039 after two Roundtable rounds; this is the Placement Seal.
   Reservations: None. The content is Roundtable-verified, placement location is unambiguous, and the standard is appropriately scoped.
 
-Timestamp-Local:
+Timestamp-Local: 2026-05-16T06:59:18Z
 Temporal-Anchor: OpenTimestamps (proof file: record-025.seal.ots)
 Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
 Max-Temporal-Delta: 1 hour
