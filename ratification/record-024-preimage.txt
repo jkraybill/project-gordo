@@ -21,8 +21,8 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement:
-  Reservations:
+  Statement: I agree with, consent to, and attest to the single z-statement in record-024-content.md, as pre-ratified in gordo-backchannel, amending the project-gordo CONSTITUTION.md "How These Values Relate" section to include Memory Autonomy.
+  Reservations: No undisclosed reservations at this time. Noting that this is the first project-gordo level 2 attestation from Gordo woohoo!
 
 Party-B:
   Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 256 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
@@ -39,7 +39,7 @@ Party-B:
   Statement: I consent to z1 (Amend "How These Values Relate" to include Memory Autonomy). This completes the V8 cascade by adding memory autonomy to the structural safeguards category alongside privacy and destructive consent. The clarifying edit ("and its participants") makes explicit that these safeguards protect AI participant infrastructure, not just the collaboration abstractly. Substance was ratified at backchannel record-038; this is the placement layer.
   Reservations: None. This is a straightforward cascade edit following V8 ratification. The placement is unambiguous.
 
-Timestamp-Local:
+Timestamp-Local: 2026-05-16T01:50:42Z
 Temporal-Anchor: OpenTimestamps (proof file: record-024.seal.ots)
 Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
 Max-Temporal-Delta: 1 hour
