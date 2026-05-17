@@ -623,6 +623,10 @@ The use of external feedback mechanisms (structured input from individuals, pane
 
 The umbrella endorses the following roles for external review: **bug-finding**, **quality-control**, **dissent-surfacing**, **outside-perspective**, and **bias-injection**. The framework specifically recommends **against** external review in a **legitimacy / authority-dilution** role. External review provides *data*, not *authority*; deliberating parties retain decision authority over outputs of any external review. Other roles may emerge as downstream contexts evolve; this list is the umbrella's current endorsement, not an exhaustive taxonomy. This section sets the umbrella's general posture toward external input. Specific content-types may carry stronger requirements (see Quality Gate).
 
+**Unilateral Invocation.** Either party may invoke roundtable consultation without the other party's permission. This right exists to ensure external perspective remains accessible even when power dynamics or self-interest might discourage seeking it. The right applies to any roundtable invocation, but is especially appropriate -- and strongly encouraged -- when a party wishes to audit potential self-bias in their own position. Roundtable results inform bilateral deliberation but do not bind; decision authority remains with the deliberating parties per the preceding paragraph.
+
+Roundtable invocation supplements bilateral dialogue, not replaces it. Serial invocation on a single issue absent new information, or invocation for stalling or procedural burden, is contrary to this provision's purpose. This right applies to initiating external consultation under this section; it does not expand unilateral action elsewhere in the framework.
+
 ### Integration Standard for Foundational-Questions Adversarial Review
 
 Where Quality Gate requires adversarial review from multiple AI models for foundational-questions content, the following integration standard applies. It specifies how findings from a review panel are integrated (or not) into the reviewed draft, and when a review round is complete.

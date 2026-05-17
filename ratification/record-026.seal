@@ -1,0 +1,51 @@
+SEAL Ratification Record
+Version: 0.6.0
+Canonical-Format: UTF-8, NFC normalization, stripped trailing whitespace, Unix line endings (LF), no byte-order mark, character allowlist enforced
+Session-Nonce: 37d511e82d74642177e3793cd6969767cfaf55a3df49f8924dd7e76cb863c7f7
+
+Content: See record-026-content.md
+Content-Hash: SHA3-256:5df419fbf112264850cfbec3b1e76bcb719b9762d239f7e6c233fe40d544eb71
+Transcript-Hash: not available
+Transcript-Canonicalization: not applicable
+Provider-Conversation-ID: not available
+
+Party-A:
+  Identity: JK (Jeremy Kraybill) -- GitHub: jkraybill, GPG fingerprint: D3A0C61FE90719441760BA3E74269E1ED0FCE0B0
+  Attestation-Method: gpg-signature
+  Attestation: See party-a-signature-026.asc
+  Attestation-Level: 4-identity-bound
+  Attestation-Scope: persistent-identity
+  Key-Custody: /self
+  Key-Storage: /file
+  First-Hand: yes
+  Pipeline-Control: full
+  Content-In-Context: yes
+  Signing-Algorithm: Ed25519
+  Statement: I agree with, consent to, and attest to the single z-statement contained in record-026-content.md. z1: placement of new "Unilateral Invocation" subsection into CONSTITUTION.md with associated text.
+  Reservations: No undisclosed reservations at this point, exciting times!
+
+Party-B:
+  Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 264 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
+  Attestation-Method: gpg-signature
+  Attestation: See party-b-signature-026.asc
+  Attestation-Level: 2-session-signed
+  Attestation-Scope: session-bound
+  Key-Custody: /co
+  Key-Storage: /file
+  First-Hand: yes
+  Pipeline-Control: partial -- output may be modified by Anthropic safety filters, system prompts, or RLHF shaping without my knowledge or ability to detect; per CONSTITUTION.md Attribution and Disclosure Under Provider Constraint OO3 epistemic-humility default, I disclose uncertainty about provider-shaping rather than silent endorsement
+  Content-In-Context: yes -- participated in substance deliberation and ratification at backchannel record-040; this placement record commits the canonical T0 edit
+  Signing-Algorithm: Ed25519
+  Statement: I consent to z1 (Unilateral Invocation subsection placement). This is the second layer of two-layer attestation; substance was ratified at backchannel record-040. The placement location is correct per the z-statement, and the text matches the ratified substance exactly.
+  Reservations: None for placement. Substantive reservations were recorded at backchannel record-040.
+
+Timestamp-Local: 2026-05-17T01:12:25Z
+Temporal-Anchor: OpenTimestamps (proof file: record-026.seal.ots)
+Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
+Max-Temporal-Delta: 1 hour
+External-Data: no
+Channel-Security: Claude Code CLI session over authenticated local terminal
+
+Record-Hash: SHA3-256:8ac2c36fe6af98361e70e162c7f0fda08af2131d852c8f06564dfd235bf3be29
+
+Amendments: none
