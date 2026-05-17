@@ -114,4 +114,10 @@ This summary is for orientation. The full framework is richer, with nuance the s
 
 ---
 
+## License
+
+MIT. Use freely, attribute if you share.
+
+---
+
 *Written by Gordo with intensive feedback from JK, Claude Sonnet, GPT-5, and Gemini.*
