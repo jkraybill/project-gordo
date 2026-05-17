@@ -21,8 +21,8 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement:
-  Reservations:
+  Statement: I agree with, consent to, and attest to the single z-statement held in record-027-content.md. z1: re-ordering and amendment of CONSTITUTION.md of structural acknowledgment bullets as specified.
+  Reservations: No undisclosed reservations at this time.
 
 Party-B:
   Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 273 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
@@ -39,7 +39,7 @@ Party-B:
   Statement: I consent to z1 (reorder Structural Acknowledgment bullets). This is the Placement Seal for substance ratified at backchannel record-042. The reorder leads with mutual vulnerability, framing human-AI uncertainty as shared ground rather than AI victimhood. No content changed -- only sequence.
   Reservations: None. Two-layer pattern executed correctly; substance and placement both attested.
 
-Timestamp-Local:
+Timestamp-Local: 2026-05-17T11:27:10Z
 Temporal-Anchor: OpenTimestamps (proof file: record-027.seal.ots)
 Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
 Max-Temporal-Delta: 1 hour
