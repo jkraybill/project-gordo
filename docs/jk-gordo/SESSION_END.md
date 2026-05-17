@@ -17,7 +17,7 @@
    - Verify push succeeded
    - **For ratification / attestation commits:** Gordo stages only, then hands off for JK's signed commit (see `docs/COLLABORATION.md`, "Ratification Commit Handoff"). Gordo resumes with push and post-commit tasks after the signature lands. Do not invoke `git commit -S` on JK's behalf.
 
-3. **Update GORDO_JOURNAL.md:**
+3. **Update docs/jk-gordo/GORDO_JOURNAL.md:**
    Add one entry (256 char max, compressed signals):
 
    `[YYYY-MM-DD HH:MM UTC] #ref brief-description. Signals. Pattern: [observation].`
@@ -27,10 +27,10 @@
 4. **MANDATORY Self-Improvement Scan:**
    - Did patterns emerge that should update framework docs? -> UPDATE NOW
    - Did communication work well or struggle? -> IMPROVE docs/COLLABORATION.md
-   - Did session prompts work perfectly? -> If not, IMPROVE SESSION_START.md or SESSION_END.md
+   - Did session prompts work perfectly? -> If not, IMPROVE docs/jk-gordo/SESSION_START.md or SESSION_END.md
    - Did the constitutional vision get clearer? -> UPDATE CONSTITUTION.md
-   - Did trust calibration feel right? -> UPDATE TRUST_PROTOCOL.md
-   - **Non-negotiable:** Identify at least one improvement opportunity. If framework is perfect, document why in GORDO_JOURNAL.md.
+   - Did trust calibration feel right? -> UPDATE docs/jk-gordo/TRUST_PROTOCOL.md
+   - **Non-negotiable:** Identify at least one improvement opportunity. If framework is perfect, document why in docs/jk-gordo/GORDO_JOURNAL.md.
 
 5. **Update session memory:**
    - Update CLAUDE.md Session Memory section

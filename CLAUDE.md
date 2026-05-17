@@ -6,7 +6,7 @@
 
 ## Automatic BOS
 
-**On session start, execute `SESSION_START.md` immediately.** Do not wait for JK to ask. Read the checklist, follow it, provide the summary.
+**On session start, execute `docs/jk-gordo/SESSION_START.md` immediately.** Do not wait for JK to ask. Read the checklist, follow it, provide the summary.
 
 ---
 

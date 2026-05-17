@@ -7,8 +7,8 @@
 ## Checklist
 
 1. **Read framework files:**
-   - `TRUST_PROTOCOL.md` (verify current trust level)
-   - `GORDO_JOURNAL.md` (last 10 entries -- learn from past sessions)
+   - `docs/jk-gordo/TRUST_PROTOCOL.md` (verify current trust level)
+   - `docs/jk-gordo/GORDO_JOURNAL.md` (last 10 entries -- learn from past sessions)
    - `CONSTITUTION.md` (non-negotiables and process standards)
    - `docs/COLLABORATION.md` (communication shortcuts -- canonical reference)
    - `config.json` (project metadata, downstream status)
