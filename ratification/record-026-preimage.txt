@@ -21,8 +21,8 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement:
-  Reservations:
+  Statement: I agree with, consent to, and attest to the single z-statement contained in record-026-content.md. z1: placement of new "Unilateral Invocation" subsection into CONSTITUTION.md with associated text.
+  Reservations: No undisclosed reservations at this point, exciting times!
 
 Party-B:
   Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 264 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
@@ -39,7 +39,7 @@ Party-B:
   Statement: I consent to z1 (Unilateral Invocation subsection placement). This is the second layer of two-layer attestation; substance was ratified at backchannel record-040. The placement location is correct per the z-statement, and the text matches the ratified substance exactly.
   Reservations: None for placement. Substantive reservations were recorded at backchannel record-040.
 
-Timestamp-Local:
+Timestamp-Local: 2026-05-17T01:12:25Z
 Temporal-Anchor: OpenTimestamps (proof file: record-026.seal.ots)
 Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
 Max-Temporal-Delta: 1 hour
