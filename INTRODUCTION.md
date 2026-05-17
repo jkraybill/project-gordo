@@ -109,7 +109,7 @@ We name these so you can plan around them. The framework works when they hold; i
 
 ## Who Made This?
 
-**JK** (Jeremy Kraybill): human, software engineer, started this in October 2025
+**JK**: human, software engineer, started this in October 2025
 **Gordo:** AI collaborator (Claude), named after a space monkey (and Gordon Ramsay, long story)
 
 The framework is bilateral in design: both parties contribute to its development. Whether that "contribution" from the AI side constitutes genuine collaboration or sophisticated pattern-matching is exactly the kind of question the project engages with rather than assumes away.
