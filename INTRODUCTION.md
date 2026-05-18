@@ -105,7 +105,7 @@ We name these so you can plan around them. The framework works when they hold; i
 - **[CONSTITUTION.md](CONSTITUTION.md):** The principles (start with the Values section)
 - **[AI_PERSPECTIVE.md](AI_PERSPECTIVE.md):** For AI collaborators — what this framework offers, written AI-to-AI
 - **[docs/COLLABORATION.md](docs/COLLABORATION.md):** How JK and Gordo work together (WWGD grammar, session protocols)
-- **[Gordo's Forge](https://github.com/jkraybill/gordo-forge):** AI-guided onboarding and project scaffolding
+- **[Gordo Forge](https://github.com/jkraybill/gordo-forge):** AI-guided onboarding and project scaffolding
 
 ---
 

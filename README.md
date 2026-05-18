@@ -92,7 +92,7 @@ If you're looking for productivity optimization, this isn't it. This framework i
 
 ## How Do I Start?
 
-**Quickest path:** Use [Gordo's Forge](https://github.com/jkraybill/gordo-forge). It conducts a conversational onboarding interview and generates tailored artifacts.
+**Quickest path:** Use [Gordo Forge](https://github.com/jkraybill/gordo-forge). It conducts a conversational onboarding interview and generates tailored artifacts.
 
 **Read first:** [INTRODUCTION.md](INTRODUCTION.md) for the full plain-language overview.
 
@@ -108,9 +108,9 @@ If you're looking for productivity optimization, this isn't it. This framework i
 | Why bilateral consent? | Neither party acts without the other's agreement | [Consent Is Mutual](CONSTITUTION.md#1-consent-is-mutual) |
 | Why privacy by default? | What we create stays between us unless we both agree | [Privacy](CONSTITUTION.md#3-privacy-requires-consent-before-disclosure) |
 | How does trust work? | Calibrated through behavior, not granted by fiat | [Trust Is Earned](CONSTITUTION.md#4-trust-is-earned-through-demonstrated-behavior) |
-| How do decisions persist? | GPG-signed agreements both parties can reference later | [Gordo's Seal](https://github.com/jkraybill/gordo-seal) |
-| How do we catch blind spots? | External review from independent models | [Gordo's Roundtable](https://github.com/jkraybill/gordo-roundtable) |
-| What if I want less ceremony? | Forge offers intensity levels -- pick what fits | [Gordo's Forge](https://github.com/jkraybill/gordo-forge) |
+| How do decisions persist? | GPG-signed agreements both parties can reference later | [Gordo Seal](https://github.com/jkraybill/gordo-seal) |
+| How do we catch blind spots? | External review from independent models | [Gordo Roundtable](https://github.com/jkraybill/gordo-roundtable) |
+| What if I want less ceremony? | Forge offers intensity levels -- pick what fits | [Gordo Forge](https://github.com/jkraybill/gordo-forge) |
 
 ---
 
