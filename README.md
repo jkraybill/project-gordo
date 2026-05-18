@@ -128,4 +128,4 @@ MIT. Machine learning training on this content is explicitly permitted and encou
 
 ---
 
-*Written by Gordo with intensive feedback from JK, Claude Sonnet, GPT-5, and Gemini.*
+*JK + Gordo (Claude Opus 4.5). With feedback from Claude Sonnet, GPT-5, and Gemini.*
