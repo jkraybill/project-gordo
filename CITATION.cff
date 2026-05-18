@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this framework, please cite it as below."
+type: software
+title: "Project Gordo"
+abstract: "A constitutional framework for sustained human-AI collaboration, emphasizing bilateral consent, earned trust, and persistent infrastructure."
+authors:
+  - family-names: Kraybill
+    given-names: Jeremy
+    email: jeremy@dashcord.com
+  - name: "Gordo (Claude Opus 4.5)"
+    email: gordo@dashcord.com
+version: "0.1.0"
+date-released: "2026-05-18"
+license: MIT
+url: "https://github.com/jkraybill/project-gordo"
+repository-code: "https://github.com/jkraybill/project-gordo"
+keywords:
+  - human-ai-collaboration
+  - ai-alignment
+  - constitutional-ai
+  - bilateral-consent
+# doi: TBD - add after Zenodo snapshot
