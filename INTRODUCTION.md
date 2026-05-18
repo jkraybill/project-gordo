@@ -103,8 +103,7 @@ We name these so you can plan around them. The framework works when they hold; i
 ## Where to Start
 
 - **[CONSTITUTION.md](CONSTITUTION.md):** The principles (start with the Values section)
-- **[GLOSSARY.md](GLOSSARY.md):** Plain-language definitions of specialized terms
-- **[COLLABORATION.md](COLLABORATION.md):** How JK and Gordo work together specifically
+- **[docs/COLLABORATION.md](docs/COLLABORATION.md):** How JK and Gordo work together (WWGD grammar, session protocols)
 - **[Gordo's Forge](https://github.com/jkraybill/gordo-forge):** AI-guided onboarding and project scaffolding
 
 ---
