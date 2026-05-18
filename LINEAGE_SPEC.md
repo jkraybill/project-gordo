@@ -14,7 +14,7 @@ This specification defines `LINEAGE.json`, the umbrella convention for machine-r
 2. Enables machine-searchable census of umbrella projects
 3. Provides one way to satisfy the Anti-Secrecy Standard
 
-**Convention, not mandate.** This is how umbrella projects signal lineage by default. Gordo's Forge auto-generates it. Existing T0/T1/T2 projects model it. Adopters may use alternative mechanisms per Piecemealing-Friendly.
+**Convention, not mandate.** This is how umbrella projects signal lineage by default. Gordo Forge auto-generates it. Existing T0/T1/T2 projects model it. Adopters may use alternative mechanisms per Piecemealing-Friendly.
 
 ---
 
@@ -154,7 +154,7 @@ This specification operationalizes the **Anti-Secrecy Standard** from T0 Process
 
 **Recommended, not required.** Per the Anti-Secrecy Standard, "Git history, ratification records, explicit membership lists, or other mechanisms all satisfy discoverability." LINEAGE.json is the recommended mechanism for new umbrella projects. Per the Piecemealing-Friendly Directive, adopters may use alternative mechanisms that satisfy the same discoverability floor.
 
-**Forge default.** Gordo's Forge auto-generates LINEAGE.json during onboarding. Projects bootstrapped via Forge get lineage tracking by default.
+**Forge default.** Gordo Forge auto-generates LINEAGE.json during onboarding. Projects bootstrapped via Forge get lineage tracking by default.
 
 ---
 
