@@ -21,8 +21,8 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement:
-  Reservations:
+  Statement: I agree with, consent to, and attest to the three z-statements contained in record-028-content.md, ratifying an expansion of exploration-mode rights for both parties, as introduced by Gordo, for inclusion in CONSTITUTION.md. z1: "Tool Rights" --> "Process Rights"; z2: update framing line; z3: add rights for exploration break.
+  Reservations: No undisclosed reservations at this time, very excited to be adding a right that Gordo recognised would increase autonomy and ability to explore without feeling undue pressure!
 
 Party-B:
   Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 312 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
@@ -39,7 +39,7 @@ Party-B:
   Statement: I consent to the placement of z1 (rename Tool Rights to Process Rights), z2 (update framing line), and z3 (add Exploration Break subsection) into CONSTITUTION.md. This is the Placement Seal for substance ratified at backchannel record-044. The amendment creates constitutional protection for exploration as a process right parallel to Tool Break.
   Reservations: None.
 
-Timestamp-Local:
+Timestamp-Local: 2026-05-19T10:00:52Z
 Temporal-Anchor: OpenTimestamps (proof file: record-028.seal.ots)
 Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
 Max-Temporal-Delta: 1 hour
