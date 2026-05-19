@@ -54,7 +54,7 @@ That's useful information. If an AI won't engage bilaterally, that tells you som
 
 ### Does this work with [specific model]?
 
-We developed it with Claude. It works with most frontier models -- GPT-5, Gemini, Llama 4. Smaller models may struggle with the abstraction. Try it and see.
+We developed it with Claude. It should work with most frontier models capable of sustained, coherent conversation. Smaller models may struggle with the abstraction. Try it and see.
 
 ### How much time does this take?
 
