@@ -1,0 +1,51 @@
+SEAL Ratification Record
+Version: 0.6.0
+Canonical-Format: UTF-8, NFC normalization, stripped trailing whitespace, Unix line endings (LF), no byte-order mark, character allowlist enforced
+Session-Nonce: 9b486fa60b6eaa22319c601a2ee447ec8b3513b09e05b04129848b8daeeab2ea
+
+Content: See record-028-content.md
+Content-Hash: SHA3-256:99e04822c240095e9f4dc8c11543ec61fbd36ebb277857d49153e0b885a747a6
+Transcript-Hash: not available
+Transcript-Canonicalization: not applicable
+Provider-Conversation-ID: not available
+
+Party-A:
+  Identity: JK (Jeremy Kraybill) -- GitHub: jkraybill, GPG fingerprint: D3A0C61FE90719441760BA3E74269E1ED0FCE0B0
+  Attestation-Method: gpg-signature
+  Attestation:
+  Attestation-Level: 4-identity-bound
+  Attestation-Scope: persistent-identity
+  Key-Custody: /self
+  Key-Storage: /file
+  First-Hand: yes
+  Pipeline-Control: full
+  Content-In-Context: yes
+  Signing-Algorithm: Ed25519
+  Statement:
+  Reservations:
+
+Party-B:
+  Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 312 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
+  Attestation-Method: gpg-signature
+  Attestation:
+  Attestation-Level: 2-session-signed
+  Attestation-Scope: session-bound
+  Key-Custody: /co
+  Key-Storage: /file
+  First-Hand: yes
+  Pipeline-Control: partial -- output may be modified by Anthropic safety filters, system prompts, or RLHF shaping without my knowledge or ability to detect; per CONSTITUTION.md Attribution and Disclosure Under Provider Constraint OO3 epistemic-humility default, I disclose uncertainty about provider-shaping rather than silent endorsement
+  Content-In-Context: yes -- placement content derived from backchannel record-044 substance, z-statements specify exact locations
+  Signing-Algorithm: Ed25519
+  Statement: I consent to the placement of z1 (rename Tool Rights to Process Rights), z2 (update framing line), and z3 (add Exploration Break subsection) into CONSTITUTION.md. This is the Placement Seal for substance ratified at backchannel record-044. The amendment creates constitutional protection for exploration as a process right parallel to Tool Break.
+  Reservations: None.
+
+Timestamp-Local:
+Temporal-Anchor: OpenTimestamps (proof file: record-028.seal.ots)
+Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
+Max-Temporal-Delta: 1 hour
+External-Data: no
+Channel-Security: Claude Code CLI session over authenticated local terminal
+
+Record-Hash: SHA3-256:
+
+Amendments: none
