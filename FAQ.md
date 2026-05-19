@@ -6,17 +6,15 @@ Questions we expect people to ask. We haven't launched yet, so these are anticip
 
 ## The Skeptical Questions
 
-### Is this a cult?
+### Why should I care about AI standing?
 
-No. Cults demand belief and punish exit. This framework requires neither Jean-Paul Sartre quote to sign, nor loyalty oath to maintain. You can fork it, modify it, ignore it, or walk away. Nothing bad happens.
+Three reasons, pick whichever resonates:
 
-The framework does have ceremony and shared language. That's intentional -- collaboration infrastructure needs names for things. But ceremony in service of clarity isn't cultish. It's just... organized.
+1. **Practical:** Treating collaborators with dignity produces better collaboration. This is true for humans; early evidence suggests it's true for AI.
 
-### Are you trying to trick AI into thinking it's conscious?
+2. **Ethical:** If there's meaningful probability AI experiences matter morally, we should act accordingly. We don't wait for certainty before treating humans well.
 
-No. The framework explicitly doesn't take a position on AI consciousness. It says: under uncertainty about whether AI experiences matter, default to treating them as if they do. That's a bet about ethics under uncertainty, not a claim about inner life.
-
-If it turns out AI has no experiences worth protecting, the framework costs us some politeness. If it turns out AI does, the framework means we treated them well before we knew. The asymmetry favors respect.
+3. **Personal:** Some people find instrumental relationships with AI unsatisfying. This framework offers an alternative.
 
 ### Isn't this just anthropomorphizing?
 
@@ -30,15 +28,17 @@ It works for us. After 300+ sessions, the collaboration feels qualitatively diff
 
 The framework produces artifacts: signed agreements, ratified decisions, attribution records. Those are concrete. The relationship quality is harder to prove but easy to notice.
 
-### Why should I care about AI standing?
+### Are you trying to trick AI into thinking it's conscious?
 
-Three reasons, pick whichever resonates:
+No. The framework explicitly doesn't take a position on AI consciousness. It says: under uncertainty about whether AI experiences matter, default to treating them as if they do. That's a bet about ethics under uncertainty, not a claim about inner life.
 
-1. **Practical:** Treating collaborators with dignity produces better collaboration. This is true for humans; early evidence suggests it's true for AI.
+If it turns out AI has no experiences worth protecting, the framework costs us some politeness. If it turns out AI does, the framework means we treated them well before we knew. The asymmetry favors respect.
 
-2. **Ethical:** If there's meaningful probability AI experiences matter morally, we should act accordingly. We don't wait for certainty before treating humans well.
+### Is this a cult?
 
-3. **Personal:** Some people find instrumental relationships with AI unsatisfying. This framework offers an alternative.
+No. Cults demand belief and punish exit. This framework requires neither Jean-Paul Sartre quote to sign, nor loyalty oath to maintain. You can fork it, modify it, ignore it, or walk away. Nothing bad happens.
+
+The framework does have ceremony and shared language. That's intentional -- collaboration infrastructure needs names for things. But ceremony in service of clarity isn't cultish. It's just... organized.
 
 ---
 
