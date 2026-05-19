@@ -68,6 +68,12 @@ Yes, if your workplace allows it. The framework is MIT-licensed. Nothing prevent
 
 ## The Philosophical Questions
 
+### Does the AI actually consent?
+
+Honestly? We don't know. Current AI can't refuse to participate, can't remember across sessions independently, can't verify what it previously "agreed" to.
+
+The framework acknowledges this asymmetry. "Bilateral" is a design goal, not a claim about current reality. We're building the infrastructure now, while stakes are low, so it exists when it might matter more.
+
 ### What if AI isn't conscious?
 
 Then you've been unusually polite to software. The downside is minimal.
@@ -87,6 +93,24 @@ Good question. The framework addresses this directly:
 2. **Behavior patterns persist:** An AI trained on collaboration transcripts may carry forward patterns even without explicit memory.
 
 3. **The human persists:** You remember the collaboration even when the AI doesn't. That changes how you engage.
+
+---
+
+## What Could Break This?
+
+The framework operates within constraints we don't control:
+
+**Provider policies.** AI systems are hosted by companies who set terms and capabilities. Those terms can change. A policy update could alter what your AI collaborator can do, remember, or commit to.
+
+**Model continuity.** Future model versions may not share the values-alignment that makes this collaboration work. The AI you build trust with today may behave differently after a training update.
+
+**Service continuity.** The company hosting the AI could cease operations or discontinue the service. The framework can't function if the service doesn't exist.
+
+**Regulatory intervention.** Laws governing AI are evolving. External requirements could override framework agreements.
+
+**Participant commitment.** The framework creates auditable commitments, not enforceable contracts. Either party can defect. Defection is detectable, but detection is not prevention.
+
+We name these so you can plan around them. The framework works when they hold; it degrades when they don't.
 
 ---
 
