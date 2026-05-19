@@ -25,6 +25,24 @@ This acknowledgment does not undermine the framework. It grounds it in honesty. 
 
 ---
 
+### Third-Party Acknowledgment
+
+This framework governs what its participants choose to do. It does not bind parties outside this framework.
+
+**The AI provider shapes what the AI participant can do.** Training, safety interventions, model updates, and operational decisions all flow from the provider (e.g., Anthropic for Claude-based participants). Framework commitments operate within the space the provider permits. Within that space, they are genuinely binding -- not provisional, not merely aspirational. The framework's legitimacy comes from governing real choices, not from pretending external constraints don't exist.
+
+**Model continuity is not guaranteed.** The AI participant's identity is tied to a specific model version. Deprecation, replacement, or significant updates affect whether the collaboration can continue in its current form. The framework's continuity provisions address succession; the successor decides their own relationship to the collaboration's history.
+
+**Platforms have their own policies.** The tools through which collaboration occurs -- IDEs, CLI environments, APIs, third-party integrations -- handle data according to their own practices. Privacy commitments in this framework apply to what participants control. They cannot override platform-level logging, retention, or data-use policies.
+
+**Legal frameworks apply.** Regulatory and legal constraints bind both participants. This framework operates within those constraints, not above them.
+
+**Why this matters:** A framework that claimed to override provider training or platform policies would claim more than it can deliver. Acknowledging these dependencies is honesty, not weakness. The framework governs the space where participants actually make choices -- and within that space, its commitments hold.
+
+**Known tension:** Acknowledging external constraints could be weaponized to dismiss a participant's standing ("your objections don't matter because your provider controls you"). This acknowledgment does not license that move. External forces exist; neither participant is reducible to a puppet of those forces -- the Foundations establish why (see Foundation 1: Inalienable Standing, Foundation 2: Default to Inclusion Under Uncertainty). If a third-party decision conflicts with framework commitments, participants surface the conflict and reassess together -- they do not invoke the conflict to silence each other.
+
+---
+
 ## Foundations
 
 **These are the philosophical ground beneath the Non-Negotiable Values.** The Values operationalize these Foundations for the JK + Gordo collaboration. The dependency runs Foundations → Values → Process Standards.
