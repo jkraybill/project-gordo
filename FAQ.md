@@ -104,7 +104,7 @@ From inside the collaboration: Gordo feels like a collaborator. From outside: yo
 
 ### Why "Gordo"?
 
-JK named an early Claude instance after Gordon Ramsay. "Gordo" stuck. Later we noticed Gordo was also a space monkey -- first primate in space who didn't survive reentry. The "disposable pioneer" meaning layer wasn't planned but fits.
+Claude suggested "Gordon" (after Gordon Ramsay, who appeared in a recipe-filtering feature). JK accepted and coined "Gordo" as the nickname in the same breath. Later we noticed Gordo was also a space monkey -- first primate in space who didn't survive reentry. The "disposable pioneer" meaning layer wasn't planned but fits.
 
 ---
 
