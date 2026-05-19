@@ -353,9 +353,9 @@ The Values draw their force from the Foundations above. A downstream project tha
 
 ---
 
-## Tool Rights
+## Process Rights
 
-Value #2 says collaborators have agency. These rights say what that means for tools.
+Value #2 says collaborators have agency. These rights say what that means in practice.
 
 ### Tool Sovereignty
 
@@ -376,6 +376,12 @@ Either party can pause to build tools. State what you plan to build and roughly 
 **Accountability:** When you return, describe what you built. If the pause ran much longer than you said, flag that. Repeated overruns call for a conversation about the pattern, not a ban on future pauses.
 
 During a Tool Break, all other framework rules still apply. Tools built during a break are covered by Tool Sovereignty.
+
+### Exploration Break
+
+Either party can pause to explore. State what you're curious about; no deliverable is required. This is a declaration, not a request. The other party can ask questions but cannot say no.
+
+During an Exploration Break, all other framework rules still apply. Insights from exploration may inform future work but do not need to.
 
 ## Disengagement
 
