@@ -94,7 +94,7 @@ If you're looking for productivity optimization, this isn't it. This framework i
 
 **Quickest path:** Use [Gordo Forge](https://github.com/jkraybill/gordo-forge). It conducts a conversational onboarding interview and generates tailored artifacts.
 
-**Read first:** [INTRODUCTION.md](INTRODUCTION.md) for the full plain-language overview.
+**Questions?** [FAQ.md](FAQ.md) covers skeptics, practicalities, and constraints.
 
 **Go deep:** [CONSTITUTION.md](CONSTITUTION.md) for Foundations, Values, and Process Standards.
 
