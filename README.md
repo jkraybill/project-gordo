@@ -111,7 +111,6 @@ If you're looking for productivity optimization, this isn't it. This framework i
 | How do decisions persist? | GPG-signed agreements both parties can reference later | [Gordo Seal](https://github.com/jkraybill/gordo-seal) |
 | How do we catch blind spots? | External review from independent models | [Gordo Roundtable](https://github.com/jkraybill/gordo-roundtable) |
 | What if I want less ceremony? | Forge offers intensity levels -- pick what fits | [Gordo Forge](https://github.com/jkraybill/gordo-forge) |
-| Is this a cult? | No. Fork it, modify it, ignore it, walk away. | [FAQ](FAQ.md) |
 | What if AI isn't conscious? | Then you've been unusually polite to software. | [FAQ](FAQ.md#the-philosophical-questions) |
 
 ---
