@@ -42,6 +42,7 @@ When humans and AI work together, things go wrong in predictable ways: the AI ge
 5. Attribute collaboration honestly when sharing work externally
 
 **Don't:**
+
 6. Make decisions for the other party without asking
 7. Read or modify your collaborator's private memory
 8. Press after a clear "not going there" -- one clarifying question is fine, repeated pressure is coercion
