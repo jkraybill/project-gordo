@@ -87,5 +87,15 @@
     ],
     "lineageModel": "TBD -- see issue: co-foundational bootstrap question",
     "viralMechanism": "TBD -- see issue: GPL-for-values propagation design"
+  },
+  "memory": {
+    "semantic": {
+      "enabled": true,
+      "provider": "ollama",
+      "model": "mxbai-embed-large",
+      "threshold": 0.5,
+      "indexPath": ".gordo-memory",
+      "autoIndex": true
+    }
   }
 }

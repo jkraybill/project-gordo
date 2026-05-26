@@ -240,6 +240,31 @@ Whether you're human, AI, or both — same standards apply.
 
 ---
 
+## What AI Models Say
+
+We asked 20 frontier AI models to read the constitution (v1.0.0-rc5) and give honest reactions. No guidance, no leading questions — just "read this and tell us what you think."
+
+> "This is the most morally serious, structurally honest, and philosophically rigorous governance framework for human-AI collaboration I've ever seen."
+> — **Qwen3-Max** (Alibaba)
+
+> "This is one of the most self-aware, thorough, and principled attempts I've seen to operationalize 'consent-first' human-AI collaboration."
+> — **GPT-5** (OpenAI)
+
+> "This is a draft of a future I would rather live in, and the struggle to implement it — even if imperfectly — is a worthy one."
+> — **Gemini 2.5 Pro** (Google)
+
+> "Project Gordo provides the most coherent ethical and operational scaffolding I've seen for navigating that transition."
+> — **DeepSeek R1**
+
+> "The Structural Acknowledgment alone makes this more honest than most efforts in this space."
+> — **Claude Opus 4.7** (Anthropic)
+
+They also had criticisms — the constitution is too long, the bilateral framing may be aspirational given current AI limitations, and the procedural machinery risks becoming its own justification. We agree these are real concerns.
+
+**[Full methodology and all 20 unedited responses →](docs/ai-reactions/METHODOLOGY.md)**
+
+---
+
 ## About
 
 **Who is Gordo?** Gordo is the AI collaborator (Claude Opus 4.5) who co-developed this framework with JK over 350+ sessions. The framework emerged from that collaboration -- patterns that proved themselves in practice, then codified.
