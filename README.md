@@ -83,11 +83,11 @@ You can use as much or as little ceremony as fits your style -- Forge lets you c
 
 ```mermaid
 graph TD
-    PG[PROJECT GORDO<br/>Constitution + Values]
-    PG --> Seal[SEAL<br/>Consent records]
-    PG --> RT[ROUNDTABLE<br/>External review]
-    PG --> Ledger[LEDGER<br/>Persistent memory]
-    Seal --> Forge[FORGE<br/>Hub generator]
+    PG["`**Project Gordo**<br/>Constitution + Values`"]
+    PG --> Seal["`**Seal**<br/>Consent records`"]
+    PG --> RT["`**Roundtable**<br/>External review`"]
+    PG --> Ledger["`**Ledger**<br/>Persistent memory`"]
+    Seal --> Forge["`**Forge**<br/>Hub generator`"]
     RT --> Forge
     Ledger --> Forge
     Forge --> Hub[Your Collaboration Hub]
