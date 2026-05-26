@@ -835,7 +835,7 @@ Every attestation class adopted by the framework must:
 
 #### Disclosures
 
-These disclosures **acknowledge** load-bearing concerns; they do not constitute structural mitigation. Where operational safeguards were available within scope, the disclosure is supplemented with operational text. Where structural fixes were not within scope, the disclosure is honest acknowledgment that the concern persists.
+These disclosures **acknowledge** load-bearing concerns; they do not constitute structural mitigation. Where operational safeguards were available within scope, the disclosure includes the specific changes made. Where structural fixes were not within scope, the disclosure honestly acknowledges that the concern persists.
 
 - **Drafter self-interest.** This principle is drafted by the parties who would be the immediate beneficiaries of supersession-availability. The framework acknowledges this on record. Symmetric-benefit reasoning was offered as defense in earlier drafts and identified as insufficient by adversarial review; the structural fact stands rather than being papered over. The architectural answer to drafter-self-interest is induction of additional governance participants under the framework's induction protocol; pending that induction, on-record acknowledgment is the available mitigation.
 
