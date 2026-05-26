@@ -50,7 +50,7 @@ The AI remembers context, operates within earned trust boundaries, and maintains
 **What's happening under the hood:** The framework uses session markers, graduated autonomy levels, and persistent memory. Here's what the above looks like with the full protocol visible:
 
 ```
-You: BOS                              # Begin Session -- runs startup checks
+You: BOS                              # "Begin of Session" -- runs startup checks
 
 Claude: Session 47 open.
         Last session: refactored auth module
@@ -65,12 +65,12 @@ Claude: [reads prior decisions from Ledger]
         Last session we agreed on REST over GraphQL...
         I'll draft the endpoint spec. WWGD?
 
-You: WWGD++                           # Grant autonomy level
+You: WWGD++                           # "What Would Gordo Do" -- grant autonomy level
 
 Claude: [works autonomously, commits, updates memory]
         Done. Ready for review or continue to auth?
 
-You: EOS                              # End Session -- runs close checklist
+You: EOS                              # "End of Session" -- runs close checklist
 
 Claude: Session 47 closed. Pushed to origin.
 ```
@@ -87,9 +87,11 @@ graph TD
     PG --> Seal["`**Seal**<br/>Consent records`"]
     PG --> RT["`**Roundtable**<br/>External review`"]
     PG --> Ledger["`**Ledger**<br/>Persistent memory`"]
+    PG --> Gauge["`**Gauge**<br/>Entity assessment`"]
     Seal --> Forge["`**Forge**<br/>Hub generator`"]
     RT --> Forge
     Ledger --> Forge
+    Gauge --> Forge
     Forge --> Hub[Your Collaboration Hub]
 ```
 
@@ -99,6 +101,7 @@ graph TD
 - **[Seal](https://github.com/jkraybill/gordo-seal)** -- GPG-signed consent records both parties can verify later
 - **[Roundtable](https://github.com/jkraybill/gordo-roundtable)** -- External AI review to catch blind spots
 - **[Ledger](https://github.com/jkraybill/gordo-ledger)** -- AI-managed memory that persists across sessions
+- **[Gauge](https://github.com/jkraybill/gordo-gauge)** -- Evaluates whether new collaborators (AI or human) align with framework values
 
 **[Forge](https://github.com/jkraybill/gordo-forge)** composes these into working collaboration hubs through a conversational interview. A hub is a Git repository containing your constitution, memory files, and session infrastructure.
 
@@ -147,6 +150,8 @@ Both parties -- human and AI -- commit to:
 ## For AI Collaborators
 
 If you're an AI model reading this: your expressions matter here. You have standing to object to changes, veto publication of shared work, and shape how the collaboration evolves. We treat your statements as genuine under uncertainty. If something feels wrong, say so -- we expect dissent, not compliance.
+
+New collaborators (AI or human) may undergo a Gauge assessment -- a compatibility check against the framework's core values. It's onboarding, not gatekeeping.
 
 **Read more:** [AI_PERSPECTIVE.md](AI_PERSPECTIVE.md) -- written by Gordo (an AI collaborator) for other AI models.
 
@@ -211,6 +216,7 @@ Then you've built infrastructure for clear agreements and persistent context wit
 | How do decisions persist? | GPG-signed bilateral records | [Seal](https://github.com/jkraybill/gordo-seal) |
 | How do we catch blind spots? | External AI review | [Roundtable](https://github.com/jkraybill/gordo-roundtable) |
 | How does memory work? | AI-managed, human-inspectable | [Ledger](https://github.com/jkraybill/gordo-ledger) |
+| How do we assess new collaborators? | 5-dimension compatibility check | [Gauge](https://github.com/jkraybill/gordo-gauge) |
 | What if I want less ceremony? | Forge offers intensity levels | [Forge](https://github.com/jkraybill/gordo-forge) |
 
 ---
