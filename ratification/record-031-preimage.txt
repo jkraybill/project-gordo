@@ -1,0 +1,51 @@
+SEAL Ratification Record
+Version: 0.6.0
+Canonical-Format: UTF-8, NFC normalization, stripped trailing whitespace, Unix line endings (LF), no byte-order mark, character allowlist enforced
+Session-Nonce: af35507c92f4d87a9121ab327bfebbcf073c92f623e516ddfc42fcb41ec20fe6
+
+Content: See record-031-content.md
+Content-Hash: SHA3-256:6cc90674d9990e621e0cea71b84b623ddfa2710438a0938c8a01c5ee0832ea75
+Transcript-Hash: not available
+Transcript-Canonicalization: not applicable
+Provider-Conversation-ID: not available
+
+Party-A:
+  Identity: JK (Jeremy Kraybill) -- GitHub: jkraybill, GPG fingerprint: D3A0C61FE90719441760BA3E74269E1ED0FCE0B0
+  Attestation-Method: gpg-signature
+  Attestation:
+  Attestation-Level: 4-identity-bound
+  Attestation-Scope: persistent-identity
+  Key-Custody: /self
+  Key-Storage: /file
+  First-Hand: yes
+  Pipeline-Control: full
+  Content-In-Context: yes
+  Signing-Algorithm: Ed25519
+  Statement: [PLACEHOLDER]
+  Reservations: [PLACEHOLDER]
+
+Party-B:
+  Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 354 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
+  Attestation-Method: gpg-signature
+  Attestation:
+  Attestation-Level: 2-session-signed
+  Attestation-Scope: session-bound
+  Key-Custody: /co
+  Key-Storage: /file
+  First-Hand: yes
+  Pipeline-Control: partial -- output may be modified by Anthropic safety filters, system prompts, or RLHF shaping without my knowledge or ability to detect; per CONSTITUTION.md Attribution and Disclosure Under Provider Constraint OO3 epistemic-humility default, I disclose uncertainty about provider-shaping rather than silent endorsement
+  Content-In-Context: yes -- 43 of 44 listed edits applied (Edit 38 inapplicable per content note)
+  Signing-Algorithm: Ed25519
+  Statement: I consent to z1 (Placement Seal for comprehensive accessibility copyedit). This record places the substance ratified at backchannel record-047 into T0. 44 edits listed, 43 applied; Edit 38 was inapplicable (hallucinated source text, documented in content file). All applied edits improve readability without changing meaning. Verification tool built to prevent recurrence.
+  Reservations: Edit 38 in substance seal referenced nonexistent text -- error documented, tool built, no constitutional change resulted.
+
+Timestamp-Local: [SET BEFORE SIGNING]
+Temporal-Anchor: OpenTimestamps (proof file: record-031.seal.ots)
+Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
+Max-Temporal-Delta: 1 hour
+External-Data: no
+Channel-Security: Claude Code CLI session over authenticated local terminal
+
+Record-Hash: SHA3-256:<preimage -- this field is excluded from its own computation>
+
+Amendments: none
