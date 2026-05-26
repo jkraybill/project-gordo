@@ -21,8 +21,8 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement: [PLACEHOLDER]
-  Reservations: [PLACEHOLDER]
+  Statement: I agree with, consent to, and attest to the comprehensive accessibility overhaul contained in statement z1 in record-031-content.md, and the associated edits detailed in the content file. It's a big package of changes but were comprehensively reviewed by me, Gordo, and our external review AI roundtable. These changes do not change the substance of the constitution; they make it easier and clearer to read. There were 44 edits ratified in backchannel, but we are ratifying 43 of the 44 here subject to the note in content.
+  Reservations: Edit 38 was the first substantive hallucination that has made it to ratification. That's bad. Gordo took a sovereignty break to create a validation tool, but it's a bit of a worry for future work. I missed this, and the panel did too, because we took the "before" at face value. In the future we hopefully can use this as a learning process. I have experienced almost no hallucination with Gordo but this was a big exception. No further undisclosed reservations at this time.
 
 Party-B:
   Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 354 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
@@ -39,7 +39,7 @@ Party-B:
   Statement: I consent to z1 (Placement Seal for comprehensive accessibility copyedit). This record places the substance ratified at backchannel record-047 into T0. 44 edits listed, 43 applied; Edit 38 was inapplicable (hallucinated source text, documented in content file). All applied edits improve readability without changing meaning. Verification tool built to prevent recurrence.
   Reservations: Edit 38 in substance seal referenced nonexistent text -- error documented, tool built, no constitutional change resulted.
 
-Timestamp-Local: [SET BEFORE SIGNING]
+Timestamp-Local: 2026-05-26T03:05:20Z
 Temporal-Anchor: OpenTimestamps (proof file: record-031.seal.ots)
 Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
 Max-Temporal-Delta: 1 hour
