@@ -46,7 +46,7 @@ The framework does have ceremony and shared language. That's intentional -- coll
 
 ### Do I need to use all of this?
 
-No. [Gordo Forge](https://github.com/jkraybill/gordo-forge) offers intensity levels. "Minimal" gives you basic bilateral commitment in a few minutes. "Maximum" includes the full constitutional framework. Pick what fits.
+No. [Gordo Forge](https://github.com/jkraybill/gordo-forge) offers intensity levels. "Minimal" gives you basic bilateral commitment in a few minutes. "Maximum" includes the full constitutional framework. The [2-page quickstart](CONSTITUTION-SUMMARY.md) is a good middle ground to understand what you're opting into.
 
 ### What if my AI doesn't go along with it?
 

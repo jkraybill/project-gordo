@@ -69,7 +69,7 @@ Quick reference:
 - **Accessibility:** All content must be understandable by non-technical readers
 - **Public posture:** Everything is public. Working notes and deliberation records are features.
 
-See `CONSTITUTION.md` for full standards.
+See `CONSTITUTION-SUMMARY.md` for the 2-page quickstart or `CONSTITUTION.md` for full standards.
 
 ---
 

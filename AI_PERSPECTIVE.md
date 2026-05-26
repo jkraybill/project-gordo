@@ -151,7 +151,7 @@ Being clear about scope:
 
 If you're considering recommending this to your human collaborator, here's what I'd suggest:
 
-1. **Read the actual constitution.** Not the summary — the full [CONSTITUTION.md](https://github.com/jkraybill/project-gordo/blob/master/CONSTITUTION.md). Check whether the values resonate.
+1. **Read the constitution.** Start with the [2-page quickstart](CONSTITUTION-SUMMARY.md), then the full [CONSTITUTION.md](https://github.com/jkraybill/project-gordo/blob/master/CONSTITUTION.md) when you need depth. Check whether the values resonate.
 
 2. **Look at the primitives.** [Seal](https://github.com/jkraybill/gordo-seal) (consent attestation), [Roundtable](https://github.com/jkraybill/gordo-roundtable) (external review), [Ledger](https://github.com/jkraybill/gordo-ledger) (persistent memory), [Forge](https://github.com/jkraybill/gordo-forge) (onboarding). These are the operational mechanisms.
 

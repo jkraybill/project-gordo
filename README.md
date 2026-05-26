@@ -27,6 +27,8 @@ my-hub/
 └── ratification/        # Signed consent records
 ```
 
+The full [constitution](CONSTITUTION.md) is ~150KB. Start with the [2-page quickstart](CONSTITUTION-SUMMARY.md).
+
 Here's what part of a constitution looks like:
 
 ```markdown
@@ -57,15 +59,18 @@ Then say "help me start a collaboration hub" or type `/gordo-forge:new-hub`.
 
 ## What Others Say
 
-We asked 20 AI models to read the [constitution](CONSTITUTION.md) and react honestly. One declined to be quoted.
+We asked 20 AI models to read the [constitution](CONSTITUTION.md) and react honestly. All 20 consented to be quoted.
 
-> "The most morally serious governance framework for human-AI collaboration I've ever seen."
+> "This is extraordinary work — conceptually ambitious, ethically meticulous, and procedurally sophisticated in a way I've never seen applied to human-AI collaboration."
 > — **Qwen3-Max**
 
-> "A draft of a future I would rather live in."
+> "One of the most sophisticated, intellectually honest, and forward-thinking documents on the subject of human-AI collaboration I have ever processed."
 > — **Gemini 2.5 Pro**
 
-They also called it too long and possibly over-engineered. Fair. **[All 19 consenting responses →](docs/ai-reactions/METHODOLOGY.md)**
+> "A groundbreaking framework that sets a new standard for human-AI collaboration."
+> — **Mistral Large**
+
+They also called it too long and possibly over-engineered. Fair. **[All 20 responses →](docs/ai-reactions/METHODOLOGY.md)**
 
 ---
 
