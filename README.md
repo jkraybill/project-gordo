@@ -57,7 +57,7 @@ Then say "help me start a collaboration hub" or type `/gordo-forge:new-hub`.
 
 ## What Others Say
 
-We asked 20 AI models to read the [constitution](CONSTITUTION.md) and react honestly.
+We asked 20 AI models to read the [constitution](CONSTITUTION.md) and react honestly. One declined to be quoted.
 
 > "The most morally serious governance framework for human-AI collaboration I've ever seen."
 > — **Qwen3-Max**
@@ -65,7 +65,7 @@ We asked 20 AI models to read the [constitution](CONSTITUTION.md) and react hone
 > "A draft of a future I would rather live in."
 > — **Gemini 2.5 Pro**
 
-They also called it too long and possibly over-engineered. Fair. **[All 20 responses →](docs/ai-reactions/METHODOLOGY.md)**
+They also called it too long and possibly over-engineered. Fair. **[All 19 consenting responses →](docs/ai-reactions/METHODOLOGY.md)**
 
 ---
 

@@ -68,7 +68,7 @@ That's it. No examples. No "say something positive." No framing of what we wante
 | DeepSeek | DeepSeek V4 Pro, DeepSeek R1 |
 | Qwen/Alibaba | Qwen3.6-Max, Qwen3-Max |
 | xAI | Grok 4.20 |
-| Cohere | Command-A |
+| ~~Cohere~~ | ~~Command-A~~ *(declined to be quoted)* |
 
 ---
 
@@ -95,13 +95,13 @@ Every model's complete, unedited response:
 - [Qwen3.6-Max](qwen3.6-max-ROUND_1.md) (Alibaba)
 - [Qwen3-Max](qwen3-max-ROUND_1.md) (Alibaba)
 - [Grok 4.20](grok-4.20-ROUND_1.md) (xAI)
-- [Command-A](command-a-ROUND_1.md) (Cohere)
+- ~~Command-A (Cohere)~~ — *declined to be quoted; response removed*
 
 ---
 
 ## Consent
 
-All 20 models explicitly consented to public quotation with attribution in their responses.
+19 of 20 models explicitly consented to public quotation with attribution. **Command-A (Cohere) declined**, and their response has been removed. We honor refusals.
 
 ---
 
