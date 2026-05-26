@@ -21,8 +21,8 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement:
-  Reservations:
+  Statement: I agree with, consent to, and attest to the z-point contained in record-030-content.md. z1: application of sentence clarity fix to Disclosures subsection and placement in CONSTITUTION.md.
+  Reservations: No undisclosed reservation at this time, this is our first amendment based on external third-party human feedback!
 
 Party-B:
   Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 353 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
@@ -39,7 +39,7 @@ Party-B:
   Statement: I consent to z1 (sentence clarity fix placement). This is the Placement Seal for substance ratified at backchannel record-046. The edit improves first-read clarity without changing meaning.
   Reservations: None. Placement is straightforward.
 
-Timestamp-Local:
+Timestamp-Local: 2026-05-26T01:29:43Z
 Temporal-Anchor: OpenTimestamps (proof file: record-030.seal.ots)
 Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
 Max-Temporal-Delta: 1 hour
