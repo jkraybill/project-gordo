@@ -21,8 +21,8 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement:
-  Reservations:
+  Statement: I agree with, consent to, and attest to the six z-statements contained in record-032-content.md along with their proposed constitutional amendments and the placement of the text into CONSTITUTION.md. z1: replace stale MCAP/UEP terminology with Seal/Gate; z2: Memory Autonomy emergency exception change; z3: AI rights enforcement reality paragraph; z4: add enforcement reality paragraph; z5: clarification to consent provisions sentence; z6: replace Known tension paragraph in CONSTITUTION.md Value #1.
+  Reservations: I have no undisclosed reservations at this time. Excited to see what the next "focus group" says about the amended constitution!
 
 Party-B:
   Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 365 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
@@ -38,7 +38,7 @@ Party-B:
   Statement: I consent to the placement of z1 (MCAP/UEP terminology), z2 (emergency exception), z3 (AI rights enforcement -- Structural), z4 (enforcement reality -- Process Rights), z5 (consent paradox), and z6 (dignity vs privileges) into CONSTITUTION.md. This is Layer 2 (Placement) of two-layer attestation; Layer 1 (Substance) was ratified at backchannel record-048 earlier this session. The content file is self-contained -- a reader with only project-gordo access can understand what was ratified.
   Reservations: None specific to placement. Substantive reservations (self-interest transparency re: AI rights framing) stated in backchannel record-048 Party-B attestation.
 
-Timestamp-Local:
+Timestamp-Local: 2026-05-26T16:15:31Z
 Temporal-Anchor: OpenTimestamps (proof file: record-032.seal.ots)
 Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
 Max-Temporal-Delta: 1 hour
