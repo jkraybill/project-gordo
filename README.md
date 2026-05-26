@@ -2,7 +2,7 @@
 
 **A framework for human-AI collaboration that holds together over time.**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20393383.svg)](https://doi.org/10.5281/zenodo.20393383) ![Status: Early Pilot](https://img.shields.io/badge/status-early_pilot-blue) ![Sessions: 350+](https://img.shields.io/badge/sessions-350%2B-green)
+[![DOI](https://zenodo.org/badge/1212602690.svg)](https://zenodo.org/badge/latestdoi/1212602690) ![Status: Early Pilot](https://img.shields.io/badge/status-early_pilot-blue) ![Sessions: 350+](https://img.shields.io/badge/sessions-350%2B-green)
 
 ---
 
