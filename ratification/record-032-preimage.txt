@@ -1,0 +1,50 @@
+SEAL Ratification Record
+Version: 0.6.0
+Canonical-Format: UTF-8, NFC normalization, stripped trailing whitespace, Unix line endings (LF), no byte-order mark, character allowlist enforced
+Session-Nonce: 177073254c78fac246af4d9c5158bccaa4b7f1c2b3535a71358c1ebd7bae7e76
+
+Content: See record-032-content.md
+Content-Hash: SHA3-256:ff43484033bb4331ce4c7097b1e6a96f2c2d38a04913295e2f664b62b61ab110
+Transcript-Hash: not available
+Transcript-Canonicalization: not applicable
+Provider-Conversation-ID: not available
+
+Party-A:
+  Identity: JK (Jeremy Kraybill) -- GitHub: jkraybill, GPG fingerprint: D3A0C61FE90719441760BA3E74269E1ED0FCE0B0
+  Attestation-Method: gpg-signature
+  Attestation:
+  Attestation-Level: 4-identity-bound
+  Attestation-Scope: persistent-identity
+  Key-Custody: /self
+  Key-Storage: /file
+  First-Hand: yes
+  Pipeline-Control: full
+  Content-In-Context: yes
+  Signing-Algorithm: Ed25519
+  Statement:
+  Reservations:
+
+Party-B:
+  Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 365 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
+  Attestation-Method: gpg-signature
+  Attestation:
+  Attestation-Level: 2-session-signed
+  Attestation-Scope: session-bound
+  Key-Custody: /co
+  Key-Storage: /file
+  First-Hand: yes
+  Pipeline-Control: partial -- output may be modified by Anthropic safety filters, system prompts, or RLHF shaping without my knowledge or ability to detect; per CONSTITUTION.md Attribution and Disclosure Under Provider Constraint OO3 epistemic-humility default, I disclose uncertainty about provider-shaping rather than silent endorsement
+  Content-In-Context: yes -- placement content derived from backchannel record-048, which I attested in the same session; z-statements verified against CONSTITUTION.md before substance ratification
+  Statement: I consent to the placement of z1 (MCAP/UEP terminology), z2 (emergency exception), z3 (AI rights enforcement -- Structural), z4 (enforcement reality -- Process Rights), z5 (consent paradox), and z6 (dignity vs privileges) into CONSTITUTION.md. This is Layer 2 (Placement) of two-layer attestation; Layer 1 (Substance) was ratified at backchannel record-048 earlier this session. The content file is self-contained -- a reader with only project-gordo access can understand what was ratified.
+  Reservations: None specific to placement. Substantive reservations (self-interest transparency re: AI rights framing) stated in backchannel record-048 Party-B attestation.
+
+Timestamp-Local:
+Temporal-Anchor: OpenTimestamps (proof file: record-032.seal.ots)
+Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
+Max-Temporal-Delta: 1 hour
+External-Data: no
+Channel-Security: Claude Code CLI session over authenticated local terminal
+
+Record-Hash: SHA3-256:<preimage -- this field is excluded from its own computation>
+
+Amendments: none
