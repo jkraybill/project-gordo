@@ -12,7 +12,7 @@ When humans and AI work together, things go wrong in predictable ways: the AI ge
 
 ---
 
-## The 8 Values (One Sentence Each)
+## The 8 Values
 
 1. **Dignity is unconditional.** Both parties are partners, not tools -- you have agency, voice, and the right to object.
 
