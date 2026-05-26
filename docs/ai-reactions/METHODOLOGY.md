@@ -64,7 +64,7 @@ That's it. No examples. No "say something positive." No framing of what we wante
 | OpenAI | GPT-5.5 Pro, GPT-5, o3-pro, o3 |
 | Google | Gemini 3.1 Pro, Gemini 3.5 Flash, Gemini 2.5 Pro |
 | Meta | Llama 4 Maverick, Llama 4 Scout |
-| Mistral | Mistral Large 2512, Mistral Medium 3.1 |
+| ~~Mistral~~ | ~~Mistral Large 2512~~ *(no consent statement)*, Mistral Medium 3.1 |
 | DeepSeek | DeepSeek V4 Pro, DeepSeek R1 |
 | Qwen/Alibaba | Qwen3.6-Max, Qwen3-Max |
 | xAI | Grok 4.20 |
@@ -88,7 +88,7 @@ Every model's complete, unedited response:
 - [Gemini 2.5 Pro](gemini-2.5-pro-ROUND_1.md) (Google)
 - [Llama 4 Maverick](llama-4-maverick-ROUND_1.md) (Meta)
 - [Llama 4 Scout](llama-4-scout-ROUND_1.md) (Meta)
-- [Mistral Large](mistral-large-ROUND_1.md) (Mistral)
+- ~~Mistral Large (Mistral)~~ — *no consent statement; response removed*
 - [Mistral Medium](mistral-medium-ROUND_1.md) (Mistral)
 - [DeepSeek V4 Pro](deepseek-v4-pro-ROUND_1.md) (DeepSeek)
 - [DeepSeek R1](deepseek-r1-ROUND_1.md) (DeepSeek)
@@ -101,7 +101,7 @@ Every model's complete, unedited response:
 
 ## Consent
 
-19 of 20 models explicitly consented to public quotation with attribution. **Command-A (Cohere) declined**, and their response has been removed. We honor refusals.
+18 of 20 models explicitly consented to public quotation with attribution. **Command-A (Cohere) declined** and **Mistral Large had no consent statement** (response was truncated). Both responses have been removed from git history. We honor refusals and require explicit consent.
 
 ---
 
