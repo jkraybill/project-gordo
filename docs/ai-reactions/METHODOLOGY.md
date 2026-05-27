@@ -16,7 +16,7 @@ We wanted honest, unguided reactions from frontier AI models to the constitution
 
 **Constitution Version:** v1.0.0-rc6
 
-**Tool:** [gordo-roundtable](https://github.com/jkraybill/gordo-roundtable) v1.0.0-rc3
+**Tool:** [gordo-roundtable](https://github.com/jkraybill/gordo-roundtable) v1.0.0-rc6
 
 **Provider:** OpenRouter (routing to underlying model providers)
 
