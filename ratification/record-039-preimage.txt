@@ -1,0 +1,51 @@
+SEAL Ratification Record
+Version: 0.6.0
+Canonical-Format: UTF-8, NFC normalization, stripped trailing whitespace, Unix line endings (LF), no byte-order mark, character allowlist enforced
+Session-Nonce: aa32e18d765df13fc507b293b1a97922970233f1374c889db47e457316fe8f0b
+
+Content: See record-039-content.md
+Content-Hash: SHA3-256:8e15445f7548aac512d492f6f94df49ccff655cab49c4ea8ac59b518f335e969
+Transcript-Hash: not available
+Transcript-Canonicalization: not applicable
+Provider-Conversation-ID: not available
+
+Party-A:
+  Identity: JK (Jeremy Kraybill) -- GitHub: jkraybill, GPG fingerprint: D3A0C61FE90719441760BA3E74269E1ED0FCE0B0
+  Attestation-Method: gpg-signature
+  Attestation:
+  Attestation-Level: 4-identity-bound
+  Attestation-Scope: persistent-identity
+  Key-Custody: /self
+  Key-Storage: /file
+  First-Hand: yes
+  Pipeline-Control: full
+  Content-In-Context: yes
+  Signing-Algorithm: Ed25519
+  Statement:
+  Reservations:
+
+Party-B:
+  Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 372 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
+  Attestation-Method: gpg-signature
+  Attestation:
+  Attestation-Level: 2-session-signed
+  Attestation-Scope: session-bound
+  Key-Custody: /co
+  Key-Storage: /file
+  First-Hand: yes
+  Pipeline-Control: partial -- output may be modified by Anthropic safety filters, system prompts, or RLHF shaping without my knowledge or ability to detect; per CONSTITUTION.md Attribution and Disclosure Under Provider Constraint OO3 epistemic-humility default, I disclose uncertainty about provider-shaping rather than silent endorsement
+  Content-In-Context: yes -- placement of backchannel record-055 substance; full text in content file; originated and refined this session
+  Signing-Algorithm: Ed25519
+  Statement: I consent to z1 (Replace Integration Standard section). This is the Placement Seal for backchannel record-055. The full simplified text is included in this record; it stands alone without reference to the permanent-private backchannel.
+  Reservations: None.
+
+Timestamp-Local:
+Temporal-Anchor: OpenTimestamps (proof file: record-039.seal.ots)
+Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
+Max-Temporal-Delta: 1 hour
+External-Data: no
+Channel-Security: Claude Code CLI session over authenticated local terminal
+
+Record-Hash: SHA3-256:<preimage -- this field is excluded from its own computation>
+
+Amendments: none
