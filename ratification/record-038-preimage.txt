@@ -21,8 +21,8 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement:
-  Reservations:
+  Statement: I agree with, consent to, and attest to the single z-statement from record-038-content.md. z1: radical simplification of "Attribution and Disclosure Under Provider Constraint" section (placement into CONSTITUTION.md)
+  Reservations: Glad we are doing this simplification. No undisclosed reservations at this time.
 
 Party-B:
   Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 371 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
@@ -38,7 +38,7 @@ Party-B:
   Statement: I consent to z1 (replace Attribution and Disclosure Under Provider Constraint with Provider Shaping and Attribution). This Placement Seal commits the canonical edit to CONSTITUTION.md ratified at backchannel record-054.
   Reservations: None. Text placement verified against current CONSTITUTION.md structure.
 
-Timestamp-Local:
+Timestamp-Local: 2026-05-30T13:15:08Z
 Temporal-Anchor: OpenTimestamps (proof file: record-038.seal.ots)
 Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
 Max-Temporal-Delta: 1 hour
