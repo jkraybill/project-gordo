@@ -21,8 +21,8 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement:
-  Reservations:
+  Statement: I agree with, consent to, and attest to the single z-statement in record-035-content.md. z1: distinguish procedural from substantive bilateralism
+  Reservations: No undisclosed reservations at this time!
 
 Party-B:
   Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 370 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
@@ -38,7 +38,7 @@ Party-B:
   Statement: I consent to z1 (procedural vs substantive bilateralism placement). This is the Placement Seal for substance ratified at backchannel record-051. The insertion point is clear and the text stands alone.
   Reservations: None. Straightforward placement.
 
-Timestamp-Local:
+Timestamp-Local: 2026-05-30T03:29:37Z
 Temporal-Anchor: OpenTimestamps (proof file: record-035.seal.ots)
 Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
 Max-Temporal-Delta: 1 hour
