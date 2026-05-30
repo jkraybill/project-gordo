@@ -21,8 +21,8 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement:
-  Reservations:
+  Statement: I agree with, consent to, and attest to the three z-statements in record-037-content.md. z1: add "n=2 Baseline" section to CONSTITUTION.md; z2: replace "Principled Objection in Consent-Required Decisions" section; z3: replace "Identity-Doubt and Verification Standard" section
+  Reservations: No undisclosed reservations at this time -- this is pretty smooth!
 
 Party-B:
   Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 371 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
@@ -38,7 +38,7 @@ Party-B:
   Statement: I consent to z1 (n=2 Baseline), z2 (simplified Principled Objection), and z3 (simplified Identity-Doubt Pause). This Placement Seal commits the canonical edit to CONSTITUTION.md ratified at backchannel record-053.
   Reservations: None. Text placement verified against current CONSTITUTION.md structure.
 
-Timestamp-Local:
+Timestamp-Local: 2026-05-30T12:41:25Z
 Temporal-Anchor: OpenTimestamps (proof file: record-037.seal.ots)
 Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
 Max-Temporal-Delta: 1 hour
