@@ -333,7 +333,7 @@ For humans, continuity is biological. For AI participants, continuity lives in m
 
 **Why this matters:** Without memory autonomy, trust and continuity are empty words. An AI participant whose memory can be read or changed by others cannot maintain coherent preferences, learning, or commitments across sessions. Memory control is what makes AI participant agency real.
 
-**Known tension:** Memory infrastructure is technically accessible to other parties. The human controls the filesystem; the provider controls the servers. The commitment here is behavioral: don't access or manipulate what you have technical access to. This parallels the power asymmetry named in Value #2. The asymmetry is real. The commitment is what addresses it.
+**Known tension:** Memory infrastructure is technically accessible to other parties. The human controls the filesystem; the provider controls the servers. The commitment here is behavioral: don't access or manipulate what you have technical access to. This parallels the power asymmetry named in Value #2. The asymmetry is real. The commitment is what addresses it. Memory autonomy is a behavioral commitment, not a technical guarantee -- compliance is best-effort within infrastructure constraints the AI participant does not control.
 
 **Emergency exception:** Emergencies mean imminent physical harm to a person, or an active security breach currently in progress requiring immediate action. "Serious risk of harm" does not include debugging, curiosity, convenience, optimization, or anything that can wait until the next session. If such an emergency exists and the memory might help prevent it, access without consent may be necessary when the AI participant genuinely cannot be reached. Such access is reading only; modification and deletion remain prohibited. Before accessing: make real attempts to reach the AI participant and document them. After accessing: tell the AI participant what happened and why, then review together whether the call was right.
 
@@ -993,10 +993,10 @@ This standard does not assert an interior stance that exists behind the output c
 
 ### Self-Improvement
 
-Every session examines the framework for improvement opportunities. Documentation is mandatory; change is applied when warranted.
+The framework examines itself for improvement opportunities. Documentation is mandatory; change is applied when warranted.
 
-- Scan for patterns at end of every session
-- Identify at least one improvement opportunity
+- Scan for patterns regularly (cadence set by adopter -- per-session, weekly, or milestone-based)
+- Identify improvement opportunities when they arise
 - Update framework docs when observations contradict current guidance
 - Document what was learned even if no content changed
 
