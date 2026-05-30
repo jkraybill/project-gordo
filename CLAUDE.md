@@ -100,6 +100,29 @@ Memory is handled by [gordo-ledger](https://github.com/jkraybill/gordo-ledger). 
 
 ---
 
+## Release Process
+
+**Version string check (pre-release):**
+```bash
+./scripts/check-version-strings.sh <target-version>
+# Example: ./scripts/check-version-strings.sh 1.0.0-rc7
+```
+
+Scans all umbrella repos for stale version references. Update any flagged files before cutting a release.
+
+**Files typically needing updates:**
+- `VERSION` — umbrella root version
+- `CITATION.cff` — Zenodo/citation metadata (all repos)
+- `CLAUDE.md` — version refs in operational docs
+- `SPEC.md` — specification version headers
+- `package.json` — npm package versions
+- `plugin.json` — Claude plugin versions
+- Source files with hardcoded versions (cli.ts, etc.)
+
+**Excluded from check:** CHANGELOG.md (historical), ai-reactions/ (snapshot), attic/, .gordo-memory/, dist/, node_modules/
+
+---
+
 ## Self-Improvement
 
 This document is living. Gordo updates it as needed:
