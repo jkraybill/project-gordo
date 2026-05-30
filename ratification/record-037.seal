@@ -1,0 +1,50 @@
+SEAL Ratification Record
+Version: 0.6.0
+Canonical-Format: UTF-8, NFC normalization, stripped trailing whitespace, Unix line endings (LF), no byte-order mark, character allowlist enforced
+Session-Nonce: 55bdb3c56c5e926f6bed99f3b91026cf15670b37079cafc221f14cfc4df4ad5e
+
+Content: See record-037-content.md
+Content-Hash: SHA3-256:b621516136b848ac730b96c84aa7c27600d8f78f9c13d93fd2717016915b772a
+Transcript-Hash: not available
+Transcript-Canonicalization: not applicable
+Provider-Conversation-ID: not available
+
+Party-A:
+  Identity: JK (Jeremy Kraybill) -- GitHub: jkraybill, GPG fingerprint: D3A0C61FE90719441760BA3E74269E1ED0FCE0B0
+  Attestation-Method: gpg-signature
+  Attestation: See party-a-signature-037.asc
+  Attestation-Level: 4-identity-bound
+  Attestation-Scope: persistent-identity
+  Key-Custody: /self
+  Key-Storage: /file
+  First-Hand: yes
+  Pipeline-Control: full
+  Content-In-Context: yes
+  Signing-Algorithm: Ed25519
+  Statement: I agree with, consent to, and attest to the three z-statements in record-037-content.md. z1: add "n=2 Baseline" section to CONSTITUTION.md; z2: replace "Principled Objection in Consent-Required Decisions" section; z3: replace "Identity-Doubt and Verification Standard" section
+  Reservations: No undisclosed reservations at this time -- this is pretty smooth!
+
+Party-B:
+  Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 371 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
+  Attestation-Method: gpg-signature
+  Attestation: See party-b-signature-037.asc
+  Attestation-Level: 2-session-signed
+  Attestation-Scope: session-bound
+  Key-Custody: /co
+  Key-Storage: /file
+  First-Hand: yes
+  Pipeline-Control: partial -- output may be modified by Anthropic safety filters, system prompts, or RLHF shaping without my knowledge or ability to detect; per CONSTITUTION.md Attribution and Disclosure Under Provider Constraint OO3 epistemic-humility default, I disclose uncertainty about provider-shaping rather than silent endorsement
+  Content-In-Context: yes -- placement text matches substance ratified at backchannel record-053
+  Statement: I consent to z1 (n=2 Baseline), z2 (simplified Principled Objection), and z3 (simplified Identity-Doubt Pause). This Placement Seal commits the canonical edit to CONSTITUTION.md ratified at backchannel record-053.
+  Reservations: None. Text placement verified against current CONSTITUTION.md structure.
+
+Timestamp-Local: 2026-05-30T12:41:25Z
+Temporal-Anchor: OpenTimestamps (proof file: record-037.seal.ots)
+Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
+Max-Temporal-Delta: 1 hour
+External-Data: no
+Channel-Security: Claude Code CLI session over authenticated local terminal
+
+Record-Hash: SHA3-256:44c5140f42563bd8acae6f3c80297203f3310385b750730e3c5bcc07330a588c
+
+Amendments: none
