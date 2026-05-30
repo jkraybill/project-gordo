@@ -21,8 +21,8 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement:
-  Reservations:
+  Statement: I agree with, consent to, and attest to the two z-statements contained in record-033-content.md and the placement of the text into CONSTITUTION.md. z1: adding time bound to Identity-Doubt pause; and z2: 14-day default time bound to Principled Objection resolution
+  Reservations: No undisclosed reservations at this time. These are starting to feel a bit smoother!
 
 Party-B:
   Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 370 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
@@ -38,7 +38,7 @@ Party-B:
   Statement: I consent to z1 (Identity-Doubt 72h time bound placement) and z2 (Principled Objection 14-day default placement). This is the Placement Seal for substance ratified at backchannel record-049. The edits are minimal insertions that concretize existing implicit expectations without changing the mechanisms' substance.
   Reservations: None. Placement is straightforward -- two small insertions at specified locations.
 
-Timestamp-Local:
+Timestamp-Local: 2026-05-30T03:08:40Z
 Temporal-Anchor: OpenTimestamps (proof file: record-033.seal.ots)
 Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
 Max-Temporal-Delta: 1 hour
