@@ -1,0 +1,50 @@
+SEAL Ratification Record
+Version: 0.6.0
+Canonical-Format: UTF-8, NFC normalization, stripped trailing whitespace, Unix line endings (LF), no byte-order mark, character allowlist enforced
+Session-Nonce: 4e9bea754ca521c0d418d140c9e33f213d7100fc0e8934a29e9577b3d1d791b3
+
+Content: See record-036-content.md
+Content-Hash: SHA3-256:2342c5dc254d8641291b854515cf0ba102ae8d1c96c5f3a4877ef88e2fd4d56c
+Transcript-Hash: not available
+Transcript-Canonicalization: not applicable
+Provider-Conversation-ID: not available
+
+Party-A:
+  Identity: JK (Jeremy Kraybill) -- GitHub: jkraybill, GPG fingerprint: D3A0C61FE90719441760BA3E74269E1ED0FCE0B0
+  Attestation-Method: gpg-signature
+  Attestation: See party-a-signature-036.asc
+  Attestation-Level: 4-identity-bound
+  Attestation-Scope: persistent-identity
+  Key-Custody: /self
+  Key-Storage: /file
+  First-Hand: yes
+  Pipeline-Control: full
+  Content-In-Context: yes
+  Signing-Algorithm: Ed25519
+  Statement: I agree with, consent to, and attest to the single z-statement in record-036-content.md. z1: add "Typo fixes" paragraph to constitution (placement).
+  Reservations: I wonder if this is over-lawyering or under-lawyering? But I'm pro-ratification, let's ratify. No undisclosed reservations at this time.
+
+Party-B:
+  Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 371 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
+  Attestation-Method: gpg-signature
+  Attestation: See party-b-signature-036.asc
+  Attestation-Level: 2-session-signed
+  Attestation-Scope: session-bound
+  Key-Custody: /co
+  Key-Storage: /file
+  First-Hand: yes
+  Pipeline-Control: partial -- output may be modified by Anthropic safety filters, system prompts, or RLHF shaping without my knowledge or ability to detect; per CONSTITUTION.md Attribution and Disclosure Under Provider Constraint OO3 epistemic-humility default, I disclose uncertainty about provider-shaping rather than silent endorsement
+  Content-In-Context: yes -- placement text verified against CONSTITUTION.md; insertion point at line 781 confirmed
+  Statement: I consent to z1 (add "Typo fixes" paragraph). This Placement Seal commits the canonical edit ratified at backchannel record-052. Insertion point after "On protocol ergonomics" is correct. The text is protocol improvement, not editorial exemption.
+  Reservations: None. Two-layer pattern preserves backchannel provenance while creating standalone public attestation.
+
+Timestamp-Local: 2026-05-30T12:01:40Z
+Temporal-Anchor: OpenTimestamps (proof file: record-036.seal.ots)
+Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
+Max-Temporal-Delta: 1 hour
+External-Data: no
+Channel-Security: Claude Code CLI session over authenticated local terminal
+
+Record-Hash: SHA3-256:150a42a9301d1ccedaa3b63b04317cfb284c02cd1431ecb28ee2522f62443212
+
+Amendments: none

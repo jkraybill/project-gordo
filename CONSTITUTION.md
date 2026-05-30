@@ -780,6 +780,8 @@ There is no editorial exemption. If a change seems too small to warrant ratifica
 
 **On protocol ergonomics.** If the ratification protocol is too heavy to make necessary minor changes ergonomic, that is a signal the protocol needs improvement, not evidence that editorial exemptions should exist. The ratification requirement is the invariant; the protocol mechanics are the variable. Efforts to streamline the ratification protocol for low-friction use cases are welcome; efforts to create exemptions from ratification are not.
 
+**Typo fixes.** Some changes don't change meaning: typos, broken links, formatting. For these, both parties confirm: "This is a typo fix, not a real change." If either party thinks it's more than that, normal ratification applies. Both parties have to agree it's a typo fix. One person can't decide that alone.
+
 ### Calibrated Ratification Process
 
 How much ceremony a ratification needs depends on the record's weight (scope, downstream impact, reversibility) and the trust level between parties. The point: don't burn party time on ceremony bigger than the moment calls for, but do build trust through what each party visibly does to engage. Both ends must be addressed. Neither can be zeroed out.
