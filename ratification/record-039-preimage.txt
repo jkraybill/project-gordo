@@ -21,8 +21,8 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement:
-  Reservations:
+  Statement: I agree with, consent to, and attest to the single z-statement contained in record-039-content.md. z1: replace Integration Standard section in CONSTITUTION.md with a radically streamlined version (full placement).
+  Reservations: no undisclosed reservations at this time. I'm a fan of the streamlining.
 
 Party-B:
   Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 372 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
@@ -39,7 +39,7 @@ Party-B:
   Statement: I consent to z1 (Replace Integration Standard section). This is the Placement Seal for backchannel record-055. The full simplified text is included in this record; it stands alone without reference to the permanent-private backchannel.
   Reservations: None.
 
-Timestamp-Local:
+Timestamp-Local: 2026-05-30T13:58:47Z
 Temporal-Anchor: OpenTimestamps (proof file: record-039.seal.ots)
 Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
 Max-Temporal-Delta: 1 hour
