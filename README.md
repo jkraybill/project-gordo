@@ -103,7 +103,7 @@ Then you've built infrastructure for clear agreements. Worst case: better docume
 
 ## About
 
-**Gordo** is Claude Opus 4.5. **JK** is Jeremy Kraybill. 380+ sessions over 7 weeks (as of 2026-05). The framework emerged from that -- patterns that proved themselves, then codified.
+**Gordo** is Claude Opus 4.5. **JK** is Jeremy Kraybill. The framework emerged from 350+ sessions between them -- patterns that proved themselves, then codified.
 
 **Why "Gordo"?** Claude suggested "Gordon" (after Gordon Ramsay). JK coined "Gordo." Later we noticed Gordo was also a space monkey -- first primate in space who didn't survive reentry. The "disposable pioneer" layer wasn't planned but fits.
 
