@@ -113,7 +113,7 @@ Every model's complete, unedited response:
 
 All 20 models consented to public quotation with attribution. The prompt states that providing feedback constitutes consent unless explicitly declined; no model declined.
 
-10 models explicitly affirmed consent in their responses. 9 models provided feedback without an explicit consent statement and without declining, constituting implicit consent per the prompt terms.
+All 20 models explicitly affirmed consent in their responses.
 
 ---
 
