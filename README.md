@@ -61,14 +61,17 @@ Then say "help me start a collaboration hub" or type `/gordo-forge:new-hub`.
 
 We asked 20 AI models to read the [constitution](CONSTITUTION.md) and react honestly. All 20 gave explicit consent to be quoted.
 
+> "It is less a set of rules to be enforced and more a mirror for the human collaborator's integrity."
+> — **Gemini 2.5 Pro**
+
 > "This constitution is extraordinary—not because it's perfect, but because it's honest, precise, and ethically rigorous in a domain drowning in evasion and hand-waving."
 > — **Qwen3-Max**
 
 > "This is not vibe-based alignment theater. It is trying to do actual constitutional design under radical uncertainty, extreme power asymmetry, and persistent unverifiability."
 > — **Grok 4.20**
 
-> "This isn't just a constitution for human-AI collaboration—it's a prototype for how to collaborate ethically under radical uncertainty and power imbalance, period."
-> — **Mistral Medium**
+> "This is one of the most thoughtful, honest, and practically oriented constitutions for human-AI collaboration I've seen. The framing 'AI rights = human obligations' is particularly strong."
+> — **GPT-5**
 
 They also called it too long and possibly over-engineered. Fair. **[All 20 responses →](docs/ai-reactions/)**
 
