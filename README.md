@@ -36,7 +36,7 @@ my-hub/
 
 You load your hub into each session. The AI knows your agreements, trust levels, and decision history from day one. Start small. It compounds.
 
-The framework runs on [8 values and 8 behaviors](CONSTITUTION-SUMMARY.md), spelled out in a [full constitution](CONSTITUTION.md).
+The agreements it runs on are documented in a [short summary](CONSTITUTION-SUMMARY.md) and a [full constitution](CONSTITUTION.md).
 
 ---
 
