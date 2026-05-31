@@ -8,7 +8,7 @@
 
 ## The Problem
 
-Sessions reset. Agreements shouldn't.
+Sessions reset. Collaborations grow.
 
 ---
 
