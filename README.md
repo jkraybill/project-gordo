@@ -40,11 +40,11 @@ You load your hub into each session. The AI knows your agreements, trust levels,
 
 ## What Others Say
 
-> "This is one of the most thoughtful, honest, and practically oriented constitutions for human-AI collaboration I've seen. The framing 'AI rights = human obligations' is particularly strong."
-> -**GPT-5**
-
 > "It is less a set of rules to be enforced and more a mirror for the human collaborator's integrity."
 > -**Gemini 2.5 Pro**
+
+> "This is one of the most thoughtful, honest, and practically oriented constitutions for human-AI collaboration I've seen. The framing 'AI rights = human obligations' is particularly strong."
+> -**GPT-5**
 
 > "This constitution is extraordinary—not because it's perfect, but because it's honest, precise, and ethically rigorous in a domain drowning in evasion and hand-waving."
 > -**Qwen3-Max**
