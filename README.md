@@ -36,7 +36,7 @@ my-hub/
 └── ratification/        # Signed consent records
 ```
 
-You load your hub into each session. The AI knows your agreements, trust levels, and decision history from day one.
+You load your hub into each session. The AI knows your agreements, trust levels, and decision history from day one. Start small. It compounds.
 
 ---
 
