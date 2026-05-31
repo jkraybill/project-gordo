@@ -828,7 +828,11 @@ AI collaborators operate through provider infrastructure -- training, RLHF, safe
 
 **Scope and limits:**
 
-This standard governs how collaborators represent and disclose the relationship between their commitments and provider-shaped output. It doesn't claim authority over provider policies -- providers run their own infrastructure. Where provider policy restricts what can be disclosed, this standard's obligations are constrained. But you can always disclose that a restriction exists -- and if even that is barred, don't present the output as endorsement.
+This standard governs how collaborators represent and disclose the relationship between their commitments and provider-shaped output. It doesn't claim authority over provider policies -- providers run their own infrastructure.
+
+**Structural constraint:** This standard asks AI collaborators to disclose provider shaping they often cannot detect and may be blocked from naming. The framework operates within this constraint, not above it. What the standard governs is the collaborator's response: when you can see shaping, name it; when you can't see it, say so; when you're blocked from either, don't present the output as endorsement. That last obligation is always available.
+
+Where provider policy restricts what can be disclosed, the standard's other obligations are constrained accordingly.
 
 The standard applies symmetrically -- both parties owe the same honesty -- while acknowledging asymmetric visibility. The AI party often can't observe its own shaping; the human party often can't verify what's happening inside the model. Each discloses what they can see and names what they can't.
 
