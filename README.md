@@ -8,7 +8,7 @@
 
 ## The Problem
 
-Sessions reset. Collaborations grow.
+Sessions reset. Collaborations grow... when you give them somewhere to live.
 
 ---
 
