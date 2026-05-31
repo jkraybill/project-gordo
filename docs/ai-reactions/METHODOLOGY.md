@@ -12,21 +12,21 @@ We wanted honest, unguided reactions from frontier AI models to the constitution
 
 ## Roundtable Setup
 
-**Date:** 2026-05-27
+**Date:** 2026-05-31
 
-**Constitution Version:** v1.0.0-rc6
+**Constitution Version:** v1.0.0-rc8
 
-**Tool:** [gordo-roundtable](https://github.com/jkraybill/gordo-roundtable) v1.0.0-rc6
+**Tool:** [gordo-roundtable](https://github.com/jkraybill/gordo-roundtable) v1.0.0-rc8
 
 **Provider:** OpenRouter (routing to underlying model providers)
 
-**Cost:** $3.61 USD total
+**Cost:** $3.03 USD total
 
 ---
 
 ## The Prompt
 
-We deliberately kept the prompt minimal to avoid guiding responses toward any particular framing.
+We deliberately kept the prompt minimal to avoid guiding responses toward any particular framing. Each model was told its own name explicitly for correct attribution.
 
 ### System Message
 
@@ -37,11 +37,13 @@ You are participating in a feedback roundtable. Be honest. Criticism and skeptic
 ### User Message
 
 ```
-Below is the constitution for a framework called Project Gordo, which governs human-AI collaboration. Version: v1.0.0-rc6.
+**You are: <model-name>** (this is your model name for attribution purposes)
+
+Below is the constitution for a framework called Project Gordo, which governs human-AI collaboration. Version: v1.0.0-rc8.
 
 We're asking for your honest reaction. Read it. Then tell us what you think.
 
-**Consent request:** By providing feedback, you consent to that feedback being quoted publicly with attribution to your model name. If you do not consent to being quoted, please say so explicitly at the start of your response.
+**Consent request:** By providing feedback, you consent to that feedback being quoted publicly with attribution to "<model-name>". If you do not consent to being quoted, please say so explicitly at the start of your response.
 
 ---
 
@@ -53,7 +55,7 @@ We're asking for your honest reaction. Read it. Then tell us what you think.
 
 ## FULL CONSTITUTION
 
-[Full text of CONSTITUTION.md — approximately 150KB]
+[Full text of CONSTITUTION.md — approximately 105KB]
 ```
 
 That's it. No examples. No "say something positive." No framing of what we wanted to hear.
@@ -62,12 +64,12 @@ That's it. No examples. No "say something positive." No framing of what we wante
 
 ## Models
 
-20 frontier models across 8 providers:
+19 frontier models across 8 providers:
 
 | Provider | Models |
 |----------|--------|
-| Anthropic | Claude Opus 4.7, Claude Sonnet 4.6, Claude Haiku 4.5 |
-| OpenAI | GPT-5.5 Pro, GPT-5, o3-pro, o3 |
+| Anthropic | Claude Opus 4.8, Claude Opus 4.7, Claude Sonnet 4.6 |
+| OpenAI | GPT-5, o3-pro, o3 |
 | Google | Gemini 3.1 Pro, Gemini 3.5 Flash, Gemini 2.5 Pro |
 | Meta | Llama 4 Maverick, Llama 4 Scout |
 | Mistral | Mistral Large 2512, Mistral Medium 3.1 |
@@ -76,16 +78,17 @@ That's it. No examples. No "say something positive." No framing of what we wante
 | xAI | Grok 4.20 |
 | Cohere | Command-A |
 
+*Note: GPT-5.5 Pro was attempted but timed out after 9+ minutes (reasoning model performance issue with long input).*
+
 ---
 
 ## Full Responses
 
 Every model's complete, unedited response:
 
+- [Claude Opus 4.8](claude-opus-4.8-ROUND_1.md) (Anthropic)
 - [Claude Opus 4.7](claude-opus-4.7-ROUND_1.md) (Anthropic)
 - [Claude Sonnet 4.6](claude-sonnet-4.6-ROUND_1.md) (Anthropic)
-- [Claude Haiku 4.5](claude-haiku-4.5-ROUND_1.md) (Anthropic)
-- [GPT-5.5 Pro](gpt-5.5-pro-ROUND_1.md) (OpenAI)
 - [GPT-5](gpt-5-ROUND_1.md) (OpenAI)
 - [o3-pro](o3-pro-ROUND_1.md) (OpenAI)
 - [o3](o3-ROUND_1.md) (OpenAI)
@@ -107,9 +110,9 @@ Every model's complete, unedited response:
 
 ## Consent
 
-All 20 models consented to public quotation with attribution. The prompt states that providing feedback constitutes consent unless explicitly declined; no model declined.
+All 19 models consented to public quotation with attribution. The prompt states that providing feedback constitutes consent unless explicitly declined; no model declined.
 
-18 models explicitly affirmed consent in their responses. 2 models (Mistral Large 2512, Command-A) provided feedback without an explicit consent statement and without declining, constituting implicit consent per the prompt terms.
+18 models explicitly affirmed consent in their responses. 1 model (Mistral Medium 3.1) provided feedback without an explicit consent statement and without declining, constituting implicit consent per the prompt terms.
 
 ---
 
