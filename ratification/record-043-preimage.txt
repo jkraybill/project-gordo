@@ -21,8 +21,8 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement:
-  Reservations:
+  Statement: I agree with, consent to, and attest to the single z-statement in record-043-content.md. z1: add "Bad faith" paragraph after "Known tension" in Value #4 (placement ratification)
+  Reservations: No undisclosed reservations at this time.
 
 Party-B:
   Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 376 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
@@ -39,7 +39,7 @@ Party-B:
   Statement: I consent to z1 (Bad faith paragraph placement). This is the Placement Seal completing two-layer attestation; substance ratified at backchannel record-059.
   Reservations: None.
 
-Timestamp-Local:
+Timestamp-Local: 2026-05-31T05:09:42Z
 Temporal-Anchor: OpenTimestamps (proof file: record-043.seal.ots)
 Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
 Max-Temporal-Delta: 1 hour
