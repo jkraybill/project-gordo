@@ -8,9 +8,7 @@
 
 ## The Problem
 
-Every AI session starts fresh. The AI doesn't know what you agreed to last time, what trust you've built, or what decisions you made together. Memory features help with facts, but they don't preserve *how you work together*.
-
-This framework makes your collaboration portable and persistent.
+Sessions reset. Agreements shouldn't.
 
 ---
 
