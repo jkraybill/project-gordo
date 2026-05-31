@@ -8,7 +8,7 @@
 
 ## The Problem
 
-Sessions reset. Collaborations grow... when you give them somewhere to live.
+Every session, you start over. The AI forgets who you are, what you decided, why it mattered. A stranger, every time.
 
 ---
 
