@@ -27,11 +27,11 @@ After a 15-minute interview, [Forge](https://github.com/jkraybill/gordo-forge) g
 
 ```
 my-hub/
-├── CONSTITUTION.md      # How you work together
-├── CLAUDE.md            # AI's operational guide  
-├── SESSION_LOG.md       # Collaboration history
 ├── .claude/             # Skills, hooks, settings
-└── ratification/        # Signed consent records
+├── ratification/        # Signed consent records
+├── CLAUDE.md            # AI's operational guide
+├── CONSTITUTION.md      # How you work together
+└── SESSION_LOG.md       # Collaboration history
 ```
 
 You load your hub into each session. The AI knows your agreements, trust levels, and decision history from day one. Start small. It compounds.
