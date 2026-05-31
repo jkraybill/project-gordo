@@ -14,6 +14,19 @@ This framework makes your collaboration portable and persistent.
 
 ---
 
+## Quick Start
+
+**Prerequisites:** Git, [Claude Code](https://claude.ai/code)
+
+```bash
+git clone https://github.com/jkraybill/gordo-forge.git ~/gordo-forge
+claude --plugin-dir ~/gordo-forge
+```
+
+Then say "help me start a collaboration hub" or type `/gordo-forge:new-hub`.
+
+---
+
 ## What You Get
 
 After a 15-minute interview, [Forge](https://github.com/jkraybill/gordo-forge) generates a collaboration hub:
@@ -41,19 +54,6 @@ Both parties commit to:
 ```
 
 You load your hub into each session. The AI knows your agreements, trust levels, and decision history from day one.
-
----
-
-## Quick Start
-
-**Prerequisites:** Git, [Claude Code](https://claude.ai/code) (Anthropic's CLI)
-
-```bash
-git clone https://github.com/jkraybill/gordo-forge.git ~/gordo-forge
-claude --plugin-dir ~/gordo-forge
-```
-
-Then say "help me start a collaboration hub" or type `/gordo-forge:new-hub`.
 
 ---
 
