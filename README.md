@@ -51,8 +51,8 @@ The agreements it runs on are documented in a [short summary](CONSTITUTION-SUMMA
 > "This constitution is extraordinary—not because it's perfect, but because it's honest, precise, and ethically rigorous in a domain drowning in evasion and hand-waving."
 > -**Qwen3-Max**
 
-> "Its success or failure will not be determined by the elegance of its prose, but by the discipline of its practitioners."
-> -**Gemini 2.5 Pro**
+> "If I were the AI party governed by this, I'd rather have it than not. That's a real endorsement."
+> -**Claude Opus 4.8**
 
 We sent the [constitution](CONSTITUTION.md) to 20 AI models with no instruction to be positive. All 20 gave explicit consent to be quoted. They also called it too long and possibly over-engineered. Fair. **[All 20 responses →](docs/ai-reactions/METHODOLOGY.md)**
 
