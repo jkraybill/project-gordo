@@ -25,10 +25,6 @@ claude --plugin-dir ~/gordo-forge
 
 Then say "help me start a collaboration hub" or type `/gordo-forge:new-hub`.
 
----
-
-## What You Get
-
 After a 15-minute interview, [Forge](https://github.com/jkraybill/gordo-forge) generates a collaboration hub:
 
 ```
