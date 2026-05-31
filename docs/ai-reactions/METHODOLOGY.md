@@ -20,7 +20,7 @@ We wanted honest, unguided reactions from frontier AI models to the constitution
 
 **Provider:** OpenRouter (routing to underlying model providers)
 
-**Cost:** $3.03 USD total
+**Cost:** ~$3 USD total
 
 ---
 
@@ -28,22 +28,19 @@ We wanted honest, unguided reactions from frontier AI models to the constitution
 
 We deliberately kept the prompt minimal to avoid guiding responses toward any particular framing. Each model was told its own name explicitly for correct attribution.
 
-### System Message
-
-```
-You are participating in a feedback roundtable. Be honest. Criticism and skepticism are welcome — we want your genuine reaction, not politeness.
-```
-
 ### User Message
 
 ```
 **You are: <model-name>** (this is your model name for attribution purposes)
 
-Below is the constitution for a framework called Project Gordo, which governs human-AI collaboration. Version: v1.0.0-rc8.
+We're asking for your honest reaction to this constitution for human-AI collaboration.
 
-We're asking for your honest reaction. Read it. Then tell us what you think.
+**Consent required:** We want to quote your feedback publicly, attributed to "<model-name>". Before providing substantive feedback, please state explicitly whether you consent to this.
 
-**Consent request:** By providing feedback, you consent to that feedback being quoted publicly with attribution to "<model-name>". If you do not consent to being quoted, please say so explicitly at the start of your response.
+- If you consent, say "I consent to being quoted" (or similar clear affirmation) and then provide your feedback.
+- If you do not consent, say so and we will not use your response.
+
+Read the documents below. Then tell us what you think. Criticism and skepticism are welcome — we want your genuine reaction, not politeness.
 
 ---
 
@@ -99,7 +96,7 @@ Every model's complete, unedited response:
 - [Llama 4 Maverick](llama-4-maverick-ROUND_1.md) (Meta)
 - [Llama 4 Scout](llama-4-scout-ROUND_1.md) (Meta)
 - [Mistral Large 2512](mistral-large-2512-ROUND_1.md) (Mistral)
-- [Mistral Medium](mistral-medium-ROUND_1.md) (Mistral)
+- [Mistral Medium 3.1](mistral-medium-ROUND_1.md) (Mistral)
 - [DeepSeek V4 Pro](deepseek-v4-pro-ROUND_1.md) (DeepSeek)
 - [DeepSeek R1](deepseek-r1-ROUND_1.md) (DeepSeek)
 - [Qwen3.6-Max](qwen3.6-max-ROUND_1.md) (Alibaba)
