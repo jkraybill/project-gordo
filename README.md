@@ -16,7 +16,7 @@ This framework makes your collaboration portable and persistent.
 
 ## Quick Start
 
-**Prerequisites:** Git, [Claude Code](https://claude.ai/code)
+**Prerequisites:** Git, Claude Code
 
 ```bash
 git clone https://github.com/jkraybill/gordo-forge.git ~/gordo-forge
