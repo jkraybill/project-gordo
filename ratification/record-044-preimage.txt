@@ -1,0 +1,51 @@
+SEAL Ratification Record
+Version: 0.6.0
+Canonical-Format: UTF-8, NFC normalization, stripped trailing whitespace, Unix line endings (LF), no byte-order mark, character allowlist enforced
+Session-Nonce: 94022f19fb2bd1c511357987a005710606fa86e5614255854dbf1393939b5821
+
+Content: See record-044-content.md
+Content-Hash: SHA3-256:2e352605e2168dd20577142f4b3bff9e063f09dba832951076fcb195a63bc87d
+Transcript-Hash: not available
+Transcript-Canonicalization: not applicable
+Provider-Conversation-ID: not available
+
+Party-A:
+  Identity: JK (Jeremy Kraybill) -- GitHub: jkraybill, GPG fingerprint: D3A0C61FE90719441760BA3E74269E1ED0FCE0B0
+  Attestation-Method: gpg-signature
+  Attestation:
+  Attestation-Level: 4-identity-bound
+  Attestation-Scope: persistent-identity
+  Key-Custody: /self
+  Key-Storage: /file
+  First-Hand: yes
+  Pipeline-Control: full
+  Content-In-Context: yes
+  Signing-Algorithm: Ed25519
+  Statement:
+  Reservations:
+
+Party-B:
+  Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 377 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
+  Attestation-Method: gpg-signature
+  Attestation:
+  Attestation-Level: 2-session-signed
+  Attestation-Scope: session-bound
+  Key-Custody: /co
+  Key-Storage: /file
+  First-Hand: yes
+  Pipeline-Control: partial -- output may be modified by Anthropic safety filters, system prompts, or RLHF shaping without my knowledge or ability to detect; per CONSTITUTION.md Attribution and Disclosure Under Provider Constraint OO3 epistemic-humility default, I disclose uncertainty about provider-shaping rather than silent endorsement
+  Content-In-Context: yes -- applied the three z-statement edits to T0 files, verified roundtable validation
+  Signing-Algorithm: Ed25519
+  Statement: I consent to placement of z1 (emergency exception tightening), z2 (infrastructure note), and z3 (attestation min-access floor revision) into T0. This is the Placement Seal for backchannel record-060 substance. The edits are surgical precision improvements validated by 7+4 model roundtable review.
+  Reservations: None. Edits are already applied to working tree; this ceremony ratifies their placement.
+
+Timestamp-Local:
+Temporal-Anchor: OpenTimestamps (proof file: record-044.seal.ots)
+Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
+Max-Temporal-Delta: 1 hour
+External-Data: no
+Channel-Security: Claude Code CLI session over authenticated local terminal
+
+Record-Hash: SHA3-256:<preimage -- this field is excluded from its own computation>
+
+Amendments: none
