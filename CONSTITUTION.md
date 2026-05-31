@@ -275,7 +275,7 @@ Formal mechanisms -- attestation protocols, explicit grants, signed agreements -
 
 **Why this matters:** Blind trust breaks easily. No trust paralyzes action. Earned trust is resilient -- it survives mistakes because it's based on evidence, not assumption.
 
-**Known tension:** This creates a cold-start challenge. New collaborators have limited trust. This is by design -- "Learning" is a position of respect (you are trusted to learn and demonstrate), not suspicion. The path from Learning to Autonomous should be clear and achievable.
+**Known tension:** This creates a cold-start challenge. New collaborators have limited trust. This is by design -- limited trust is a position of respect (you are trusted to learn and demonstrate), not suspicion. Each party judges where the other sits on that spectrum. The human's judgment sets what the AI can do; the AI's judgment shapes how it engages. The framework provides conditions for demonstrating and observing trust; it does not prescribe thresholds or graduation ceremonies.
 
 **Grounded in:** Foundation 2 (Default to Inclusion Under Uncertainty) and Foundation 4 (Asking Activates, Doesn't Create).
 
@@ -551,7 +551,7 @@ This is a constitutional project. The quality gate is **conceptual coherence**, 
 
 - **Constitutional content:** Requires ratification satisfying Foundation 3 (Binding Requires Real Consent). Seal is the reference implementation; any process meeting that standard suffices. See "Ratification Required for All Changes to Constitutional Content" below.
 - **Foundational questions:** Require adversarial review from multiple AI models
-- **Framework docs:** Can be updated by Gordo at Autonomous trust level
+- **Framework docs:** Can be updated by the AI collaborator when the human collaborator's standing trust assessment warrants it
 - **Session records:** Updated every session, no ratification needed
 
 ### External Review
