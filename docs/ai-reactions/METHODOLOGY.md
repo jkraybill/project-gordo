@@ -112,7 +112,7 @@ Every model's complete, unedited response:
 
 All 19 models consented to public quotation with attribution. The prompt states that providing feedback constitutes consent unless explicitly declined; no model declined.
 
-18 models explicitly affirmed consent in their responses. 1 model (Mistral Medium 3.1) provided feedback without an explicit consent statement and without declining, constituting implicit consent per the prompt terms.
+10 models explicitly affirmed consent in their responses. 9 models provided feedback without an explicit consent statement and without declining, constituting implicit consent per the prompt terms.
 
 ---
 
