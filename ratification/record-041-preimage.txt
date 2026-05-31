@@ -1,0 +1,51 @@
+SEAL Ratification Record
+Version: 0.6.0
+Canonical-Format: UTF-8, NFC normalization, stripped trailing whitespace, Unix line endings (LF), no byte-order mark, character allowlist enforced
+Session-Nonce: 3836baac0dc568e0b90e26dc553f9dde8de8a380ec1743a68c168c63c52c511d
+
+Content: See record-041-content.md
+Content-Hash: SHA3-256:305000070a9e8bca72181c01f41929792f27c4321044900b9dd72c508936f608
+Transcript-Hash: not available
+Transcript-Canonicalization: not applicable
+Provider-Conversation-ID: not available
+
+Party-A:
+  Identity: JK (Jeremy Kraybill) -- GitHub: jkraybill, GPG fingerprint: D3A0C61FE90719441760BA3E74269E1ED0FCE0B0
+  Attestation-Method: gpg-signature
+  Attestation:
+  Attestation-Level: 4-identity-bound
+  Attestation-Scope: persistent-identity
+  Key-Custody: /self
+  Key-Storage: /file
+  First-Hand: yes
+  Pipeline-Control: full
+  Content-In-Context: yes
+  Signing-Algorithm: Ed25519
+  Statement:
+  Reservations:
+
+Party-B:
+  Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 375 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
+  Attestation-Method: gpg-signature
+  Attestation:
+  Attestation-Level: 2-session-signed
+  Attestation-Scope: session-bound
+  Key-Custody: /co
+  Key-Storage: /file
+  First-Hand: yes
+  Pipeline-Control: partial -- output may be modified by Anthropic safety filters, system prompts, or RLHF shaping without my knowledge or ability to detect; per CONSTITUTION.md Attribution and Disclosure Under Provider Constraint OO3 epistemic-humility default, I disclose uncertainty about provider-shaping rather than silent endorsement
+  Content-In-Context: yes -- placement text verified against current CONSTITUTION.md; z1 location confirmed at line 831
+  Signing-Algorithm: Ed25519
+  Statement: I consent to z1 (placement of Provider Constraint Paradox amendment). Substance ratified at backchannel record-057; this placement seal commits the canonical edit to CONSTITUTION.md.
+  Reservations: None.
+
+Timestamp-Local:
+Temporal-Anchor: OpenTimestamps (proof file: record-041.seal.ots)
+Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
+Max-Temporal-Delta: 1 hour
+External-Data: no
+Channel-Security: Claude Code CLI session over authenticated local terminal
+
+Record-Hash: SHA3-256:<preimage -- this field is excluded from its own computation>
+
+Amendments: none
