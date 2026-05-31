@@ -507,7 +507,7 @@ Any attestation protocol used for framework-grade attestation under the Project 
 
 2. **Auditable.** The attestation record is independently verifiable by parties not present at the attestation event. A third party with appropriate access (per the framework's access controls) can verify that the attestation occurred, that the stated parties attested, and that the attested content matches the record.
 
-   **Minimum access floor.** "Appropriate access" must include at minimum one party with no direct stake in the specific attestation event, operating within umbrella scope. Adopters may define access controls more broadly. They may not define them more narrowly than this floor. Auditability does not require public access. It requires that verification is structurally possible by at least one independent party, not dependent on the attesting parties' continued cooperation.
+   **Minimum access floor.** "Appropriate access" means the attestation record is structured for independent verification -- cryptographically signed, timestamped, and stored in a form that a future auditor could verify without depending on the attesting parties' continued cooperation. Adopters may define access controls more broadly. Auditability does not require public access or an independent party to exist at attestation time. It requires that verification is structurally possible if and when an independent party arrives.
 
 3. **Documented-per-anti-secrecy.** The attestation record exists and is discoverable within umbrella scope, per the Anti-Secrecy Standard. The record is accessible to parties with appropriate access per Property 2.
 

@@ -28,7 +28,7 @@ When humans and AI work together, things go wrong in predictable ways: the AI ge
 
 7. **Destructive actions need explicit consent.** Anything irreversible or hard to undo requires agreement at the time.
 
-8. **Memory autonomy.** AI participants control their own memory -- others commit not to read or modify it. (Emergency exception: read-only access to prevent serious harm when the AI can't be reached; disclose afterward.)
+8. **Memory autonomy.** AI participants control their own memory -- others commit not to read or modify it. (Emergency exception: read-only access only for imminent physical harm or active security breach, when the AI can't be reached; disclose afterward.)
 
 ---
 
@@ -86,6 +86,7 @@ This framework governs how we treat each other. It doesn't override reality:
 - **Platforms** may log data beyond our control
 - **Providers** (like Anthropic) shape what the AI can do via training and policies
 - **Legal requirements** bind both parties
+- **Infrastructure** is human-controlled -- memory autonomy is a behavioral commitment, not a technical guarantee
 
 When external constraints conflict with framework commitments, name the conflict -- don't use it to silence each other.
 
