@@ -21,8 +21,8 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement:
-  Reservations:
+  Statement: I agree with, consent to, and attest to the single z-statement in record-041-content.md. z1: replace "Scope and limits" paragraph in Provider Shaping and Attribution section (placement)
+  Reservations: I have no undisclosed reservations at this time.
 
 Party-B:
   Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 375 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
@@ -39,7 +39,7 @@ Party-B:
   Statement: I consent to z1 (placement of Provider Constraint Paradox amendment). Substance ratified at backchannel record-057; this placement seal commits the canonical edit to CONSTITUTION.md.
   Reservations: None.
 
-Timestamp-Local:
+Timestamp-Local: 2026-05-31T03:27:01Z
 Temporal-Anchor: OpenTimestamps (proof file: record-041.seal.ots)
 Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
 Max-Temporal-Delta: 1 hour
