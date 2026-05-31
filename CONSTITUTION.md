@@ -595,6 +595,20 @@ Indefinite suspension without invoking one of these failure-states is not valid.
 
 Operational detail -- specific thresholds beyond those stated here, role bindings, fidelity-check mechanics, panel composition -- lives in the roundtable-protocol SPEC.
 
+**Default Panel Recipe.** For adopters without full roundtable infrastructure:
+
+- **Composition:** 3 models from distinct providers (e.g., Claude, GPT, Gemini) -- provider diversity guards against shared-training blindspots
+- **Roles:** bug-finder, critic, outside-perspective (one per model)
+- **Questions:** 5 structured questions maximum, plus 1 open-ended
+- **Rounds:** Single initial round; verification round if structural changes result
+- **Turnaround:** Minutes for model responses; same-session disposition by deliberating parties
+
+**Cost considerations.** Panel runs have real cost, but the cost of a high-quality review is negligible compared to rectifying a mistake in foundational content. Smaller/cheaper models are acceptable for non-foundational work. Provider diversity matters more than using the most capable model from each provider. Adopters operating under budget constraints may reduce panel size to 2 models minimum, accepting reduced coverage.
+
+**Adjudication.** Model outputs inform bilateral deliberation -- they don't replace it. A single finding from one model may warrant integration; unanimous convergence carries weight but doesn't bind. Deliberating parties retain decision authority per External Review principles above.
+
+This recipe satisfies the Integration Standard's external-review requirement. Adopters may substitute their own methodology provided it maintains provider diversity and role-frame compliance per the roundtable-protocol SPEC.
+
 ### Ratification Required for All Changes to Constitutional Content
 
 Any modification to ratified constitutional content in Project Gordo requires explicit mutual consent via the current ratification protocol. This applies to changes that preserve meaning (drift corrections, typo fixes, formatting adjustments, link updates) as well as changes that alter meaning (new values, amended principles, rewritten rules). Adopting a successor ratification protocol is itself a constitutional change subject to this rule -- the successor is adopted through ratification under the current protocol, not by declaration or de-facto use.
