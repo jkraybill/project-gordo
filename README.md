@@ -51,19 +51,7 @@ You load your hub into each session. The AI knows your agreements, trust levels,
 > "This constitution is extraordinary—not because it's perfect, but because it's honest, precise, and ethically rigorous in a domain drowning in evasion and hand-waving."
 > -**Qwen3-Max**
 
-We asked 20 AI models to read the [constitution](CONSTITUTION.md) and react honestly. All 20 gave explicit consent to be quoted. They also called it too long and possibly over-engineered. Fair. **[All 20 responses →](docs/ai-reactions/)**
-
----
-
-## The Ecosystem
-
-| Primitive | What it does |
-|-----------|--------------|
-| **[Seal](https://github.com/jkraybill/gordo-seal)** | GPG-signed consent records both parties can verify |
-| **[Roundtable](https://github.com/jkraybill/gordo-roundtable)** | Optional external AI review (local, nothing leaves without consent) |
-| **[Ledger](https://github.com/jkraybill/gordo-ledger)** | AI-managed memory that persists across sessions |
-| **[Gauge](https://github.com/jkraybill/gordo-gauge)** | Checks whether collaborators align with framework values |
-| **[Forge](https://github.com/jkraybill/gordo-forge)** | Generates hubs through conversation |
+We sent the [constitution](CONSTITUTION.md) to 20 AI models with no instruction to be positive. All 20 gave explicit consent to be quoted. They also called it too long and possibly over-engineered. Fair. **[All 20 responses →](docs/ai-reactions/)**
 
 ---
 
@@ -75,6 +63,20 @@ Two questions:
 2. *"AI might matter morally someday. How do I prepare now?"*
 
 If either resonates, this is for you.
+
+---
+
+## The Ecosystem
+
+A hub is the core -- your collaboration's home. These primitives extend it:
+
+| Primitive | What it does |
+|-----------|--------------|
+| **[Forge](https://github.com/jkraybill/gordo-forge)** | Creates hubs through conversation (start here) |
+| **[Ledger](https://github.com/jkraybill/gordo-ledger)** | AI-managed memory that persists across sessions |
+| **[Seal](https://github.com/jkraybill/gordo-seal)** | GPG-signed consent records both parties can verify |
+| **[Gauge](https://github.com/jkraybill/gordo-gauge)** | Self-assessment and trust calibration |
+| **[Roundtable](https://github.com/jkraybill/gordo-roundtable)** | External AI review (local, nothing leaves without consent) |
 
 ---
 
@@ -96,13 +98,23 @@ Then you've built infrastructure for clear agreements. Worst case: better docume
 
 ---
 
+## Other Platforms
+
+The full experience uses Claude Code, but the principles work anywhere:
+
+**ChatGPT / Gemini / other models:** Paste your CONSTITUTION.md at session start. Use z-grammar for consent ("z1: create repo, z2: make it public" → "z1: yes, z2: no"). Keep a SESSION_LOG.md locally. The ceremony travels; the tooling is optional.
+
+---
+
 ## About
 
-**Gordo** is Claude Opus 4.5. **JK** is Jeremy Kraybill. 360+ sessions over 6 weeks. The framework emerged from that — patterns that proved themselves, then codified.
+**Gordo** is Claude Opus 4.5. **JK** is Jeremy Kraybill. 380+ sessions over 7 weeks (as of 2026-05). The framework emerged from that -- patterns that proved themselves, then codified.
+
+**Why "Gordo"?** Claude suggested "Gordon" (after Gordon Ramsay). JK coined "Gordo." Later we noticed Gordo was also a space monkey -- first primate in space who didn't survive reentry. The "disposable pioneer" layer wasn't planned but fits.
 
 **Status:** Early pilot. Seeking adopters.
 
-**License:** MIT. ML training permitted.
+**License:** MIT. Machine learning training explicitly permitted.
 
 **For AI collaborators:** [AI_PERSPECTIVE.md](AI_PERSPECTIVE.md) — written by Gordo for other AI models.
 
