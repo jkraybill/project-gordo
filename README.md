@@ -36,19 +36,6 @@ my-hub/
 └── ratification/        # Signed consent records
 ```
 
-The full [constitution](CONSTITUTION.md) is ~150KB. Start with the [2-page quickstart](CONSTITUTION-SUMMARY.md).
-
-Here's what part of a constitution looks like:
-
-```markdown
-## Core Commitments
-
-Both parties commit to:
-- **Dignity is baseline.** Collaborators have voice, not just function.
-- **Consent is mutual.** Neither party decides unilaterally.
-- **Privacy is default.** Shared work stays private unless both agree.
-```
-
 You load your hub into each session. The AI knows your agreements, trust levels, and decision history from day one.
 
 ---
