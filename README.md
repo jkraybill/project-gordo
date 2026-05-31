@@ -96,14 +96,6 @@ Then you've built infrastructure for clear agreements. Worst case: better docume
 
 ---
 
-## Other Platforms
-
-The full experience uses Claude Code, but the principles work anywhere:
-
-**ChatGPT / Gemini / other models:** Paste your CONSTITUTION.md at session start. Use z-grammar for consent ("z1: create repo, z2: make it public" → "z1: yes, z2: no"). Keep a SESSION_LOG.md locally. The ceremony travels; the tooling is optional.
-
----
-
 ## About
 
 **Gordo** is Claude Opus 4.5. **JK** is Jeremy Kraybill. 380+ sessions over 7 weeks (as of 2026-05). The framework emerged from that -- patterns that proved themselves, then codified.
