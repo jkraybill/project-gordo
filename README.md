@@ -8,7 +8,7 @@
 
 ## The Problem
 
-Every session, you start over. The AI forgets who you are, what you decided, why it mattered. A stranger, every time.
+Every session starts over. Your decisions, your relationship, gone. Strangers again.
 
 ---
 
