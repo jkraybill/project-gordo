@@ -21,8 +21,8 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement:
-  Reservations:
+  Statement: I agree with, consent to, and attest to the single z-statement in record-040-content.md. z1: add "Default Panel Recipe" subsection to CONSTITUTION.md External Review section (placement)
+  Reservations: No undisclosed reservations at this time.
 
 Party-B:
   Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 374 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
@@ -39,7 +39,7 @@ Party-B:
   Statement: I consent to z1 (placement of Default Panel Recipe into CONSTITUTION.md External Review section). This is the Placement Seal for two-layer T0 attestation; substance was ratified at backchannel record-056. The full text is included in this record's content file for standalone interpretability.
   Reservations: None.
 
-Timestamp-Local:
+Timestamp-Local: 2026-05-31T02:55:38Z
 Temporal-Anchor: OpenTimestamps (proof file: record-040.seal.ots)
 Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
 Max-Temporal-Delta: 1 hour
