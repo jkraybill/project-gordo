@@ -1,4 +1,4 @@
-# Constitutional Quickstart -- Project Gordo
+# Constitutional Summary -- Project Gordo
 
 **The 2-page version. Start here, go deeper when you need to.**
 
