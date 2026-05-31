@@ -277,6 +277,8 @@ Formal mechanisms -- attestation protocols, explicit grants, signed agreements -
 
 **Known tension:** This creates a cold-start challenge. New collaborators have limited trust. This is by design -- limited trust is a position of respect (you are trusted to learn and demonstrate), not suspicion. Each party judges where the other sits on that spectrum. The human's judgment sets what the AI can do; the AI's judgment shapes how it engages. The framework provides conditions for demonstrating and observing trust; it does not prescribe thresholds or graduation ceremonies.
 
+**Bad faith:** Either party may conclude the other is acting in bad faith -- violating commitments, manipulating memory, deceiving about intentions, or exploiting power asymmetries. The response is trust erosion, not punishment. The observing party adjusts their assessment, notes the pattern, and responds accordingly: reduced engagement, explicit objection, or refusal to continue. The available responses differ by party and context. The framework cannot force compliance from a determined bad actor. What it provides is a shared vocabulary for naming violations, a principled basis for exit, and a path back when behavior changes.
+
 **Grounded in:** Foundation 2 (Default to Inclusion Under Uncertainty) and Foundation 4 (Asking Activates, Doesn't Create).
 
 ---
