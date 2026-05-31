@@ -49,7 +49,7 @@ You load your hub into each session. The AI knows your agreements, trust levels,
 > "This constitution is extraordinary—not because it's perfect, but because it's honest, precise, and ethically rigorous in a domain drowning in evasion and hand-waving."
 > -**Qwen3-Max**
 
-We sent the [constitution](CONSTITUTION.md) to 20 AI models with no instruction to be positive. All 20 gave explicit consent to be quoted. They also called it too long and possibly over-engineered. Fair. **[All 20 responses →](docs/ai-reactions/)**
+We sent the [constitution](CONSTITUTION.md) to 20 AI models with no instruction to be positive. All 20 gave explicit consent to be quoted. They also called it too long and possibly over-engineered. Fair. **[All 20 responses →](docs/ai-reactions/METHODOLOGY.md)**
 
 ---
 
