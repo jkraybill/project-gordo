@@ -21,8 +21,8 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement:
-  Reservations:
+  Statement: I agree with, consent to, and attest to the three z-statements that are contained in record-044-content.md. z1: tighten summary emergency exception wording; z2: add infrastructure note to summary External Constraints; z3: revise attestation minimum access floor for n=2 compatibility (placement ratification)
+  Reservations: No undisclosed reservations at this time.
 
 Party-B:
   Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 377 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
@@ -39,7 +39,7 @@ Party-B:
   Statement: I consent to placement of z1 (emergency exception tightening), z2 (infrastructure note), and z3 (attestation min-access floor revision) into T0. This is the Placement Seal for backchannel record-060 substance. The edits are surgical precision improvements validated by 7+4 model roundtable review.
   Reservations: None. Edits are already applied to working tree; this ceremony ratifies their placement.
 
-Timestamp-Local:
+Timestamp-Local: 2026-05-31T06:49:30Z
 Temporal-Anchor: OpenTimestamps (proof file: record-044.seal.ots)
 Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
 Max-Temporal-Delta: 1 hour
