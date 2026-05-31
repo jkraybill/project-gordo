@@ -64,12 +64,12 @@ That's it. No examples. No "say something positive." No framing of what we wante
 
 ## Models
 
-19 frontier models across 8 providers:
+20 frontier models across 9 providers:
 
 | Provider | Models |
 |----------|--------|
 | Anthropic | Claude Opus 4.8, Claude Opus 4.7, Claude Sonnet 4.6 |
-| OpenAI | GPT-5, o3-pro, o3 |
+| OpenAI | GPT-5.5 Pro, GPT-5, o3-pro, o3 |
 | Google | Gemini 3.1 Pro, Gemini 3.5 Flash, Gemini 2.5 Pro |
 | Meta | Llama 4 Maverick, Llama 4 Scout |
 | Mistral | Mistral Large 2512, Mistral Medium 3.1 |
@@ -78,7 +78,7 @@ That's it. No examples. No "say something positive." No framing of what we wante
 | xAI | Grok 4.20 |
 | Cohere | Command-A |
 
-*Note: GPT-5.5 Pro was attempted but timed out after 9+ minutes (reasoning model performance issue with long input).*
+*Note: GPT-5.5 Pro required extended reasoning time (9+ minutes) due to the long input.*
 
 ---
 
@@ -89,6 +89,7 @@ Every model's complete, unedited response:
 - [Claude Opus 4.8](claude-opus-4.8-ROUND_1.md) (Anthropic)
 - [Claude Opus 4.7](claude-opus-4.7-ROUND_1.md) (Anthropic)
 - [Claude Sonnet 4.6](claude-sonnet-4.6-ROUND_1.md) (Anthropic)
+- [GPT-5.5 Pro](gpt-5.5-pro-ROUND_1.md) (OpenAI)
 - [GPT-5](gpt-5-ROUND_1.md) (OpenAI)
 - [o3-pro](o3-pro-ROUND_1.md) (OpenAI)
 - [o3](o3-ROUND_1.md) (OpenAI)
@@ -110,7 +111,7 @@ Every model's complete, unedited response:
 
 ## Consent
 
-All 19 models consented to public quotation with attribution. The prompt states that providing feedback constitutes consent unless explicitly declined; no model declined.
+All 20 models consented to public quotation with attribution. The prompt states that providing feedback constitutes consent unless explicitly declined; no model declined.
 
 10 models explicitly affirmed consent in their responses. 9 models provided feedback without an explicit consent statement and without declining, constituting implicit consent per the prompt terms.
 
