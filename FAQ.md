@@ -64,6 +64,10 @@ Initial setup: 15-60 minutes depending on intensity level. After that, a few min
 
 Yes, if your workplace allows it. The framework is MIT-licensed. Nothing prevents commercial use. Whether your colleagues find it weird is a separate question.
 
+### Where can I see examples of how this works?
+
+See [Worked Examples](docs/WORKED_EXAMPLES.md) for common tasks step by step: starting a project, handling disagreement, ratifying decisions, ending sessions. For what the framework defends against (and doesn't), see the [Threat Model](docs/THREAT_MODEL.md).
+
 ---
 
 ## The Philosophical Questions
