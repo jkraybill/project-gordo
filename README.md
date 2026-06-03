@@ -49,6 +49,10 @@ You load your hub into each session. The AI knows your agreements, trust levels,
 
 The agreements it runs on are documented in a [short summary](CONSTITUTION-SUMMARY.md) and a [full constitution](CONSTITUTION.md).
 
+**Learning more:**
+- [Worked Examples](docs/WORKED_EXAMPLES.md) — common tasks step by step
+- [Threat Model](docs/THREAT_MODEL.md) — what the framework defends against (and doesn't)
+
 ---
 
 ## What Others Say
