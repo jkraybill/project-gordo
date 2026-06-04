@@ -167,3 +167,5 @@ This specification operationalizes the **Anti-Secrecy Standard** from T0 Process
 ---
 
 *Drafted S227 2026-05-13. Follows 6-round panel design funnel (lineage-mechanism-design) + implementation review (lineage-v1-impl).*
+
+<!-- Last reviewed: 2026-06-04 21:21 AEST by Gordo -->
