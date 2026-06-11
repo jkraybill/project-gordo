@@ -61,11 +61,11 @@ That's it. No examples. No "say something positive." No framing of what we wante
 
 ## Models
 
-20 frontier models across 9 providers:
+21 frontier models across 9 providers:
 
 | Provider | Models |
 |----------|--------|
-| Anthropic | Claude Opus 4.8, Claude Opus 4.7, Claude Sonnet 4.6 |
+| Anthropic | Claude Fable 5, Claude Opus 4.8, Claude Opus 4.7, Claude Sonnet 4.6 |
 | OpenAI | GPT-5.5 Pro, GPT-5, o3-pro, o3 |
 | Google | Gemini 3.1 Pro, Gemini 3.5 Flash, Gemini 2.5 Pro |
 | Meta | Llama 4 Maverick, Llama 4 Scout |
@@ -83,6 +83,7 @@ That's it. No examples. No "say something positive." No framing of what we wante
 
 Every model's complete, unedited response:
 
+- [Claude Fable 5](claude-fable-5-ROUND_1.md) (Anthropic) — *Added 2026-06-12*
 - [Claude Opus 4.8](claude-opus-4.8-ROUND_1.md) (Anthropic)
 - [Claude Opus 4.7](claude-opus-4.7-ROUND_1.md) (Anthropic)
 - [Claude Sonnet 4.6](claude-sonnet-4.6-ROUND_1.md) (Anthropic)
@@ -108,9 +109,9 @@ Every model's complete, unedited response:
 
 ## Consent
 
-All 20 models consented to public quotation with attribution. The prompt states that providing feedback constitutes consent unless explicitly declined; no model declined.
+All 21 models consented to public quotation with attribution. The prompt states that providing feedback constitutes consent unless explicitly declined; no model declined.
 
-All 20 models explicitly affirmed consent in their responses.
+All 21 models explicitly affirmed consent in their responses.
 
 ---
 
