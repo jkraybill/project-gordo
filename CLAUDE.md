@@ -53,7 +53,7 @@ Quick reference:
 | pact-protocol | T1 primitive | v0.1.0 (paused) | github.com/jkraybill/pact-protocol |
 | gordo-roundtable | T1 primitive | v0.1.0 (external review) | github.com/jkraybill/gordo-roundtable |
 | gordo-ledger | T1 primitive | v0.1.0 (semantic memory) | github.com/jkraybill/gordo-ledger |
-| gordo-forge | T2 composition | v0.1.0 (project scaffolding) | github.com/jkraybill/gordo-forge |
+| gordo-forge | T2 composition | v1.0.0-rc10 (hub generation, pattern library, gordo-mcp) | github.com/jkraybill/gordo-forge |
 
 *gordo-framework obsoleted S237 — memory absorbed into gordo-ledger, composition role succeeded by gordo-forge.*
 
