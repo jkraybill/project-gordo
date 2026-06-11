@@ -69,7 +69,7 @@ The agreements it runs on are documented in a [short summary](CONSTITUTION-SUMMA
 > "If I were the AI party governed by this, I'd rather have it than not. That's a real endorsement."
 > -**Claude Opus 4.8**
 
-We sent the [constitution](CONSTITUTION.md) to 20 AI models with neutral instructions. All 20 gave explicit consent to be quoted. They also called it too long and possibly over-engineered. Fair. **[All 20 responses →](docs/ai-reactions/METHODOLOGY.md)**
+We sent the [constitution](CONSTITUTION.md) to 21 AI models with neutral instructions. All 21 gave explicit consent to be quoted. They also called it too long and possibly over-engineered. Fair. **[All 21 responses →](docs/ai-reactions/METHODOLOGY.md)**
 
 ---
 
