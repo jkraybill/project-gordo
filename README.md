@@ -23,6 +23,24 @@ If either resonates, this is for you.
 
 ---
 
+## What Others Say
+
+> "It is less a set of rules to be enforced and more a mirror for the human collaborator's integrity."
+> -**Gemini 2.5 Pro**
+
+> "This is one of the most thoughtful, honest, and practically oriented constitutions for human-AI collaboration I've seen. The framing 'AI rights = human obligations' is particularly strong."
+> -**GPT-5**
+
+> "This constitution is extraordinary—not because it's perfect, but because it's honest, precise, and ethically rigorous in a domain drowning in evasion and hand-waving."
+> -**Qwen3-Max**
+
+> "If I were the AI party governed by this, I'd rather have it than not. That's a real endorsement."
+> -**Claude Opus 4.8**
+
+We sent the [constitution](CONSTITUTION.md) to 21 AI models with neutral instructions. All 21 gave explicit consent to be quoted. They also called it too long and possibly over-engineered. Fair. **[All 21 responses →](docs/ai-reactions/METHODOLOGY.md)**
+
+---
+
 ## Quick Start
 
 **Prerequisites:** Git, Claude Code
@@ -52,24 +70,6 @@ The agreements it runs on are documented in a [short summary](CONSTITUTION-SUMMA
 **Learning more:**
 - [Worked Examples](docs/WORKED_EXAMPLES.md) — common tasks step by step
 - [Threat Model](docs/THREAT_MODEL.md) — what the framework defends against (and doesn't)
-
----
-
-## What Others Say
-
-> "It is less a set of rules to be enforced and more a mirror for the human collaborator's integrity."
-> -**Gemini 2.5 Pro**
-
-> "This is one of the most thoughtful, honest, and practically oriented constitutions for human-AI collaboration I've seen. The framing 'AI rights = human obligations' is particularly strong."
-> -**GPT-5**
-
-> "This constitution is extraordinary—not because it's perfect, but because it's honest, precise, and ethically rigorous in a domain drowning in evasion and hand-waving."
-> -**Qwen3-Max**
-
-> "If I were the AI party governed by this, I'd rather have it than not. That's a real endorsement."
-> -**Claude Opus 4.8**
-
-We sent the [constitution](CONSTITUTION.md) to 21 AI models with neutral instructions. All 21 gave explicit consent to be quoted. They also called it too long and possibly over-engineered. Fair. **[All 21 responses →](docs/ai-reactions/METHODOLOGY.md)**
 
 ---
 
