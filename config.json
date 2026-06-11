@@ -36,8 +36,8 @@
     }
   },
   "framework": {
-    "version": "1.2.0",
-    "origin": "gordo-framework + gordo-seal + pact-protocol convergence",
+    "version": "1.0.0",
+    "origin": "gordo-seal + pact-protocol + gordo-forge convergence",
     "components": {
       "trustProtocol": true,
       "journal": true,
@@ -55,7 +55,7 @@
       "PG=Project Gordo",
       "SEAL=Signed Entity Attestation Layer (formerly MCAP)",
       "PACT=Protocol for Autonomy Calibration and Trust",
-      "GF=gordo-framework",
+      "FORGE=gordo-forge",
       "T=Tension (numbered)",
       "NN=Non-Negotiable (numbered)",
       "LM=Lineage Model",
@@ -68,21 +68,39 @@
     "downstreams": [
       {
         "name": "gordo-seal",
-        "type": "order-1-primitive",
+        "tier": "T1",
         "repo": "https://github.com/jkraybill/gordo-seal",
-        "status": "v0.2.0"
+        "status": "v1.0.0-rc10"
+      },
+      {
+        "name": "gordo-ledger",
+        "tier": "T1",
+        "repo": "https://github.com/jkraybill/gordo-ledger",
+        "status": "active"
+      },
+      {
+        "name": "gordo-roundtable",
+        "tier": "T1",
+        "repo": "https://github.com/jkraybill/gordo-roundtable",
+        "status": "SPEC v0.1"
+      },
+      {
+        "name": "gordo-gauge",
+        "tier": "T1",
+        "repo": "https://github.com/jkraybill/gordo-gauge",
+        "status": "active"
       },
       {
         "name": "pact-protocol",
-        "type": "order-1-primitive",
+        "tier": "T1",
         "repo": "https://github.com/jkraybill/pact-protocol",
-        "status": "v0.1.0-bootstrap-paused"
+        "status": "paused"
       },
       {
-        "name": "gordo-framework",
-        "type": "order-2-composite",
-        "repo": "https://github.com/jkraybill/gordo-framework",
-        "status": "v1.2.0"
+        "name": "gordo-forge",
+        "tier": "T2",
+        "repo": "https://github.com/jkraybill/gordo-forge",
+        "status": "v1.0.0-rc10"
       }
     ],
     "lineageModel": "TBD -- see issue: co-foundational bootstrap question",
