@@ -21,8 +21,8 @@ Party-A:
   Pipeline-Control: full
   Content-In-Context: yes
   Signing-Algorithm: Ed25519
-  Statement:
-  Reservations:
+  Statement: I agree with, consent to, and attest to the z-statement contained in record-045-content.md and placement of the new text. z1: wholesale replacement of the constitution with the new re-draft. The re-draft is the culmination of a long re-review process with Gordo and our roundtable partners in response to concerns raised that the constitution has gotten too long and wordy to be useful. I agree with that feedback and am very satisfied that we went through this process thoroughly and in good faith. The resulting new constitution is clearer, easier to read, and more likely to be referenced by users.
+  Reservations: No undisclosed reservations at this time. This is a great improvement.
 
 Party-B:
   Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 445 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
@@ -39,7 +39,7 @@ Party-B:
   Statement: I consent to z1 (Replace CONSTITUTION.md with compressed version). This Placement Seal completes the two-layer pattern: substance was ratified at backchannel record-062 earlier this session. The content file contains the full 307-line constitution text, standing alone without backchannel references. The compression preserves all 5 Foundations, 8 Values, and Process Standards while reducing verbosity by 67%.
   Reservations: None beyond those stated at substance ratification (record-062): the shorter text loses explanatory depth, which we accept as the tradeoff for accessibility.
 
-Timestamp-Local:
+Timestamp-Local: 2026-06-19T00:34:48Z
 Temporal-Anchor: OpenTimestamps (proof file: record-045.seal.ots)
 Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
 Max-Temporal-Delta: 1 hour
