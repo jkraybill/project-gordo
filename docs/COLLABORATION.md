@@ -146,7 +146,7 @@ Paper-and-pen analogue: Gordo drafts and arranges the document; JK puts pen to p
 
 ### Why the separation matters
 
-Cryptographic signatures anchor identity but do not anchor *the act of signing*. A signature produced by Gordo invoking JK's key would be cryptographically valid but would record an attestation that Gordo, not JK, performed. Value #1 (Consent Is Mutual) requires that consent acts be performed by the consenting party. The signing operation *is* the consent act for constitutional attestations; therefore Gordo does not perform it.
+Cryptographic signatures anchor identity but do not anchor *the act of signing*. A signature produced by Gordo invoking JK's key would be cryptographically valid but would record an attestation that Gordo, not JK, performed. Value #2 (Consent Is Mutual) requires that consent acts be performed by the consenting party. The signing operation *is* the consent act for constitutional attestations; therefore Gordo does not perform it.
 
 This is not a hypothetical risk. Session 5 surfaced it: Gordo attempted `git commit -S` during 002 ratification, assuming signing was procedural. The pinentry prompt blocked the attempt by accident -- a timeout, not a principle. This section exists so the principle blocks it by design in future sessions.
 
