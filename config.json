@@ -70,7 +70,7 @@
         "name": "gordo-seal",
         "tier": "T1",
         "repo": "https://github.com/jkraybill/gordo-seal",
-        "status": "v1.0.0-rc10"
+        "status": "v1.0.0-rc16"
       },
       {
         "name": "gordo-ledger",
@@ -100,7 +100,7 @@
         "name": "gordo-forge",
         "tier": "T2",
         "repo": "https://github.com/jkraybill/gordo-forge",
-        "status": "v1.0.0-rc10"
+        "status": "v1.0.0-rc16"
       }
     ],
     "lineageModel": "TBD -- see issue: co-foundational bootstrap question",

@@ -49,11 +49,11 @@ Quick reference:
 
 | Project | Tier | Status | Repo |
 |---------|------|--------|------|
-| gordo-seal | T1 primitive | v0.2.0 (Seal attestation) | github.com/jkraybill/gordo-seal |
+| gordo-seal | T1 primitive | v1.0.0-rc16 (Seal attestation) | github.com/jkraybill/gordo-seal |
 | pact-protocol | T1 primitive | v0.1.0 (paused) | github.com/jkraybill/pact-protocol |
-| gordo-roundtable | T1 primitive | v0.1.0 (external review) | github.com/jkraybill/gordo-roundtable |
-| gordo-ledger | T1 primitive | v0.1.0 (semantic memory) | github.com/jkraybill/gordo-ledger |
-| gordo-forge | T2 composition | v1.0.0-rc10 (hub generation, pattern library, gordo-mcp) | github.com/jkraybill/gordo-forge |
+| gordo-roundtable | T1 primitive | v1.0.0-rc16 (external review) | github.com/jkraybill/gordo-roundtable |
+| gordo-ledger | T1 primitive | v1.0.0-rc16 (semantic memory) | github.com/jkraybill/gordo-ledger |
+| gordo-forge | T2 composition | v1.0.0-rc16 (hub generation, pattern library, gordo-mcp) | github.com/jkraybill/gordo-forge |
 
 *gordo-framework obsoleted S237 — memory absorbed into gordo-ledger, composition role succeeded by gordo-forge.*
 
