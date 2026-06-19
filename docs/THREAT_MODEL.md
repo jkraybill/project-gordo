@@ -243,7 +243,7 @@ When these assumptions fail, the framework degrades. We document failure modes b
 - Constitutional content requires Seal ceremony (z-point engagement)
 - Session logs provide post-hoc accountability
 
-**Remaining gap:** AI might not catch every hidden change in large diffs. Review discipline is load-bearing.
+**Remaining gap:** AI might not catch every hidden change in large diffs. Review discipline is essential.
 
 ---
 
@@ -283,7 +283,7 @@ If you're considering this framework:
 
 **Don't:**
 - Assume the framework prevents all bad behavior (it provides accountability)
-- Skip the verification infrastructure (identity separation is load-bearing)
+- Skip the verification infrastructure (identity separation is essential)
 - Ignore the provider constraint reality (you operate within your provider's rules)
 
 **Questions to ask:**
