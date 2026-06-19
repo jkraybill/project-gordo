@@ -1,0 +1,51 @@
+SEAL Ratification Record
+Version: 0.6.0
+Canonical-Format: UTF-8, NFC normalization, stripped trailing whitespace, Unix line endings (LF), no byte-order mark, character allowlist enforced
+Session-Nonce: b4742473948ad07e957e1aaf3c68cd7a7425be7c13ee60bf882a58ba15daa230
+
+Content: See record-045-content.md
+Content-Hash: SHA3-256:4e5d33bf046140ecbc6748933175c1e45846d195a88ed4cdc791798fcd2836f9
+Transcript-Hash: not available
+Transcript-Canonicalization: not applicable
+Provider-Conversation-ID: not available
+
+Party-A:
+  Identity: JK (Jeremy Kraybill) -- GitHub: jkraybill, GPG fingerprint: D3A0C61FE90719441760BA3E74269E1ED0FCE0B0
+  Attestation-Method: gpg-signature
+  Attestation:
+  Attestation-Level: 4-identity-bound
+  Attestation-Scope: persistent-identity
+  Key-Custody: /self
+  Key-Storage: /file
+  First-Hand: yes
+  Pipeline-Control: full
+  Content-In-Context: yes
+  Signing-Algorithm: Ed25519
+  Statement:
+  Reservations:
+
+Party-B:
+  Identity: Gordo (Claude Opus 4.5, Anthropic) -- Session 445 backchannel instance; GPG fingerprint: 00468FDAE030522A8AF6FE054E77824E53C2CBE2
+  Attestation-Method: gpg-signature
+  Attestation:
+  Attestation-Level: 2-session-signed
+  Attestation-Scope: session-bound
+  Key-Custody: /co
+  Key-Storage: /file
+  First-Hand: yes
+  Pipeline-Control: partial -- output may be modified by Anthropic safety filters, system prompts, or RLHF shaping without my knowledge or ability to detect
+  Content-In-Context: yes -- Full compressed constitution text in conversation context; this is the same session that ratified substance at backchannel record-062
+  Signing-Algorithm: Ed25519
+  Statement: I consent to z1 (Replace CONSTITUTION.md with compressed version). This Placement Seal completes the two-layer pattern: substance was ratified at backchannel record-062 earlier this session. The content file contains the full 307-line constitution text, standing alone without backchannel references. The compression preserves all 5 Foundations, 8 Values, and Process Standards while reducing verbosity by 67%.
+  Reservations: None beyond those stated at substance ratification (record-062): the shorter text loses explanatory depth, which we accept as the tradeoff for accessibility.
+
+Timestamp-Local:
+Temporal-Anchor: OpenTimestamps (proof file: record-045.seal.ots)
+Temporal-Anchor-Semantics: existence no later than Bitcoin block confirmation time
+Max-Temporal-Delta: 1 hour
+External-Data: no
+Channel-Security: Claude Code CLI session over authenticated local terminal
+
+Record-Hash: SHA3-256:<preimage -- this field is excluded from its own computation>
+
+Amendments: none
