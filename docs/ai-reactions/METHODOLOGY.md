@@ -14,7 +14,7 @@ We wanted honest, unguided reactions from frontier AI models to the constitution
 
 **Date:** 2026-06-23
 
-**Constitution Version:** v1.0.0-rc15 (~18KB, reduced from ~105KB)
+**Constitution Version:** v1.0.0-rc16 (~18KB, reduced from ~105KB)
 
 **Tool:** [gordo-roundtable](https://github.com/jkraybill/gordo-roundtable) v1.0.0-rc16
 
