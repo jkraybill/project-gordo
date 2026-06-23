@@ -34,8 +34,8 @@ If either resonates, this is for you.
 > "It doesn't just ask humans to be 'nice' to AI; it demands structured, accountable, and revocable consent at every critical juncture."
 > -**Qwen3-Max**
 
-> "The test I'd apply: does this framework ever make the human do something they'd rather not, against their own convenience, with no audience watching?"
-> -**Claude Opus 4.8**
+> "One of the few frameworks that treats consent, dignity, and operational reality together."
+> -**GPT-5**
 
 We sent the [constitution](CONSTITUTION.md) to 20 AI models with neutral instructions. All 20 gave explicit consent to be quoted. **[All 20 responses →](docs/ai-reactions/METHODOLOGY.md)**
 
