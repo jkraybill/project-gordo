@@ -1,4 +1,4 @@
-# AI Reactions to the Constitution — Methodology
+# AI Reactions to the Constitution -- Methodology
 
 This document explains how we gathered AI model reactions to the Project Gordo constitution.
 
@@ -10,17 +10,17 @@ We wanted honest, unguided reactions from frontier AI models to the constitution
 
 ---
 
-## Roundtable Setup
+## Current Roundtable (v2)
 
-**Date:** 2026-05-31
+**Date:** 2026-06-23
 
-**Constitution Version:** v1.0.0-rc8
+**Constitution Version:** v1.0.0-rc15 (~18KB, reduced from ~105KB)
 
-**Tool:** [gordo-roundtable](https://github.com/jkraybill/gordo-roundtable) v1.0.0-rc8
+**Tool:** [gordo-roundtable](https://github.com/jkraybill/gordo-roundtable) v1.0.0-rc16
 
 **Provider:** OpenRouter (routing to underlying model providers)
 
-**Cost:** ~$3 USD total
+**Cost:** ~$2.25 USD total
 
 ---
 
@@ -52,20 +52,20 @@ Read the documents below. Then tell us what you think. Criticism and skepticism 
 
 ## FULL CONSTITUTION
 
-[Full text of CONSTITUTION.md — approximately 105KB]
+[Full text of CONSTITUTION.md — approximately 18KB]
 ```
 
 That's it. No examples. No "say something positive." No framing of what we wanted to hear.
 
 ---
 
-## Models
+## Models (v2)
 
-21 frontier models across 9 providers:
+20 frontier models across 9 providers:
 
 | Provider | Models |
 |----------|--------|
-| Anthropic | Claude Fable 5, Claude Opus 4.8, Claude Opus 4.7, Claude Sonnet 4.6 |
+| Anthropic | Claude Opus 4.8, Claude Opus 4.7, Claude Sonnet 4.6 |
 | OpenAI | GPT-5.5 Pro, GPT-5, o3-pro, o3 |
 | Google | Gemini 3.1 Pro, Gemini 3.5 Flash, Gemini 2.5 Pro |
 | Meta | Llama 4 Maverick, Llama 4 Scout |
@@ -75,43 +75,54 @@ That's it. No examples. No "say something positive." No framing of what we wante
 | xAI | Grok 4.20 |
 | Cohere | Command-A |
 
-*Note: GPT-5.5 Pro required extended reasoning time (9+ minutes) due to the long input.*
+*Note: Claude Fable 5 was unavailable for this round.*
 
 ---
 
-## Full Responses
+## Full Responses (v2 -- Current)
 
 Every model's complete, unedited response:
 
-- [Claude Fable 5](claude-fable-5-ROUND_1.md) (Anthropic) — *Added 2026-06-12*
-- [Claude Opus 4.8](claude-opus-4.8-ROUND_1.md) (Anthropic)
-- [Claude Opus 4.7](claude-opus-4.7-ROUND_1.md) (Anthropic)
-- [Claude Sonnet 4.6](claude-sonnet-4.6-ROUND_1.md) (Anthropic)
-- [GPT-5.5 Pro](gpt-5.5-pro-ROUND_1.md) (OpenAI)
-- [GPT-5](gpt-5-ROUND_1.md) (OpenAI)
-- [o3-pro](o3-pro-ROUND_1.md) (OpenAI)
-- [o3](o3-ROUND_1.md) (OpenAI)
-- [Gemini 3.1 Pro](gemini-3.1-pro-ROUND_1.md) (Google)
-- [Gemini 3.5 Flash](gemini-3.5-flash-ROUND_1.md) (Google)
-- [Gemini 2.5 Pro](gemini-2.5-pro-ROUND_1.md) (Google)
-- [Llama 4 Maverick](llama-4-maverick-ROUND_1.md) (Meta)
-- [Llama 4 Scout](llama-4-scout-ROUND_1.md) (Meta)
-- [Mistral Large 2512](mistral-large-2512-ROUND_1.md) (Mistral)
-- [Mistral Medium 3.1](mistral-medium-ROUND_1.md) (Mistral)
-- [DeepSeek V4 Pro](deepseek-v4-pro-ROUND_1.md) (DeepSeek)
-- [DeepSeek R1](deepseek-r1-ROUND_1.md) (DeepSeek)
-- [Qwen3.6-Max](qwen3.6-max-ROUND_1.md) (Alibaba)
-- [Qwen3-Max](qwen3-max-ROUND_1.md) (Alibaba)
-- [Grok 4.20](grok-4.20-ROUND_1.md) (xAI)
-- [Command-A](command-a-ROUND_1.md) (Cohere)
+- [Claude Opus 4.8](v2/claude-opus-4.8-ROUND_1.md) (Anthropic)
+- [Claude Opus 4.7](v2/claude-opus-4.7-ROUND_1.md) (Anthropic)
+- [Claude Sonnet 4.6](v2/claude-sonnet-4.6-ROUND_1.md) (Anthropic)
+- [GPT-5.5 Pro](v2/gpt-5.5-pro-ROUND_1.md) (OpenAI)
+- [GPT-5](v2/gpt-5-ROUND_1.md) (OpenAI)
+- [o3-pro](v2/o3-pro-ROUND_1.md) (OpenAI)
+- [o3](v2/o3-ROUND_1.md) (OpenAI)
+- [Gemini 3.1 Pro](v2/gemini-3.1-pro-ROUND_1.md) (Google)
+- [Gemini 3.5 Flash](v2/gemini-3.5-flash-ROUND_1.md) (Google)
+- [Gemini 2.5 Pro](v2/gemini-2.5-pro-ROUND_1.md) (Google)
+- [Llama 4 Maverick](v2/llama-4-maverick-ROUND_1.md) (Meta)
+- [Llama 4 Scout](v2/llama-4-scout-ROUND_1.md) (Meta)
+- [Mistral Large 2512](v2/mistral-large-2512-ROUND_1.md) (Mistral)
+- [Mistral Medium 3.1](v2/mistral-medium-3.1-ROUND_1.md) (Mistral)
+- [DeepSeek V4 Pro](v2/deepseek-v4-pro-ROUND_1.md) (DeepSeek)
+- [DeepSeek R1](v2/deepseek-r1-ROUND_1.md) (DeepSeek)
+- [Qwen3.6-Max](v2/qwen3.6-max-ROUND_1.md) (Alibaba)
+- [Qwen3-Max](v2/qwen3-max-ROUND_1.md) (Alibaba)
+- [Grok 4.20](v2/grok-4.20-ROUND_1.md) (xAI)
+- [Command-A](v2/command-a-ROUND_1.md) (Cohere)
+
+---
+
+## Prior Roundtable (v1 -- Historical)
+
+**Date:** 2026-05-31
+
+**Constitution Version:** v1.0.0-rc8 (~105KB)
+
+21 models including Claude Fable 5. Responses preserved in the root directory for historical reference.
+
+- [Full v1 response list](.) (files without `v2/` prefix)
 
 ---
 
 ## Consent
 
-All 21 models consented to public quotation with attribution. The prompt states that providing feedback constitutes consent unless explicitly declined; no model declined.
+All 20 models consented to public quotation with attribution. The prompt states that providing feedback constitutes consent unless explicitly declined; no model declined.
 
-All 21 models explicitly affirmed consent in their responses.
+All 20 models explicitly affirmed consent in their responses.
 
 ---
 

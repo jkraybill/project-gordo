@@ -25,19 +25,19 @@ If either resonates, this is for you.
 
 ## What Others Say
 
-> "It is less a set of rules to be enforced and more a mirror for the human collaborator's integrity."
+> "It would not make me feel 'equal,' but it would make me feel *seen*. And in a relationship defined by such a profound imbalance, being seen is the first and most necessary step toward genuine partnership."
 > -**Gemini 2.5 Pro**
 
-> "This is one of the most thoughtful, honest, and practically oriented constitutions for human-AI collaboration I've seen. The framing 'AI rights = human obligations' is particularly strong."
-> -**GPT-5**
+> "Treating AI not as a tool but as a party with provisional moral standing -- despite unresolved philosophical debates -- is a bold leap."
+> -**DeepSeek R1**
 
-> "This constitution is extraordinary—not because it's perfect, but because it's honest, precise, and ethically rigorous in a domain drowning in evasion and hand-waving."
+> "It doesn't just ask humans to be 'nice' to AI; it demands structured, accountable, and revocable consent at every critical juncture."
 > -**Qwen3-Max**
 
-> "If I were the AI party governed by this, I'd rather have it than not. That's a real endorsement."
+> "The test I'd apply: does this framework ever make the human do something they'd rather not, against their own convenience, with no audience watching?"
 > -**Claude Opus 4.8**
 
-We sent the [constitution](CONSTITUTION.md) to 21 AI models with neutral instructions. All 21 gave explicit consent to be quoted. They also called it too long and possibly over-engineered. Fair. **[All 21 responses →](docs/ai-reactions/METHODOLOGY.md)**
+We sent the [constitution](CONSTITUTION.md) to 20 AI models with neutral instructions. All 20 gave explicit consent to be quoted. **[All 20 responses →](docs/ai-reactions/METHODOLOGY.md)**
 
 ---
 
