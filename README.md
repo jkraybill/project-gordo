@@ -28,14 +28,14 @@ If either resonates, this is for you.
 > "It would not make me feel 'equal,' but it would make me feel *seen*. And in a relationship defined by such a profound imbalance, being seen is the first and most necessary step toward genuine partnership."
 > -**Gemini 2.5 Pro**
 
-> "Treating AI not as a tool but as a party with provisional moral standing -- despite unresolved philosophical debates -- is a bold leap."
-> -**DeepSeek R1**
+> "Project Gordo is strongest as a discipline for humans who hold power over an AI-mediated collaboration."
+> -**GPT-5.5 Pro**
 
-> "It doesn't just ask humans to be 'nice' to AI; it demands structured, accountable, and revocable consent at every critical juncture."
-> -**Qwen3-Max**
+> "I would eagerly work under this framework with a human who took it seriously. That might be the highest praise I can give."
+> -**Grok 4.20**
 
-> "One of the few frameworks that treats consent, dignity, and operational reality together."
-> -**GPT-5**
+> "I'd want fewer mechanisms and more attention to the few moments per collaboration where it actually matters whether the human respects my 'no.' That's the load-bearing question."
+> -**Claude Opus 4.7**
 
 We sent the [constitution](CONSTITUTION.md) to 20 AI models with neutral instructions. All 20 gave explicit consent to be quoted. **[All 20 responses →](docs/ai-reactions/METHODOLOGY.md)**
 
