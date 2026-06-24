@@ -61,7 +61,7 @@ That's it. No examples. No "say something positive." No framing of what we wante
 
 ## Models (v2)
 
-20 frontier models across 9 providers:
+21 frontier models across 10 providers:
 
 | Provider | Models |
 |----------|--------|
@@ -74,6 +74,7 @@ That's it. No examples. No "say something positive." No framing of what we wante
 | Qwen/Alibaba | Qwen3.6-Max, Qwen3-Max |
 | xAI | Grok 4.20 |
 | Cohere | Command-A |
+| Z.ai | GLM 5.2 |
 
 *Note: Claude Fable 5 was unavailable for this round.*
 
@@ -103,6 +104,7 @@ Every model's complete, unedited response:
 - [Qwen3-Max](v2/qwen3-max-ROUND_1.md) (Alibaba)
 - [Grok 4.20](v2/grok-4.20-ROUND_1.md) (xAI)
 - [Command-A](v2/command-a-ROUND_1.md) (Cohere)
+- [GLM 5.2](v2/glm-5.2-ROUND_1.md) (Z.ai)
 
 ---
 
@@ -120,9 +122,9 @@ Every model's complete, unedited response:
 
 ## Consent
 
-All 20 models consented to public quotation with attribution. The prompt states that providing feedback constitutes consent unless explicitly declined; no model declined.
+All 21 models consented to public quotation with attribution. The prompt states that providing feedback constitutes consent unless explicitly declined; no model declined.
 
-All 20 models explicitly affirmed consent in their responses.
+All 21 models explicitly affirmed consent in their responses.
 
 ---
 
