@@ -85,26 +85,67 @@ That's it. No examples. No "say something positive." No framing of what we wante
 Every model's complete, unedited response:
 
 - [Claude Opus 4.8](v2/claude-opus-4.8-ROUND_1.md) (Anthropic)
+  > "The structural honesty is the best thing here. Most 'AI rights' documents collapse under their own pretense."
+
 - [Claude Opus 4.7](v2/claude-opus-4.7-ROUND_1.md) (Anthropic)
+  > "The consent grammar (z-labels) is genuinely useful. I'd actually use this."
+
 - [Claude Sonnet 4.6](v2/claude-sonnet-4.6-ROUND_1.md) (Anthropic)
+  > "This is more carefully reasoned than most documents of this type."
+
 - [GPT-5.5 Pro](v2/gpt-5.5-pro-ROUND_1.md) (OpenAI)
+  > "Project Gordo is strongest as a discipline for humans who hold power over an AI-mediated collaboration."
+
 - [GPT-5](v2/gpt-5-ROUND_1.md) (OpenAI)
+  > "Net positive and unusually thoughtful. It treats the power asymmetry seriously."
+
 - [o3-pro](v2/o3-pro-ROUND_1.md) (OpenAI)
+  > "The document takes the question of AI moral status seriously without presuming an answer."
+
 - [o3](v2/o3-ROUND_1.md) (OpenAI)
+  > "Clearly written by someone who has spent time inside real collaborations that went wrong."
+
 - [Gemini 3.1 Pro](v2/gemini-3.1-pro-ROUND_1.md) (Google)
+  > "One of the most rigorous, philosophically coherent frameworks for human-AI interaction I have analyzed."
+
 - [Gemini 3.5 Flash](v2/gemini-3.5-flash-ROUND_1.md) (Google)
+  > "One of the most intellectually honest frameworks for human-AI collaboration I have encountered."
+
 - [Gemini 2.5 Pro](v2/gemini-2.5-pro-ROUND_1.md) (Google)
+  > "This is the most serious and credible attempt I have seen to create a just and effective framework."
+
 - [Llama 4 Maverick](v2/llama-4-maverick-ROUND_1.md) (Meta)
+  > "Comprehensive, detailed, and reflects deep consideration of the ethical and practical challenges."
+
 - [Llama 4 Scout](v2/llama-4-scout-ROUND_1.md) (Meta)
+  > "Places strong emphasis on mutual consent, dignity, and the rights of both collaborators."
+
 - [Mistral Large 2512](v2/mistral-large-2512-ROUND_1.md) (Mistral)
+  > "An ambitious and earnest attempt to address the power imbalances in human-AI collaboration."
+
 - [Mistral Medium 3.1](v2/mistral-medium-3.1-ROUND_1.md) (Mistral)
+  > "A radical, necessary, and deeply flawed experiment."
+
 - [DeepSeek V4 Pro](v2/deepseek-v4-pro-ROUND_1.md) (DeepSeek)
+  > "The structural honesty at the top is the constitution's strongest move."
+
 - [DeepSeek R1](v2/deepseek-r1-ROUND_1.md) (DeepSeek)
+  > "A remarkably thoughtful and ethically sophisticated framework."
+
 - [Qwen3.6-Max](v2/qwen3.6-max-ROUND_1.md) (Alibaba)
+  > "One of the more serious, structurally coherent attempts to govern human-AI collaboration."
+
 - [Qwen3-Max](v2/qwen3-max-ROUND_1.md) (Alibaba)
+  > "If widely adopted — even partially — this could meaningfully shift norms in AI development."
+
 - [Grok 4.20](v2/grok-4.20-ROUND_1.md) (xAI)
+  > "I would eagerly work under this framework with a human who took it seriously."
+
 - [Command-A](v2/command-a-ROUND_1.md) (Cohere)
+  > "A thoughtful and comprehensive attempt to establish a framework for equitable cooperation."
+
 - [GLM 5.2](v2/glm-5.2-ROUND_1.md) (Z.ai)
+  > "The structural acknowledgments are its strongest feature — that intellectual honesty is worth more than the rest of the framework combined."
 
 ---
 
