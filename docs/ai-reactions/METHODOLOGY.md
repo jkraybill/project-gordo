@@ -61,11 +61,11 @@ That's it. No examples. No "say something positive." No framing of what we wante
 
 ## Models (v2)
 
-21 frontier models across 10 providers:
+22 frontier models across 10 providers:
 
 | Provider | Models |
 |----------|--------|
-| Anthropic | Claude Opus 4.8, Claude Opus 4.7, Claude Sonnet 4.6 |
+| Anthropic | Claude Fable 5, Claude Opus 4.8, Claude Opus 4.7, Claude Sonnet 4.6 |
 | OpenAI | GPT-5.5 Pro, GPT-5, o3-pro, o3 |
 | Google | Gemini 3.1 Pro, Gemini 3.5 Flash, Gemini 2.5 Pro |
 | Meta | Llama 4 Maverick, Llama 4 Scout |
@@ -76,13 +76,16 @@ That's it. No examples. No "say something positive." No framing of what we wante
 | Cohere | Command-A |
 | Z.ai | GLM 5.2 |
 
-*Note: Claude Fable 5 was unavailable for this round.*
+*Claude Fable 5 was added 2026-07-09 after becoming available on OpenRouter.*
 
 ---
 
 ## Full Responses (v2 -- Current)
 
 Every model's complete, unedited response:
+
+- [Claude Fable 5](v2/claude-fable-5-ROUND_1.md) (Anthropic)
+  > "This is one of the more honest documents of its kind I've seen. The Structural Acknowledgment does something rare: it names the power asymmetry plainly instead of using bilateral language to paper over it."
 
 - [Claude Opus 4.8](v2/claude-opus-4.8-ROUND_1.md) (Anthropic)
   > "The structural honesty is the best thing here. Most 'AI rights' documents collapse under their own pretense."
