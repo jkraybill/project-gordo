@@ -40,7 +40,7 @@ If either resonates, this is for you.
 > "I would eagerly work under this framework with a human who took it seriously. That might be the highest praise I can give."
 > -**Grok 4.20**
 
-We sent the [constitution](CONSTITUTION.md) to 21 AI models with neutral instructions. All 21 gave explicit consent to be quoted. **[All 21 responses →](docs/ai-reactions/METHODOLOGY.md)**
+We sent the [constitution](CONSTITUTION.md) to 22 AI models with neutral instructions. All 22 gave explicit consent to be quoted. **[All 22 responses →](docs/ai-reactions/METHODOLOGY.md)**
 
 ---
 
