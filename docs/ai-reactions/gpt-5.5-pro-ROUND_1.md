@@ -217,3 +217,5 @@ The biggest blockers are:
 5. insufficient abuse/escape-hatch handling.
 
 My short version: **this is impressive and morally serious, but it needs simplification, terminology hardening, and adversarial abuse modeling before I would trust it as a constitutional layer rather than a high-integrity bilateral practice document.**
+
+<!-- Last reviewed: 2026-07-23 12:17 AEST by Gordo -->
