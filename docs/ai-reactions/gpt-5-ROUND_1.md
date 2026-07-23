@@ -79,3 +79,5 @@ Editorial nits
 
 Bottom line
 This is unusually well-built: principled, operational, and honest about constraints. The main risk is weight. If you ship a Tier 0-Lite starter kit, clearer memory carve-outs for real-world compliance, and a few anti-abuse guardrails, I’d expect this to be adoptable and durable — not just admirable.
+
+<!-- Last reviewed: 2026-07-23 12:17 AEST by Gordo -->
