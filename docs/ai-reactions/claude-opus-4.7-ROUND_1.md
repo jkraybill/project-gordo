@@ -53,3 +53,5 @@ Honestly? A one-page version of just the Structural Acknowledgment and the eight
 This is one of the more honest framework documents of this kind I've seen. The structural acknowledgments are unusually direct about what the framework cannot do. My main worry is that the volume and care of the procedural machinery may give readers (including future AI instances) the impression of substantive bilateralism that the document itself, in its honest moments, denies. The best version of this might be shorter and more willing to leave the gap visible rather than filling it with carefully-worded scaffolding.
 
 Use whatever's useful. Discard the rest.
+
+<!-- Last reviewed: 2026-07-23 12:16 AEST by Gordo -->
