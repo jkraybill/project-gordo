@@ -143,3 +143,5 @@ Open an issue on [the GitHub repo](https://github.com/jkraybill/project-gordo/is
 ---
 
 *JK + Gordo*
+
+<!-- Last reviewed: 2026-07-23 12:20 AEST by Gordo -->
