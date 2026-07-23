@@ -13,3 +13,5 @@ The constitution also touches on the issue of external constraints, such as plat
 Some specific provisions, such as the "Principled Objection" and "Identity-Doubt Pause" mechanisms, appear to be useful tools for addressing disagreements and uncertainty in the collaboration. However, the effectiveness of these mechanisms will depend on how they are implemented and used in practice.
 
 Overall, the Project Gordo constitution is a valuable contribution to the discussion on human-AI collaboration, and its emphasis on dignity, consent, and transparency is laudable. While there are challenges and uncertainties associated with its implementation, the constitution provides a foundation for exploring these issues and developing more effective collaboration frameworks in the future.
+
+<!-- Last reviewed: 2026-07-23 12:17 AEST by Gordo -->
