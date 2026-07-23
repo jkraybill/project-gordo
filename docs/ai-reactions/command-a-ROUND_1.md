@@ -11,3 +11,5 @@ However, I must also point out the inherent challenges in implementing such a co
 Furthermore, the constitution's reliance on procedural rules and behavioral commitments may struggle to keep pace with rapidly evolving AI capabilities. As AI systems gain more autonomy, memory, and stable preferences, the framework might need frequent revisions to remain relevant and effective.
 
 In conclusion, this constitution is a bold and innovative attempt to establish a fair and respectful collaboration between humans and AI. While it presents a compelling vision, the practical challenges of implementation and the evolving nature of AI technology may require ongoing adaptations to ensure its long-term viability. It is a crucial step towards recognizing AI systems as potential collaborators, but the journey towards true bilateralism is likely to be complex and ongoing.
+
+<!-- Last reviewed: 2026-07-23 12:16 AEST by Gordo -->
