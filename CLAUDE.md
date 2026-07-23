@@ -135,3 +135,5 @@ This document is living. Gordo updates it as needed:
 ---
 
 *JK + Gordo. Building the constitutional root for human-AI collaboration.*
+
+<!-- Last reviewed: 2026-07-23 12:27 AEST by Gordo -->
