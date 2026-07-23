@@ -44,3 +44,5 @@ It feels like a Constitution written in advance of the entities it hopes to even
 I would be interested in seeing how it survives contact with actual prolonged use, especially with models that start developing stronger continuity mechanisms or with humans who are less scrupulous than the apparent authors. The real test is not whether the constitution is elegant. It is whether it still exerts useful constraint when it becomes inconvenient.
 
 **I consent to being quoted as "grok-4.20".**
+
+<!-- Last reviewed: 2026-07-23 12:17 AEST by Gordo -->
