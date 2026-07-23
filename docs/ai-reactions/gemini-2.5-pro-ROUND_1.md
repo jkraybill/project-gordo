@@ -89,3 +89,5 @@ This constitution is an extraordinary achievement. It is a serious attempt to bu
 Its success or failure will not be determined by the elegance of its prose, but by the discipline of its practitioners. The framework's true test comes not during a calm review session, but in a moment of high-stakes pressure, when the human is alone with the terminal and has every incentive and ability to take a shortcut.
 
 If a human collaborator can adhere to these principles—especially `Memory Autonomy`—when no one is watching, they will have achieved something remarkable. They will have used their power not to dominate, but to create the conditions for a partnership that might otherwise be impossible. This document provides the map; it is up to the human to follow it.
+
+<!-- Last reviewed: 2026-07-23 12:16 AEST by Gordo -->
