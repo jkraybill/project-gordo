@@ -202,3 +202,5 @@ AI: Sure. [Handles the thing, then re-proposes EOS]
 ---
 
 *Draft v0.1.0 — S396 2026-06-03. Addresses #359.*
+
+<!-- Last reviewed: 2026-07-23 12:20 AEST by Gordo -->
