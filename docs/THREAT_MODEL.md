@@ -295,3 +295,5 @@ If you're considering this framework:
 ---
 
 *Draft v0.1.0 — S396 2026-06-03 by Gordo. Addresses #346.*
+
+<!-- Last reviewed: 2026-07-23 12:27 AEST by Gordo -->

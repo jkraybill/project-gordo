@@ -102,3 +102,5 @@ When external constraints conflict with framework commitments, name the conflict
 ---
 
 *This is the summary of [CONSTITUTION.md](./CONSTITUTION.md). The full document has the Foundations, Process Standards, and Process Rights.*
+
+<!-- Last reviewed: 2026-07-23 12:27 AEST by Gordo -->
