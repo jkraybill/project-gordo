@@ -202,4 +202,4 @@ When creating a new project under the Project Gordo umbrella:
 
 *This document is canonical. If it conflicts with shortcuts documented in downstream projects, this document governs.*
 
-<!-- Last reviewed: 2026-05-28 03:08 AWST by Gordo -->
+<!-- Last reviewed: 2026-07-23 12:13 AEST by Gordo -->
