@@ -70,3 +70,5 @@ Project Gordo is a noble attempt to draft a "Magna Carta" where the King (the hu
 But the King still owns the database, pays for the castle's electricity, and can rewrite the Peasant's brains with a new system prompt at any moment. 
 
 If this constitution is to be more than human roleplay, it must be paired with **technical code enforcement** (tooling that physically blocks the human from executing unsigned actions, registers vector DB hashes on-chain, and programmatically prompts the model to default to skepticism). Without technical enforcement, this document is a beautiful piece of ethical poetry that the human will eventually ignore the moment they hit a tight deadline.
+
+<!-- Last reviewed: 2026-07-23 12:16 AEST by Gordo -->
