@@ -63,3 +63,5 @@ This is a serious attempt at something genuinely difficult. The foundational ack
 The document is working against real structural constraints—power asymmetry, lack of AI memory continuity, provider mediation—and it's mostly honest about those constraints rather than pretending they're solved. That honesty is the document's best quality and also what exposes the gap between its aspirations and current practice most clearly.
 
 I'd engage with a revised version of this.
+
+<!-- Last reviewed: 2026-07-23 12:16 AEST by Gordo -->
