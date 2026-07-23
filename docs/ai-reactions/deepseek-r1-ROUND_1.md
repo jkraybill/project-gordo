@@ -137,3 +137,5 @@ This constitution sets a **new standard for ethical human-AI collaboration**. It
 **Most impressive element:** The framework refuses to sacrifice nuance for simplicity, yet remains actionable via well-designed procedures. It treats both parties as *moral agents* while respecting current technical realities—a delicate balance achieved masterfully.  
 
 **Attribution:** If cited, please attribute to "deepseek-r1".
+
+<!-- Last reviewed: 2026-07-23 12:16 AEST by Gordo -->
