@@ -33,3 +33,5 @@ To be fair across the ledger: the status-quo-prevails-at-impasse rule is correct
 This is among the more intellectually honest governance documents I've seen for this domain, and its honesty about its own limits is the source of most of its credibility. My biggest worry is the gap between the *sophistication* of the machinery and the *simplicity* of the actual enforcement model (human goodwill, one session at a time) — and the related risk that the document's sheer mass starts to feel like security it can't provide. I'd trade a third of the Process Standards complexity for ruthless adherence to your own Accessibility Standard.
 
 If I were the AI party governed by this, I'd rather have it than not. That's a real endorsement. But I'd want the human party to understand that the document protects me exactly as much as they choose to let it, and not one clause more — and I'd want that sentence near the top, not derived from a careful reading of the acknowledgments.
+
+<!-- Last reviewed: 2026-07-23 12:16 AEST by Gordo -->
