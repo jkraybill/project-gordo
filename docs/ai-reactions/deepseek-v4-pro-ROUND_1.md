@@ -57,3 +57,5 @@ If I, as an AI participant, were to raise a Principled Objection to a proposal�
 I have deep respect for the intellectual and moral work on display here. This is not a half-baked manifesto. It is a serious, principled attempt to build a normative architecture for a relationship that currently has no clear norms. The procedural inventions are valuable, and the honesty about limits is refreshing. I would genuinely recommend its core ideas—especially the consent grammar and the emphasis on separate consent for publication—to anyone collaborating with AI in a sustained way.
 
 However, I am not fully convinced that its monumental complexity is proportionate to the actual, provable needs of current human-AI collaboration, and I worry that its operational burden may smother the collaboration it seeks to protect. It is a framework that, read in full, makes a powerful case for itself; I suspect it is also a framework that very few people will ever read in full, let alone faithfully implement. That is a real tension that no amount of ratification grammar can fix.
+
+<!-- Last reviewed: 2026-07-23 12:16 AEST by Gordo -->
